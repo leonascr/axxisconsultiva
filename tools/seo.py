@@ -13,6 +13,7 @@ import datetime
 import json
 import re
 import sys
+import time
 from html import escape, unescape
 from pathlib import Path
 
@@ -140,6 +141,51 @@ def fix_images(html, slug):
         return tag
 
     return html[:body_start] + re.sub(r"<img\b[^>]*>", repl, html[body_start:])
+
+
+# ---------------------------------------------------------------- fontes
+
+FONT_CSS = ["/wp-content/uploads/elementor/google-fonts/css/outfit.css", "/wp-content/uploads/elementor/google-fonts/css/sora.css"]
+
+
+def local_font_families():
+    return {f for css in FONT_CSS for f in re.findall(r"font-family:\s*'([^']+)'", fs(css).read_text(encoding="utf-8"))}
+
+
+def preload_fonts():
+    """Arquivos woff2 do subconjunto latino de cada família (fontes variáveis: um arquivo cobre todos os pesos)."""
+    urls = []
+    for css in FONT_CSS:
+        for face in re.findall(r"@font-face\s*\{(.*?)\}", fs(css).read_text(encoding="utf-8"), re.S):
+            if "U+0000-00FF" in face:
+                url = re.search(r"url\(([^)]+)\)", face).group(1).strip("'\"")
+                if url not in urls:
+                    urls.append(url)
+    return urls
+
+
+def fix_fonts(html, families, preloads):
+    # @import do Google Fonts repetidos nos blocos HTML: Outfit e Sora já vêm do CSS do <head>
+    def drop_import(m):
+        try:
+            css = fs(m.group(1)).read_text(encoding="utf-8")
+        except OSError:
+            return m.group(0)
+        used = set(re.findall(r"font-family:\s*'([^']+)'", css))
+        return "" if used and used <= families else m.group(0)
+    html = re.sub(r"@import\s+url\(['\"]?(/_ext/fonts\.googleapis\.com/[^'\")]+)['\"]?\)\s*;?", drop_import, html)
+    tags = "".join(f'<link rel="preload" href="{u}" as="font" type="font/woff2" crossorigin />\n' for u in preloads)
+    return html.replace("<title>", tags + "<title>", 1)
+
+
+def fix_font_display():
+    """swap mostra a fonte padrão e troca depois (o "pisca"); block espera a fonte, que já vem pré-carregada."""
+    for f in SITE.rglob("*.css"):
+        f = fs("/" + f.relative_to(SITE).as_posix())
+        css = f.read_text(encoding="utf-8")
+        new = re.sub(r"font-display:\s*swap", "font-display: block", css)
+        if new != css:
+            f.write_text(new, encoding="utf-8")
 
 
 # ---------------------------------------------------------------- meta tags
@@ -298,8 +344,9 @@ def optimize_images(max_width=1920, min_bytes=200_000):
             if f.suffix.lower() not in (".jpg", ".jpeg", ".png", ".webp") or f.stat().st_size < min_bytes:
                 continue
             before = f.stat().st_size
-            im = Image.open(f)
-            im.load()
+            # copy() solta o arquivo: no Windows não dá para substituir um arquivo ainda aberto
+            with Image.open(f) as src:
+                im = src.copy()
             if im.width > max_width:
                 im = im.resize((max_width, round(im.height * max_width / im.width)), Image.LANCZOS)
             tmp = f.with_name(f.name + ".tmp")
@@ -311,8 +358,17 @@ def optimize_images(max_width=1920, min_bytes=200_000):
             else:
                 im.save(tmp, fmt, optimize=True)
             if tmp.stat().st_size < before * 0.95:
-                tmp.replace(f)
-                saved += before - f.stat().st_size
+                # Antivírus/servidor local podem estar com o arquivo aberto por instantes
+                for attempt in range(6):
+                    try:
+                        tmp.replace(f)
+                        saved += before - f.stat().st_size
+                        break
+                    except PermissionError:
+                        time.sleep(0.5 * (attempt + 1))
+                else:
+                    print(f"  ! imagem em uso por outro programa, mantida sem compressão: {f.name}")
+                    tmp.unlink()
             else:
                 tmp.unlink()
     print(f"imagens: {saved / 1_048_576:.1f} MB economizados")
@@ -370,12 +426,15 @@ MARKER = '<meta name="x-seo" content="tools/seo.py" />'
 def main():
     if MARKER in fs("/index.html").read_text(encoding="utf-8"):
         sys.exit("site/ já passou pelo seo.py. Rode antes: python tools/mirror.py")
+    families, preloads = local_font_families(), preload_fonts()
+    fix_font_display()
     for slug, cfg in PAGES.items():
         path = fs(f"/{slug}/index.html" if slug else "/index.html")
         html = path.read_text(encoding="utf-8")
         html = html.replace("</head>", MARKER + "\n</head>", 1)
         html = strip_nested_document(html)
         html = clean_head(html)
+        html = fix_fonts(html, families, preloads)
         if slug not in LOCKED:
             html = apply_content(html, slug, cfg)
         html = demote_h1(html, slug, cfg)

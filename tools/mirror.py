@@ -133,13 +133,18 @@ def deoptimize(html):
     html = re.sub(r'<script\b[^>]*\bid="bv-[^"]*"[^>]*>.*?</script>', "", html, flags=re.S)
     html = re.sub(r'<style\b[^>]*\bclass="bv-critical-css"[^>]*>.*?</style>', "", html, flags=re.S)
     html = re.sub(r'<style\b[^>]*\bid="bv-balanced-font-css"[^>]*>.*?</style>', "", html, flags=re.S)
-    html = re.sub(r'<link\b[^>]*(?:class="bv-preload"|id="bv-preloaded")[^>]*>\s*', "", html)
+    html = re.sub(r'<link\b[^>]*(?:class="bv-preload"|id="bv-preloaded"|data-bv-balanced-font-preload)[^>]*>\s*', "", html)
 
     # Marcadores <template id> -> <link>/<script src> originais, na mesma posição
     def template(m):
         tid = m.group(1)
         if tid in styles:
-            return f"<link{render_attrs(styles[tid]['attrs'])} />"
+            attrs = dict(styles[tid]["attrs"])
+            gf = re.match(r"elementor-gf-local-(.+)-css$", attrs.get("id", ""))
+            if gf:
+                # O Airlift esvazia esses CSS (move as fontes para o CSS dele); usa o original do Elementor
+                attrs["href"] = f"{ORIGIN}/wp-content/uploads/elementor/google-fonts/css/{gf.group(1)}.css"
+            return f"<link{render_attrs(attrs)} />"
         s = scripts.get(tid)
         if s and s["attrs"].get("src") and not s["attrs"]["src"].startswith("data:"):
             return f"<script{render_attrs(s['attrs'])}></script>"
