@@ -1,0 +1,801 @@
+{
+ "images": {
+  "/_ext/images.pexels.com/photos/1170412/pexels-photo-1170412-7874a5b9.jpeg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3183150/pexels-photo-3183150-7874a5b9.jpeg": {
+   "img": 520,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3184291/pexels-photo-3184291-7874a5b9.jpeg": {
+   "img": 459,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3184418/pexels-photo-3184418-7874a5b9.jpeg": {
+   "img": 459,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3184423/pexels-photo-3184423-7874a5b9.jpeg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3184465/pexels-photo-3184465-7874a5b9.jpeg": {
+   "img": 520,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/3184611/pexels-photo-3184611-7874a5b9.jpeg": {
+   "img": 459,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/5668473/pexels-photo-5668473-7874a5b9.jpeg": {
+   "img": 520,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/590022/pexels-photo-590022-7874a5b9.jpeg": {
+   "img": 520,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.pexels.com/photos/7709217/pexels-photo-7709217-7874a5b9.jpeg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1454165804606-c3d57bc86b40-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1460925895917-afdab827c52f-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1516321318423-f06f85e504b3-2112ab55.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1521737711867-e3b97375f902-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1521791136064-7986c2920216-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1522204523234-8729aa6e3d5f-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1523240795612-9a054b0db644-2112ab55.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1531297484001-80022131f5a1-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1534438327276-14e5300c3a48-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1538108149393-fbbd81895907-c57fe0dd.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1541339907198-e08756dedf3f-2112ab55.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1541888946425-d81bb19240f5-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1541888946425-d81bb19240f5-2112ab55.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1542744173-8e7e53415bb0-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1543286386-713bdd548da4-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1549923746-c502d488b3ea-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1552664730-d307ca884978-19848ac9.jpg": {
+   "img": 500,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1554224155-1696413565d3-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1554774853-719586f82d77-bbe3d584.jpg": {
+   "img": 192,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1556761175-5973dc0f32e7-1727082f.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1571902943202-507ec2618e8f-a7c9c111.jpg": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/_ext/images.unsplash.com/photo-1582213782179-e0d53f98f2ca-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1590402494682-cd3fb53b1f70-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1591696205602-2f950c417cb9-0f0fd546.jpg": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/_ext/images.unsplash.com/photo-1600880292203-757bb62b4baf-2112ab55.jpg": {
+   "img": 510,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/_ext/images.unsplash.com/photo-1611974789855-9c2a0a7236a3-2112ab55.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/alunos-trabalhando-juntos-em-um-projeto-scaled.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/close-up-homem-de-negocios-com-tabuleta-digital-scaled-e1752165814980.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/jovem-freelancer-examina-tela-branca-no-smartphone-scaled.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/medico-hispanico-conversando-com-uma-paciente-sexo-feminino-em-seu-consultorio-e-pedindo-que-ela-preencha-um-formulario-medico-com-seus-sintomas-para-encontrar-um-tratamento-scaled.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/medicos-e-enfermeiras-interagindo-entre-si-scaled.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-1-scaled.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/reporter-de-imprensa-que-segue-pistas-em-um-caso-scaled.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/08/sala-de-aula-virtual-e-espaco-de-estudo-scaled.jpg": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/2025/09/equipe-de-negocios-de-tiro-medio-trabalhando-scaled-1.jpg": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/1-scaled.jpg.bv.webp": {
+   "img": 332,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/12.png.bv.webp": {
+   "img": 258,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/2-1-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/2-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/2.png.bv.webp": {
+   "img": 500,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/22.png.bv.webp": {
+   "img": 258,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/4-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 525
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/4-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/5-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/5.png.bv.webp": {
+   "img": 500,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/6-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/7-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/a.png.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/amigos-aprendendo-em-um-grupo-de-estudo-scaled.jpg.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/artigos-de-papelaria-e-cofrinho-com-dinheiro-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/bicicleta-estacionaria-scaled-1.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/ceo-sexo-feminino-parabenizando-parceiro-com-bom-negocio-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/cie-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/cie-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/close-up-homem-de-negocios-com-tabuleta-digital-scaled-e1752165814980.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/close-up-medico-segurando-um-coracao-vermelho-scaled-1.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/colegas-lendo-juntos-plano-medio-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/colegas-sorridentes-no-escritorio-durante-uma-reuniao-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/Design-sem-nome-1.png.bv.webp": {
+   "img": 900,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/designer-de-interiores-trabalhando-fora-escritorio-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/dois-colegas-em-um-fabrica-scaled.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/duas-maos-de-colheita-no-aperto-de-mao-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/economista-feminina-de-tiro-medio-trabalhando-no-laptop-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empregado-da-fabrica-de-paineis-solares-apresentando-o-processo-de-fabricacao-lider-da-equipa-1-scaled.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empresaria-sorridente-trabalhando-no-laptop-enquanto-esta-sentado-com-colegas-na-mesa-no-escritorio-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empresaria-sorridente-trabalhando-no-laptop-enquanto-esta-sentado-com-colegas-na-mesa-no-escritorio-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empresario-apresentando-projeto-no-escritorio-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/equipe-trabalhando-juntos-no-projeto-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/escena-de-ambiente-digital-scaled-1.jpg.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/executivos-brincando-e-rindo-no-escritorio-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/feche-as-maos-segurando-o-tablet-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/feche-pessoa-trabalhando-em-energia-alternativa-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/folha-de-calculo-documento-informacao-financeiro-conceito-inicial-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/freepik__the-style-is-candid-image-photography-with-natural__41887-1.png.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/freepik__the-style-is-candid-image-photography-with-natural__41889.png.bv.webp": {
+   "img": 192,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/hero-_1_-1-scaled-e1755018203362.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 865
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/homem-sorridente-de-tiro-medio-gravando-podcast-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/interior-de-oficina-de-fabrica-e-maquinas-em-fundo-de-producao-de-vidro-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/laboratorio-de-informatica-moderno-e-equipado-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/laboratorio-de-informatica-moderno-e-equipado-scaled.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/maos-escrevendo-documentos-comerciais-conceito-de-mesa-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/medicos-e-enfermeiras-discutindo-sobre-tablet-digital-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/momento-de-discussao-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulher-de-tiro-medio-segurando-tablet-scaled-1.jpg.bv.webp": {
+   "img": 332,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulher-de-vista-superior-digitando-no-laptop-scaled.jpg.bv.webp": {
+   "img": 332,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulher-segurando-papel-e-olhando-para-laptop-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulher-sorridente-fazendo-podcast-de-plano-medio-scaled.jpg.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulher-trabalhando-no-laptop-de-alto-angulo-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulheres-sorridentes-trabalhando-com-o-laptop-na-biblioteca-publica-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulherocupada-scaled.jpg.bv.webp": {
+   "img": 332,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-de-negocios-olhando-para-graficos-de-financas-2-scaled.jpg.bv.webp": {
+   "img": 500,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-1-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-scaled-1.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-trabalhando-tarde-da-noite-em-casa-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoal-de-negocios-hispanico-de-meia-idade-scaled-e1754588696411.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-em-um-reuniao-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.webp": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 675
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/ph-scaled.jpg.bv.webp": {
+   "img": 400,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/projetos-femininos-de-planejamento-ambiental-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/retrato-de-empresario-elegante-e-profissional-1-scaled.jpg.bv.webp": {
+   "img": 192,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/simples.png.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/site-longo-.png.bv.webp": {
+   "img": 400,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/trabalhadores-corporativos-fazendo-brainstorming-juntos-scaled.jpg.bv.webp": {
+   "img": 400,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/um-homem-esta-sentado-em-uma-mesa-com-um-tablet-que-diz-um-grafico-na-tela-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/visao-de-empresarios-profissionais-trabalhando-juntos-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/vista-frontal-da-pessoa-segurando-o-dinheiro-scaled.jpg.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/vista-frontal-de-plantas-com-moedas-empilhadas-na-sujeira-e-espaco-de-copia-scaled.jpg.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/vista-frontal-de-uma-mulher-segurando-uma-prancheta-no-local-de-trabalho-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/vista-lateral-mulher-trabalhando-como-engenheira-scaled-1.jpg.bv.webp": {
+   "img": 0,
+   "bgW": 330,
+   "bgH": 450
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/colegas-sorridentes-de-tiro-medio-no-trabalho-scaled.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 525
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/Design-sem-nome-5.png.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-de-negocios-de-tiro-medio-trabalhando-scaled-1.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 713
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-trabalhando-juntos-no-projeto-3-scaled-1.jpg": {
+   "img": 0,
+   "bgW": 1440,
+   "bgH": 713
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2026/01/Design-sem-nome-14.png.bv_resized_desktop.png.bv.webp": {
+   "img": 180,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2026/01/Design-sem-nome-14.png.bv.webp": {
+   "img": 181,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2026/01/laboratorio-de-informatica-moderno-e-equipado-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2026/01/pessoa-expressando-gratidao-seus-colegas-de-trabalho-scaled.jpg.bv.webp": {
+   "img": 450,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidadedigital.com.br/wp-content/uploads/2025/07/freepik__the-style-is-candid-image-photography-with-natural__18412.png.bv.webp": {
+   "img": 192,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidadedigital.com.br/wp-content/uploads/2025/08/homem-em-forma-de-tiro-completo-treinando-na-academia-scaled.jpg.bv.webp": {
+   "img": 350,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidadedigital.com.br/wp-content/uploads/2025/08/pessoas-em-forma-treinando-juntos-tiro-completo-scaled.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidadedigital.com.br/wp-content/uploads/2025/08/vista-lateral-pessoas-treinando-juntas-na-academia-scaled.jpg.bv.webp": {
+   "img": 510,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/4-7.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/5-5.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/7-2.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/8-2.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/9.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/Logos-ERPS-1.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  },
+  "/wp-content/uploads/al_opt_content/IMAGE/grupoaxxis.com.br/wp-content/uploads/2025/07/Logos-ERPS-2.png.bv.webp": {
+   "img": 120,
+   "bgW": 0,
+   "bgH": 0
+  }
+ },
+ "lcp": {
+  "/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/hero-_1_-1-scaled-e1755018203362.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/hero-_1_-1-scaled-e1755018203362.webp"
+  },
+  "/sobre-nos/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/executivos-brincando-e-rindo-no-escritorio-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/executivos-brincando-e-rindo-no-escritorio-scaled.webp"
+  },
+  "/nossas-solucoes/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoal-de-negocios-hispanico-de-meia-idade-scaled-e1754588696411.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoal-de-negocios-hispanico-de-meia-idade-scaled-e1754588696411.jpg"
+  },
+  "/abrir-empresa/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/laboratorio-de-informatica-moderno-e-equipado-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/laboratorio-de-informatica-moderno-e-equipado-scaled.jpg"
+  },
+  "/trabalhe-conosco/": {
+   "desktop": "/wp-content/uploads/2025/08/videotrabalheconosco.mp4",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/site-longo-.png.bv.webp"
+  },
+  "/areas-de-atuacao/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/designer-de-interiores-trabalhando-fora-escritorio-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/designer-de-interiores-trabalhando-fora-escritorio-scaled.jpg"
+  },
+  "/gestao-contabil-e-fiscal/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.webp"
+  },
+  "/departamento-pessoal/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-scaled-1.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-scaled-1.webp"
+  },
+  "/planejamento-tributario/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/momento-de-discussao-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/momento-de-discussao-scaled.webp"
+  },
+  "/bpo-financeiro/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empresaria-sorridente-trabalhando-no-laptop-enquanto-esta-sentado-com-colegas-na-mesa-no-escritorio-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/empresaria-sorridente-trabalhando-no-laptop-enquanto-esta-sentado-com-colegas-na-mesa-no-escritorio-scaled.jpg"
+  },
+  "/bpo-de-rh/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/colegas-sorridentes-de-tiro-medio-no-trabalho-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/colegas-sorridentes-de-tiro-medio-no-trabalho-scaled.jpg"
+  },
+  "/bpo-juridico/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/4-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/4-scaled.jpg"
+  },
+  "/bpo-de-licitacoes-e-contratos/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-de-negocios-de-tiro-medio-trabalhando-scaled-1.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-de-negocios-de-tiro-medio-trabalhando-scaled-1.jpg"
+  },
+  "/gestor-estrategico-financeiro/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-trabalhando-juntos-no-projeto-3-scaled-1.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/09/equipe-trabalhando-juntos-no-projeto-3-scaled-1.jpg"
+  },
+  "/simples-nacional/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/6-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/6-scaled.webp"
+  },
+  "/lucro-real-e-presumido/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/feche-as-maos-segurando-o-tablet-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/feche-as-maos-segurando-o-tablet-scaled.webp"
+  },
+  "/empresas-da-saude/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/medicos-e-enfermeiras-discutindo-sobre-tablet-digital-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/medicos-e-enfermeiras-discutindo-sobre-tablet-digital-scaled.webp"
+  },
+  "/agencias-e-midia/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/homem-sorridente-de-tiro-medio-gravando-podcast-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/homem-sorridente-de-tiro-medio-gravando-podcast-scaled.webp"
+  },
+  "/fundos-de-investimentos-e-sas/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/cie-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/cie-scaled.webp"
+  },
+  "/incorporadoras-e-engenharias/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/interior-de-oficina-de-fabrica-e-maquinas-em-fundo-de-producao-de-vidro-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/interior-de-oficina-de-fabrica-e-maquinas-em-fundo-de-producao-de-vidro-scaled.webp"
+  },
+  "/instituicoes-de-ensino/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulheres-sorridentes-trabalhando-com-o-laptop-na-biblioteca-publica-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/mulheres-sorridentes-trabalhando-com-o-laptop-na-biblioteca-publica-scaled.webp"
+  },
+  "/startups-e-tecnologias/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/colegas-lendo-juntos-plano-medio-scaled.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/colegas-lendo-juntos-plano-medio-scaled.webp"
+  },
+  "/empresas-do-fitness/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/bicicleta-estacionaria-scaled-1.webp",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/bicicleta-estacionaria-scaled-1.webp"
+  },
+  "/politica-de-privacidade/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoas-negocio-trabalhar-um-laptop-scaled.jpg"
+  },
+  "/termos-de-uso/": {
+   "desktop": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoal-de-negocios-hispanico-de-meia-idade-scaled-e1754588696411.jpg",
+   "mobile": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/pessoal-de-negocios-hispanico-de-meia-idade-scaled-e1754588696411.jpg"
+  }
+ }
+}
