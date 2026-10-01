@@ -1,0 +1,7 @@
+{
+  "name": "axxisconsultiva",
+  "private": true,
+  "scripts": {
+    "start": "npx -y serve@14 site -l 3000"
+  }
+}
