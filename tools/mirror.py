@@ -7,6 +7,7 @@ os assets do próprio domínio para servir localmente.
 Uso: python tools/mirror.py
 """
 import base64
+import hashlib
 import json
 import re
 import sys
@@ -18,9 +19,20 @@ from html import escape, unescape
 from pathlib import Path
 
 ORIGIN = "https://axxiscontabilidade.com.br"
-OWN_HOSTS = {"axxiscontabilidade.com.br", "www.axxiscontabilidade.com.br"}
+MAIN_HOST = "axxiscontabilidade.com.br"
+# axxiscontabilidadedigital é um domínio antigo: mesmos uploads, servidos hoje pelo domínio principal
+OWN_HOSTS = {MAIN_HOST, "www." + MAIN_HOST, "axxiscontabilidadedigital.com.br", "www.axxiscontabilidadedigital.com.br"}
 # Assets hospedados no site do grupo e referenciados pelo site
 EXTRA_HOSTS = {"grupoaxxis.com.br": "/_ext/grupoaxxis"}
+# Bancos de imagem, fontes e CDNs: tudo é baixado para /_ext/<host> para o site não depender de terceiros
+EXTERNAL_HOSTS = {"images.unsplash.com", "images.pexels.com", "fonts.googleapis.com", "fonts.gstatic.com", "cdnjs.cloudflare.com", "cdn.jsdelivr.net"}
+# Imagens que não existem mais em nenhum servidor (já quebradas no site antigo) -> substituta parecida
+MISSING_IMAGES = {
+    "/wp-content/uploads/2025/08/tra-scaled.jpg": "/wp-content/uploads/2025/08/pessoa-no-escritorio-analisando-e-verificando-graficos-financeiros-1-scaled.jpg",
+    "/wp-content/uploads/2025/08/homem-de-negocios-com-barba-trabalhando-duro-em-sua-mesa-no-escritorio-homem-motivado-1-scaled.jpg": "/wp-content/uploads/2025/08/close-up-homem-de-negocios-com-tabuleta-digital-scaled-e1752165814980.jpg",
+    "/wp-content/uploads/2025/08/equipe-de-negocios-de-tiro-medio-trabalhando-scaled.jpg": "/wp-content/uploads/2025/09/equipe-de-negocios-de-tiro-medio-trabalhando-scaled-1.jpg",
+    "/wp-content/uploads/2025/07/freepik__the-style-is-candid-image-photography-with-natural__41888.png": "/wp-content/uploads/al_opt_content/IMAGE/axxiscontabilidade.com.br/wp-content/uploads/2025/08/freepik__the-style-is-candid-image-photography-with-natural__41887-1.png.bv.webp",
+}
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
@@ -31,6 +43,11 @@ DEAD_SLUGS = {
     "form-solicite-sua-proposta",
     "conteudos-axxis",
     "conteudos-axxis-2",
+}
+# Páginas duplicadas no WordPress -> versão canônica (o nginx faz 301 das antigas)
+ALIASES = {
+    "gestor-estrategico": "gestor-estrategico-financeiro",
+    "startups-e-tecnologia": "startups-e-tecnologias",
 }
 SKIP_PREFIXES = ("wp-json", "wp-admin", "wp-login", "xmlrpc.php", "feed", "comments", "wp-content", "wp-includes", "category", "tag", "author")
 
@@ -51,7 +68,7 @@ def page_slug(url):
     path = u.path.strip("/")
     if path.startswith(SKIP_PREFIXES) or ASSET_EXT.search(path):
         return None
-    return path
+    return ALIASES.get(path, path)
 
 
 def local_asset_path(url):
@@ -61,6 +78,20 @@ def local_asset_path(url):
         return urllib.parse.unquote(u.path)
     if u.netloc in EXTRA_HOSTS:
         return EXTRA_HOSTS[u.netloc] + urllib.parse.unquote(u.path)
+    if u.netloc in EXTERNAL_HOSTS:
+        path = urllib.parse.unquote(u.path)
+        m = ASSET_EXT.search(path)
+        if m:
+            stem, ext = path[: m.start()], m.group(0)
+        elif u.netloc == "fonts.googleapis.com" and path.startswith("/css"):
+            stem, ext = path, ".css"
+        elif u.netloc == "images.unsplash.com":
+            stem, ext = path, "." + urllib.parse.parse_qs(u.query).get("fm", ["jpg"])[0]
+        else:
+            return None
+        # A query muda o arquivo (tamanho da imagem, famílias da fonte): entra no nome
+        suffix = "-" + hashlib.md5(u.query.encode()).hexdigest()[:8] if u.query else ""
+        return f"/_ext/{u.netloc}{stem}{suffix}{ext}"
     return None
 
 
@@ -137,7 +168,11 @@ def deoptimize(html):
 # ---------------------------------------------------------------- reescrita
 
 # Para em aspas, inclusive as codificadas (&quot; / &#039;) usadas em data-settings do Elementor
-URL_RE = re.compile(r"https?:(?://|\\/\\/)(?:www\.)?(?:axxiscontabilidade\.com\.br|grupoaxxis\.com\.br)(?:(?!&quot;|&#0?39;|&#34;)[^\s\"'<>()])*")
+URL_RE = re.compile(
+    r"https?:(?://|\\/\\/)(?:(?:www\.)?(?:axxiscontabilidade(?:digital)?\.com\.br|grupoaxxis\.com\.br)|"
+    + "|".join(re.escape(h) for h in sorted(EXTERNAL_HOSTS))
+    + r")(?:(?!&quot;|&#0?39;|&#34;)[^\s\"'<>()])*"
+)
 # Arquivos carregados dinamicamente (chunks do webpack do Elementor etc.), descobertos rodando a cópia
 EXTRA_ASSETS = Path(__file__).resolve().parent / "extra-assets.txt"
 
@@ -151,6 +186,17 @@ def rewrite(text, assets, pages, *, escaped_ok=True):
         tail = raw[len(raw.rstrip(".,;")):]
         url = url.replace("http://", "https://")
         u = urllib.parse.urlsplit(url)
+        if u.netloc in EXTERNAL_HOSTS:
+            full = unescape(url)
+            lp = local_asset_path(full)
+            if lp is None:
+                return raw
+            assets.add(full)
+            new = urllib.parse.quote(lp, safe="/%")
+            return (new.replace("/", "\\/") if esc else new) + tail
+        if u.netloc in OWN_HOSTS:
+            u = u._replace(netloc=MAIN_HOST, path=MISSING_IMAGES.get(u.path, u.path))
+            url = urllib.parse.urlunsplit(u)
         slug = page_slug(url)
         if slug is not None:
             if slug.strip("/") in DEAD_SLUGS:
