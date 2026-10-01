@@ -129,7 +129,7 @@ def deoptimize(html):
     def placeholder(m):
         real = decode_placeholder(m.group(2))
         return f"{m.group(1)}{real}" if real else m.group(0)
-    html = re.sub(r'(\bsrc=["\']|url\(["\']?)(data:image/svg\+xml;base64,[A-Za-z0-9+/=]+)', placeholder, html)
+    html = re.sub(r'(\bsrc=["\']|url\((?:&quot;|["\'])?)(data:image/svg\+xml;base64,[A-Za-z0-9+/=]+)', placeholder, html)
     html = re.sub(r'\s*\bbv-image-(?:lazyload|preloaded)\b', "", html)
     return html
 
