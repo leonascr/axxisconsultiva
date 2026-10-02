@@ -10,3 +10,8 @@ Thumbs.db
 
 # Cópia antiga do WordPress (substituída por public/)
 site/
+
+# Arquivos antigos sem uso (podem ser apagados)
+public/assets/css/f6d53ceccba5a31a4fb1cf0d235ff3a2.css
+public/assets/fonts/fa-*
+public/assets/vendor/font-awesome/webfonts/
