@@ -341,7 +341,7 @@
   .axxis-hero-abertura .hero-button:hover {
     background-color: #e65a00;
   }
-  /* EFEITO PADRÃO: "Sombra Sólida" */
+  /* Moldura de contorno laranja (mesmo detalhe das outras imagens do site) */
   .axxis-hero-abertura .image-wrapper-solid-shadow {
     position: relative;
     width: 100%;
@@ -351,21 +351,22 @@
   .axxis-hero-abertura .image-wrapper-solid-shadow img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     position: relative;
     z-index: 2;
-  }
+}
   .axxis-hero-abertura .image-wrapper-solid-shadow::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 20px;
-    left: 20px;
-    background-color: #ff6d00;
-    border-radius: 12px;
+    top: -15px;
+    left: -15px;
+    border: 2px solid #ff6d00;
+    border-radius: 8px;
     z-index: 1;
-  }
+}
   @media (max-width: 992px) {
     .axxis-hero-abertura .axxis-container {
       flex-direction: column;
