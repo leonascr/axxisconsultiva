@@ -2,10 +2,6 @@
   "name": "axxisconsultiva",
   "private": true,
   "scripts": {
-    "start": "npx -y serve@14 site -l 3000",
-    "build": "python tools/mirror.py && python tools/seo.py && node tools/measure.mjs && python tools/perf.py"
-  },
-  "devDependencies": {
-    "playwright": "^1.50.0"
+    "start": "npx -y serve@14 public -l 3000"
   }
 }

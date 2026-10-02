@@ -1,3 +1,0 @@
-# Arquivos carregados sob demanda pelo JS (não aparecem no HTML)
-/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js
-/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js
