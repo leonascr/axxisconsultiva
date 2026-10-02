@@ -51,7 +51,7 @@
 		.axh-skip-link:focus{left:0;outline:2px solid #0073aa;outline-offset:-2px;}
 	</style>
 	<a class="axh-skip-link" href="#content">Pular para o conteúdo principal</a><div id="page" class="site">
-		<header id="masthead"="itemscope">
+		<header id="masthead">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="/" title="Axxis Contabilidade Consultiva" rel="home">Axxis Contabilidade Consultiva</a></p>
 			<style>.ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}</style>		<div class="ax ax-12850">
 				<div class="ax-element ax-element-79c6262 ax-con-full ax-flex ax-con ax-parent">
@@ -340,6 +340,8 @@
         .hero-hr-text h1 { font-size: 40px; }
         .hero-hr-section { padding: 100px 0; }
     }
+
+@media (max-width: 767px) { .hero-hr-text p { font-size: 16px; } }
 </style>
 <section class="hero-hr-section">
     <div class="hero-hr-container">
@@ -424,7 +426,7 @@
     .bpo-intro-text h2 {
         font-family: var(--fonte-titulo);
         font-weight: 400; /* Novo padrão de peso */
-        font-size: 42px;
+        font-size: 40px;
         color: var(--cor-texto-principal);
         line-height: 1.3;
         margin-bottom: 20px;
@@ -432,12 +434,12 @@
     /* Destaque para a palavra do título */
     .bpo-intro-text h2 .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     .bpo-intro-text p {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 1.7;
         color: var(--cor-texto-secundario);
         max-width: 500px;
@@ -455,7 +457,7 @@
     }
     @media (max-width: 768px) {
         .bpo-intro-text h2 {
-            font-size: 36px;
+            font-size: 32px;
         }
         /* Oculta a moldura fantasma no mobile */
         .axxis-image-wrapper::after {
@@ -510,13 +512,13 @@
     .axxis-section-title {
         font-family: var(--fonte-titulo);
         font-weight: 400;
-        font-size: 42px;
+        font-size: 40px;
         color: var(--cor-texto-principal);
         margin-bottom: 60px;
     }
     .axxis-section-title .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     /* --- Grade de Benefícios --- */
     .benefits-grid {
@@ -553,8 +555,8 @@
     }
     .benefit-card-description {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 16px;
+        font-weight: 400;
+        font-size: 15px;
         line-height: 1.7;
         color: var(--cor-texto-secundario);
     }
@@ -569,9 +571,11 @@
             grid-template-columns: 1fr;
         }
         .axxis-section-title {
-            font-size: 36px;
+            font-size: 32px;
         }
     }
+
+@media (max-width: 767px) { .benefit-card-title { font-size: 20px; } }
 </style>
 <section class="axxis-benefits-grid-section">
     <div class="benefits-container">
@@ -668,7 +672,7 @@
     }
     .axxis-rh-cta-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 38px;
+        font-size: 40px;
         color: var(--texto-principal-laranja);
         font-weight: 400;
         margin: 0 0 20px 0;
@@ -773,7 +777,7 @@
     .bpo-faq-content h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         margin: 0 0 30px 0;
         color: #efefef;
     }
@@ -837,6 +841,8 @@
             text-align: center;
         }
     }
+
+@media (max-width: 767px) { .bpo-faq-content h2 { font-size: 32px; } }
 </style>
 <div class="bpo-faq-section">
     <div class="bpo-faq-container">
@@ -844,7 +850,7 @@
             <img loading="lazy" decoding="async" src="/assets/img/pexels-photo-3184423-7874a5b9-ba51f8-501.webp" class="bpo-faq-image" alt="Profissional de RH sorrindo em um ambiente de trabalho moderno.">
         </div>
         <div class="bpo-faq-content">
-            <h2><span class="highlight">Dúvidas</span> Frequentes</h2>
+            <h2>Dúvidas <span class="highlight">Frequentes</span></h2>
             <div class="bpo-accordion" id="bpo-accordion">
                 <div class="bpo-accordion-item">
                     <div class="bpo-accordion-header">
@@ -910,7 +916,7 @@
 					</div>
 				</div>
 				</div>
-		<footer="itemscope" id="colophon" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
 				<div class="ax-element ax-element-53a17f3 ax-con-full ax-flex ax-con ax-parent">
 				<div class="ax-element ax-widget">

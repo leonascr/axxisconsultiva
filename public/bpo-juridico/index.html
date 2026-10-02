@@ -84,7 +84,7 @@
     }
     .axxis-hero-text h1 {
         font-family: var(--fonte-titulo);
-        font-size: 54px;
+        font-size: 56px;
         font-weight: 600; /* Padrão AXXIS */
         line-height: 1.2;
         margin: 0 0 25px 0;
@@ -111,6 +111,8 @@
         .axxis-hero-text h1 { font-size: 40px; }
         .axxis-hero-juridico-section { padding: 100px 0; }
     }
+
+@media (max-width: 767px) { .axxis-hero-text p { font-size: 16px; } }
 </style>
 <section class="axxis-hero-juridico-section">
     <div class="axxis-hero-container">
@@ -160,7 +162,7 @@
     /* --- CONTEÚDO DE TEXTO --- */
     .axxis-bpo-text-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 400; /* Padrão AXXIS */
         color: var(--cor-texto-principal);
         margin-bottom: 20px;
@@ -168,12 +170,12 @@
     }
     .axxis-bpo-text-content h2 .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-bpo-text-content p {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         color: var(--cor-texto-secundario);
         line-height: 1.7;
         max-width: 500px;
@@ -221,7 +223,7 @@
     }
     @media (max-width: 768px) {
         .axxis-bpo-text-content h2 {
-            font-size: 36px;
+            font-size: 32px;
         }
         .axxis-image-wrapper::after {
             display: none;
@@ -277,13 +279,13 @@
     }
     .axxis-v-timeline-header h2 {
         font-family: var(--fonte-titulo);
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 400; /* Padrão AXXIS */
         color: var(--cor-texto-principal);
     }
     .axxis-v-timeline-header h2 .highlight { 
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-v-timeline-header p {
         color: var(--cor-texto-secundario);
@@ -354,7 +356,7 @@
     .axxis-item-content-desc {
         color: var(--cor-texto-secundario);
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 1.6;
         margin: 0;
     }
@@ -364,8 +366,12 @@
         .axxis-v-timeline-item { width: 100%; padding: 0; }
         .axxis-v-timeline-item.right { left: 0; }
         .axxis-v-timeline-item::after { display: none; }
-        .axxis-v-timeline-header h2 { font-size: 36px; }
+        .axxis-v-timeline-header h2 { font-size: 32px; }
     }
+
+@media (max-width: 767px) { .axxis-item-content-title { font-size: 20px; } }
+
+@media (max-width: 767px) { .axxis-v-timeline-header p { font-size: 16px; } }
 </style>
 <section class="axxis-v-timeline-section">
     <div class="axxis-v-timeline-container">
@@ -464,7 +470,7 @@
     }
     .human-touch-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 38px;
+        font-size: 40px;
         color: var(--texto-principal-laranja);
         font-weight: 400;
         margin: 0 0 20px 0;
@@ -578,7 +584,7 @@
     }
     .axxis-faq-content h2 .highlight {
         color: #ff6d00;
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-accordion { width: 100%; }
     .axxis-accordion-item {
@@ -637,6 +643,8 @@
             text-align: center;
         }
     }
+
+@media (max-width: 767px) { .axxis-faq-content h2 { font-size: 32px; } }
 </style>
 <div class="axxis-faq-section">
     <div class="axxis-faq-container">
@@ -644,7 +652,7 @@
             <img loading="lazy" decoding="async" src="/assets/img/pexels-photo-1170412-7874a5b9-3e7e73-700.webp" class="axxis-faq-image" alt="Pessoa revisando e assinando contratos, simbolizando o BPO Jurídico.">
         </div>
         <div class="axxis-faq-content">
-            <h2><span class="highlight">Dúvidas</span> Frequentes</h2>
+            <h2>Dúvidas <span class="highlight">Frequentes</span></h2>
             <div class="axxis-accordion" id="juridico-accordion">
                 <div class="axxis-accordion-item">
                     <div class="axxis-accordion-header">

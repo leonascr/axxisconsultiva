@@ -51,7 +51,7 @@
 		.axh-skip-link:focus{left:0;outline:2px solid #0073aa;outline-offset:-2px;}
 	</style>
 	<a class="axh-skip-link" href="#content">Pular para o conteúdo principal</a><div id="page" class="site">
-		<header id="masthead"="itemscope">
+		<header id="masthead">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="/" title="Axxis Contabilidade Consultiva" rel="home">Axxis Contabilidade Consultiva</a></p>
 			<style>.ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}</style>		<div class="ax ax-12850">
 				<div class="ax-element ax-element-79c6262 ax-con-full ax-flex ax-con ax-parent">
@@ -339,6 +339,8 @@
         .axxis-hero-text h1 { font-size: 40px; }
         .axxis-hero-gfe-section { padding: 100px 0; }
     }
+
+@media (max-width: 767px) { .axxis-hero-text p { font-size: 16px; } }
 </style>
 <section class="axxis-hero-gfe-section">
     <div class="axxis-hero-container">
@@ -391,7 +393,7 @@
     /* --- CONTEÚDO DE TEXTO --- */
     .axxis-gfe-text-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 400;
         color: var(--cor-texto-principal);
         margin-bottom: 20px;
@@ -399,12 +401,12 @@
     }
     .axxis-gfe-text-content h2 .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-gfe-text-content p {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         color: var(--cor-texto-secundario);
         line-height: 1.7;
     }
@@ -451,7 +453,7 @@
     }
     @media (max-width: 768px) {
         .axxis-gfe-text-content h2 {
-            font-size: 36px;
+            font-size: 32px;
         }
         .axxis-image-wrapper::after {
             display: none;
@@ -505,13 +507,13 @@
     .axxis-section-title {
         font-family: var(--fonte-titulo);
         font-weight: 400;
-        font-size: 42px;
+        font-size: 40px;
         color: var(--cor-texto-principal);
         margin-bottom: 60px;
     }
     .axxis-section-title .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     /* --- Grade de Entregas --- */
     .axxis-deliverables-grid {
@@ -540,15 +542,15 @@
     }
     .axxis-card-title {
         font-family: var(--fonte-titulo);
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 600;
         color: var(--cor-texto-principal);
         margin-bottom: 10px;
     }
     .axxis-card-description {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 14px;
+        font-weight: 400;
+        font-size: 15px;
         line-height: 1.6;
         color: var(--cor-texto-secundario);
     }
@@ -563,9 +565,11 @@
             grid-template-columns: 1fr;
         }
         .axxis-section-title {
-            font-size: 36px;
+            font-size: 32px;
         }
     }
+
+@media (max-width: 767px) { .axxis-card-title { font-size: 20px; } }
 </style>
 <section class="axxis-deliverables-section">
     <div class="axxis-deliverables-container">
@@ -655,7 +659,7 @@
     }
     .axxis-human-touch-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 38px;
+        font-size: 40px;
         color: var(--texto-principal-laranja);
         font-weight: 400;
         margin: 0 0 20px 0;
@@ -767,7 +771,7 @@
     }
     .axxis-faq-content h2 .highlight {
         color: #ff6d00;
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-accordion { width: 100%; }
     .axxis-accordion-item {
@@ -826,6 +830,8 @@
             text-align: center;
         }
     }
+
+@media (max-width: 767px) { .axxis-faq-content h2 { font-size: 32px; } }
 </style>
 <div class="axxis-faq-section">
     <div class="axxis-faq-container">
@@ -833,7 +839,7 @@
             <img loading="lazy" decoding="async" src="/assets/img/pexels-photo-1170412-7874a5b9-3e7e73-700.webp" class="axxis-faq-image" alt="Especialista em reunião estratégica analisando gráficos e indicadores de desempenho.">
         </div>
         <div class="axxis-faq-content">
-            <h2><span class="highlight">Dúvidas</span> Frequentes</h2>
+            <h2>Dúvidas <span class="highlight">Frequentes</span></h2>
             <div class="axxis-accordion" id="gfe-accordion">
                 <div class="axxis-accordion-item">
                     <div class="axxis-accordion-header">
@@ -901,7 +907,7 @@
 				</div>
 			</div>
 </main>
-		<footer="itemscope" id="colophon" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
 				<div class="ax-element ax-element-53a17f3 ax-con-full ax-flex ax-con ax-parent">
 				<div class="ax-element ax-widget">

@@ -29,6 +29,8 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
+
+@media (max-width: 767px) { .ax-14477 .ax-element.ax-element-195d38d1 .ax-heading-title { font-size: 40px; } }
 </style>
 <link rel="stylesheet" href="/assets/css/site.css" />
 <link rel='shortlink' href='/' />
@@ -51,7 +53,7 @@
 		.axh-skip-link:focus{left:0;outline:2px solid #0073aa;outline-offset:-2px;}
 	</style>
 	<a class="axh-skip-link" href="#content">Pular para o conteúdo principal</a><div id="page" class="site">
-		<header id="masthead"="itemscope">
+		<header id="masthead">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="/" title="Axxis Contabilidade Consultiva" rel="home">Axxis Contabilidade Consultiva</a></p>
 			<style>.ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}</style>		<div class="ax ax-12850">
 				<div class="ax-element ax-element-79c6262 ax-con-full ax-flex ax-con ax-parent">
@@ -313,7 +315,7 @@
 .axxis-bpo-texto h2 {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 1.2;
     color: #efefef;
     margin-bottom: 20px;
@@ -378,7 +380,7 @@
         padding: 80px 20px;
     }
     .axxis-bpo-texto h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
     /* Oculta o efeito da moldura no mobile, conforme briefing */
     .axxis-image-wrapper::after {
@@ -426,7 +428,7 @@
 .axxis-bpo-types-header h2 {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 40px;
     color: #efefef;
     margin-bottom: 20px;
 }
@@ -434,12 +436,12 @@
     color: #ff6d00; /* Laranja AXXIS */
 }
 .axxis-bpo-types-header p {
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(239, 239, 239, 0.85);
     line-height: 1.7;
     max-width: 650px;
     margin: 0 auto;
-}
+font-weight: 300;}
 /* Grid com os 3 tipos de BPO */
 .bpo-grid {
     display: flex;
@@ -498,9 +500,13 @@
         padding: 80px 20px;
     }
     .axxis-bpo-types-header h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
+
+@media (max-width: 767px) { .bpo-item-card h3 { font-size: 20px; } }
+
+@media (max-width: 767px) { .axxis-bpo-types-header p { font-size: 16px; } }
 </style>
 <div class="axxis-bpo-types-section">
     <div class="axxis-bpo-types-container">
@@ -641,7 +647,7 @@
     /* --- TEXTOS --- */
     .integrations-title {
         font-family: var(--fonte-titulo);
-        font-size: 38px;
+        font-size: 40px;
         color: var(--cor-titulo);
         margin: 0 0 50px 0;
         font-weight: 400;
@@ -781,7 +787,7 @@
     .bpo-faq-content h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         margin: 0 0 30px 0;
         color: #efefef;
     }
@@ -845,6 +851,8 @@
             text-align: center;
         }
     }
+
+@media (max-width: 767px) { .bpo-faq-content h2 { font-size: 32px; } }
 </style>
 <div class="bpo-faq-section">
     <div class="bpo-faq-container">
@@ -852,7 +860,7 @@
             <img loading="lazy" decoding="async" src="/assets/img/2-jpg-ebfbe6-700.webp" class="bpo-faq-image" alt="Especialistas analisando dados financeiros para BPO">
         </div>
         <div class="bpo-faq-content">
-            <h2><span class="highlight">Dúvidas</span> Frequentes</h2>
+            <h2>Dúvidas <span class="highlight">Frequentes</span></h2>
             <div class="bpo-accordion" id="bpo-accordion">
                 <div class="bpo-accordion-item">
                     <div class="bpo-accordion-header">
@@ -920,7 +928,7 @@
 				</div>
 			</div>
 </main>
-		<footer="itemscope" id="colophon" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
 				<div class="ax-element ax-element-53a17f3 ax-con-full ax-flex ax-con ax-parent">
 				<div class="ax-element ax-widget">

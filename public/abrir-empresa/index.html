@@ -28,6 +28,8 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
+
+@media (max-width: 767px) { .ax-15617 .ax-element.ax-element-183e33a6 .ax-heading-title { font-size: 40px; } }
 </style>
 <link rel="stylesheet" href="/assets/css/site.css" />
 <link rel='shortlink' href='/' />
@@ -51,7 +53,7 @@
 		.axh-skip-link:focus{left:0;outline:2px solid #0073aa;outline-offset:-2px;}
 	</style>
 	<a class="axh-skip-link" href="#content">Pular para o conteúdo principal</a><div id="page" class="site">
-		<header id="masthead"="itemscope">
+		<header id="masthead">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="/" title="Axxis Contabilidade Consultiva" rel="home">Axxis Contabilidade Consultiva</a></p>
 			<style>.ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}</style>		<div class="ax ax-12850">
 				<div class="ax-element ax-element-79c6262 ax-con-full ax-flex ax-con ax-parent">
@@ -310,8 +312,8 @@
   }
   .axxis-hero-abertura h2 {
     font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    font-size: 48px;
+    font-weight: 400;
+    font-size: 40px;
     line-height: 1.2;
     margin-bottom: 20px;
   }
@@ -324,7 +326,7 @@
     color: rgba(239, 239, 239, 0.85);
     margin-bottom: 35px;
     max-width: 500px;
-  }
+  font-weight: 300;}
   .axxis-hero-abertura .hero-button {
     display: inline-block;
     background-color: #ff6d00;
@@ -379,8 +381,10 @@
   }
   @media (max-width: 768px) {
     .axxis-hero-abertura { padding: 80px 20px; }
-    .axxis-hero-abertura h2 { font-size: 40px; }
+    .axxis-hero-abertura h2 { font-size: 32px; }
   }
+
+@media (max-width: 767px) { .axxis-hero-abertura p { font-size: 16px; } }
 </style>
 <section class="axxis-hero-abertura">
   <div class="axxis-container">
@@ -420,8 +424,8 @@
   }
   .axxis-benefits-grid h2 {
     font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 40px;
     margin-bottom: 15px;
   }
   .axxis-benefits-grid h2 span {
@@ -433,7 +437,7 @@
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
-  }
+  font-weight: 300;}
   .axxis-benefits-grid .benefits-grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -455,11 +459,11 @@
   .axxis-benefits-grid .benefit-card h3 {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   .axxis-benefits-grid .benefit-card p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.7;
     color: rgba(239, 239, 239, 0.85);
   }
@@ -474,6 +478,12 @@
       grid-template-columns: 1fr;
     }
   }
+
+@media (max-width: 767px) { .axxis-benefits-grid .benefit-card h3 { font-size: 20px; } }
+
+@media (max-width: 767px) { .axxis-benefits-grid .section-subtitle { font-size: 16px; } }
+
+@media (max-width: 767px) { .axxis-benefits-grid h2 { font-size: 32px; } }
 </style>
 <section class="axxis-benefits-grid">
   <div class="axxis-container">
@@ -555,7 +565,7 @@
     .consultant-text-content-final h2 { 
         font-family: 'Outfit', sans-serif; 
         font-weight: 600; 
-        font-size: 36px;
+        font-size: 34px;
         line-height: 1.2; 
         margin: 0 0 15px 0; 
         color: var(--branco); /* Título em branco */
@@ -613,9 +623,11 @@
             display: inline-block; 
         }
         .consultant-text-content-final h2 {
-            font-size: 30px;
+            font-size: 34px;
         }
     }
+
+@media (max-width: 767px) { .consultant-text-content-final h2 { font-size: 28px; } }
 </style>
 <div class="axxis-consultant-section-final">
     <div class="consultant-container-final">
@@ -652,8 +664,8 @@
   }
   .axxis-process-timeline h2 {
     font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 40px;
     margin-bottom: 15px;
   }
   .axxis-process-timeline h2 span {
@@ -699,7 +711,7 @@
   .axxis-process-timeline .step-content h3 {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   .axxis-process-timeline .step-content p {
@@ -736,6 +748,10 @@
       margin: 0;
     }
   }
+
+@media (max-width: 767px) { .axxis-process-timeline .step-content h3 { font-size: 20px; } }
+
+@media (max-width: 767px) { .axxis-process-timeline h2 { font-size: 32px; } }
 </style>
 <section class="axxis-process-timeline">
   <div class="axxis-container">
@@ -821,7 +837,7 @@
     .axxis-faq-abertura-content h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         margin: 0 0 30px 0;
         color: #efefef;
     }
@@ -888,6 +904,8 @@
             text-align: left;
         }
     }
+
+@media (max-width: 767px) { .axxis-faq-abertura-content h2 { font-size: 32px; } }
 </style>
 <div class="axxis-faq-abertura">
     <div class="axxis-faq-abertura-container">
@@ -962,7 +980,7 @@
 					</div>
 				</div>
 				</div>
-		<footer="itemscope" id="colophon" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
 				<div class="ax-element ax-element-53a17f3 ax-con-full ax-flex ax-con ax-parent">
 				<div class="ax-element ax-widget">

@@ -51,7 +51,7 @@
 		.axh-skip-link:focus{left:0;outline:2px solid #0073aa;outline-offset:-2px;}
 	</style>
 	<a class="axh-skip-link" href="#content">Pular para o conteúdo principal</a><div id="page" class="site">
-		<header id="masthead"="itemscope">
+		<header id="masthead">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="/" title="Axxis Contabilidade Consultiva" rel="home">Axxis Contabilidade Consultiva</a></p>
 			<style>.ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}</style>		<div class="ax ax-12850">
 				<div class="ax-element ax-element-79c6262 ax-con-full ax-flex ax-con ax-parent">
@@ -339,6 +339,8 @@
         .axxis-hero-text h1 { font-size: 40px; }
         .axxis-hero-licitacoes-section { padding: 100px 0; }
     }
+
+@media (max-width: 767px) { .axxis-hero-text p { font-size: 16px; } }
 </style>
 <section class="axxis-hero-licitacoes-section">
     <div class="axxis-hero-container">
@@ -391,7 +393,7 @@
     /* --- CONTEÚDO DE TEXTO --- */
     .axxis-licitacoes-text-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 400;
         color: var(--cor-texto-principal);
         margin-bottom: 20px;
@@ -399,12 +401,12 @@
     }
     .axxis-licitacoes-text-content h2 .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     .axxis-licitacoes-text-content p {
         font-family: var(--fonte-corpo);
-        font-weight: 300;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         color: var(--cor-texto-secundario);
         line-height: 1.7;
     }
@@ -450,7 +452,7 @@
         }
     }
     @media (max-width: 768px) {
-        .axxis-licitacoes-text-content h2 { font-size: 36px; }
+        .axxis-licitacoes-text-content h2 { font-size: 32px; }
         .axxis-image-wrapper::after { display: none; }
     }
 </style>
@@ -499,13 +501,13 @@
     .axxis-section-title {
         font-family: var(--fonte-titulo);
         font-weight: 400;
-        font-size: 42px;
+        font-size: 40px;
         color: var(--cor-texto-principal);
         margin-bottom: 60px;
     }
     .axxis-section-title .highlight {
         color: var(--cor-destaque);
-        font-weight: 600;
+        font-weight: 400;
     }
     /* --- Grade de Atuação --- */
     .axxis-atuacao-grid {
@@ -526,11 +528,13 @@
     }
     .axxis-card-icon { margin-bottom: 20px; }
     .axxis-card-icon svg { width: 32px; height: 32px; color: var(--cor-destaque); }
-    .axxis-card-title { font-family: var(--fonte-titulo); font-size: 18px; font-weight: 600; color: var(--cor-texto-principal); margin-bottom: 10px; }
-    .axxis-card-description { font-family: var(--fonte-corpo); font-weight: 300; font-size: 14px; line-height: 1.6; color: var(--cor-texto-secundario); }
+    .axxis-card-title { font-family: var(--fonte-titulo); font-size: 22px; font-weight: 600; color: var(--cor-texto-principal); margin-bottom: 10px; }
+    .axxis-card-description { font-family: var(--fonte-corpo); font-weight: 400; font-size: 15px; line-height: 1.6; color: var(--cor-texto-secundario); }
     /* Responsividade */
     @media (max-width: 992px) { .axxis-atuacao-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 768px) { .axxis-atuacao-grid { grid-template-columns: 1fr; } .axxis-section-title { font-size: 36px; } }
+    @media (max-width: 768px) { .axxis-atuacao-grid { grid-template-columns: 1fr; } .axxis-section-title { font-size: 32px; } }
+
+@media (max-width: 767px) { .axxis-card-title { font-size: 20px; } }
 </style>
 <section class="axxis-atuacao-section">
     <div class="axxis-atuacao-container">
@@ -620,7 +624,7 @@
     }
     .axxis-human-touch-content h2 {
         font-family: var(--fonte-titulo);
-        font-size: 38px;
+        font-size: 40px;
         color: var(--texto-principal-laranja);
         font-weight: 400;
         margin: 0 0 20px 0;
@@ -725,7 +729,7 @@
     .bpo-faq-content h2 {
         font-family: 'Outfit', sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         margin: 0 0 30px 0;
         color: #efefef;
     }
@@ -789,6 +793,8 @@
             text-align: center;
         }
     }
+
+@media (max-width: 767px) { .bpo-faq-content h2 { font-size: 32px; } }
 </style>
 <div class="bpo-faq-section">
     <div class="bpo-faq-container">
@@ -796,7 +802,7 @@
             <img loading="lazy" decoding="async" src="/assets/img/pexels-photo-7709217-7874a5b9-304946-500.webp" class="bpo-faq-image" alt="Documentos oficiais e caneta, representando a formalidade de licitações e contratos.">
         </div>
         <div class="bpo-faq-content">
-            <h2><span class="highlight">Dúvidas</span> Frequentes</h2>
+            <h2>Dúvidas <span class="highlight">Frequentes</span></h2>
             <div class="bpo-accordion" id="bpo-accordion-licitacoes">
                 <div class="bpo-accordion-item">
                     <div class="bpo-accordion-header">
@@ -864,7 +870,7 @@
 				</div>
 			</div>
 </main>
-		<footer="itemscope" id="colophon" role="contentinfo">
+		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
 				<div class="ax-element ax-element-53a17f3 ax-con-full ax-flex ax-con ax-parent">
 				<div class="ax-element ax-widget">
