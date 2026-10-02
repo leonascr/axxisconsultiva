@@ -194,3 +194,13 @@ svg:not(:root){overflow:hidden;display:inline}
 .swiper.swiper-cards{overflow:visible}
 .swiper-cards .swiper-slide{transform-origin:center bottom;-webkit-backface-visibility:hidden;backface-visibility:hidden;overflow:hidden}
 .ax-background-video-container video{width:100%;height:100%;object-fit:cover}
+
+/* Ícones padronizados: contorno, traço 1.5, laranja; 40px nos cards */
+svg.ax-icone{display:block;width:40px!important;height:40px!important;color:#FF6D00;fill:none!important;stroke:currentColor!important}
+.cta-email-link svg.ax-icone{display:inline-block;width:24px!important;height:24px!important;color:inherit}
+.value-icon,.benefit-icon,.axxis-card-icon,.service-item-icon-dark,.bpo-icon-wrapper,.abordagem-lista-final .icon-wrapper{line-height:0}
+.value-icon,.axxis-benefits-grid .benefit-icon{width:40px!important;height:40px!important}
+.value-icon svg,.benefit-icon svg,.axxis-card-icon svg{width:40px!important;height:40px!important}
+.bpo-icon-wrapper{width:auto!important;height:auto!important;background:none!important;border-radius:0!important}
+.abordagem-lista-final .icon-wrapper,.abordagem-lista-final li:hover .icon-wrapper{width:auto!important;height:auto!important;background:none!important;border-radius:0!important}
+.card-base-v8 .icone-google{font-size:0!important;line-height:0}
