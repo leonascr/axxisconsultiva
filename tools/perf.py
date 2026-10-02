@@ -252,9 +252,8 @@ def main():
         html = html.replace("</head>", f"{MARKER}\n<style>{NO_BLUR}</style>\n</head>", 1)
         html = preload_lcp(html, slug, sizes, mapping)
         html = remove_trackers(html)
-        html = defer_scripts(html)
         f.write_text(html, encoding="utf-8")
-    print(f"scripts: defer e ferramentas externas removidas em {len(html_files())} páginas")
+    print(f"ferramentas externas removidas em {len(html_files())} páginas")
 
 
 if __name__ == "__main__":
