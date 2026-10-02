@@ -204,3 +204,11 @@ svg.ax-icone{display:block;width:40px!important;height:40px!important;color:#FF6
 .bpo-icon-wrapper{width:auto!important;height:auto!important;background:none!important;border-radius:0!important}
 .abordagem-lista-final .icon-wrapper,.abordagem-lista-final li:hover .icon-wrapper{width:auto!important;height:auto!important;background:none!important;border-radius:0!important}
 .card-base-v8 .icone-google{font-size:0!important;line-height:0}
+
+/* Cards com ícone padronizados */
+.ax-card{background:#101946!important;border:1px solid rgba(255,255,255,.1)!important;border-radius:12px!important;padding:32px!important;text-align:left!important;box-shadow:none!important;backdrop-filter:none!important;transition:transform .3s ease,border-color .3s ease!important}
+.ax-card:hover{transform:translateY(-5px)!important;border-color:rgba(255,109,0,.5)!important;box-shadow:none!important}
+.ax-card .service-item-icon-dark,.ax-card .icone-google,.ax-card .benefit-icon,.ax-card .bpo-icon-wrapper,.ax-card .axxis-card-icon{display:block!important;margin:0 0 20px 0!important;width:40px!important;height:40px!important}
+.ax-card svg{margin:0!important}
+.ax-card h3,.ax-card h4{margin-top:0!important}
+@media (max-width:767px){.ax-card{padding:28px!important}}
