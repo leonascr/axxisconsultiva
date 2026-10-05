@@ -212,3 +212,12 @@ svg.ax-icone{display:block;width:40px!important;height:40px!important;color:#FF6
 .ax-card svg{margin:0!important}
 .ax-card h3,.ax-card h4{margin-top:0!important}
 @media (max-width:767px){.ax-card{padding:28px!important}}
+
+/* Botões padronizados (iguais ao "Solicite sua Proposta" do menu): laranja = fundo laranja e texto branco; branco = invertido */
+a.hero-button,a.specialized-cta-btn,button.fq-next,.ax-12318 .ax-element.ax-element-2b93590 .ax-button,a.cta-button-final,a.consultant-cta-final,a.axxis-rh-cta-button,a.human-touch-button,a.axxis-human-touch-button,a.specialist-cta-btn,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button,.ax-12318 .ax-element.ax-element-42a4b2b .ax-button{font-family:"Outfit",sans-serif!important;font-size:16px!important;font-weight:300!important;letter-spacing:.5px!important;text-transform:none!important;line-height:20px!important;padding:14px 32px!important;border-radius:5px!important;text-decoration:none!important;transition:background-color .3s ease,color .3s ease!important}
+a.hero-button,a.specialized-cta-btn,button.fq-next,.ax-12318 .ax-element.ax-element-2b93590 .ax-button,a.cta-button-final,a.consultant-cta-final,a.axxis-rh-cta-button,a.human-touch-button,a.axxis-human-touch-button,a.specialist-cta-btn,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button{border:none!important;box-shadow:none!important}
+a.hero-button,a.specialized-cta-btn,button.fq-next,.ax-12318 .ax-element.ax-element-2b93590 .ax-button{background:#FF6D00!important;color:#fff!important;fill:#fff!important}
+a.hero-button:hover,a.specialized-cta-btn:hover,button.fq-next:hover,.ax-12318 .ax-element.ax-element-2b93590 .ax-button:hover{background:#df660a!important;color:#fff!important}
+a.cta-button-final,a.consultant-cta-final,a.axxis-rh-cta-button,a.human-touch-button,a.axxis-human-touch-button,a.specialist-cta-btn,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button{background:#fff!important;color:#FF6D00!important;fill:#FF6D00!important}
+a.cta-button-final:hover,a.consultant-cta-final:hover,a.axxis-rh-cta-button:hover,a.human-touch-button:hover,a.axxis-human-touch-button:hover,a.specialist-cta-btn:hover,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button:hover{background:#f2f2f2!important;color:#df660a!important}
+.ax-12318 .ax-element.ax-element-2b93590 .ax-button .ax-button-text,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button .ax-button-text,.ax-12318 .ax-element.ax-element-42a4b2b .ax-button .ax-button-text{font:inherit!important;letter-spacing:inherit!important}
