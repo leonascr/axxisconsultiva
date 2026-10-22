@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,141 +270,23 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout .coluna-conteudo-artigo a{
-        color: #00529B; 
-        text-decoration: underline;
-        font-weight: 600;
-    }
-.artigo .artigo-axxis-layout ul, .artigo .artigo-axxis-layout ol{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li, .artigo .artigo-axxis-layout ol li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Gestão Financeira e BPO</span></nav>
+    <span class="ax-art-tag">Gestão Financeira e BPO</span>
+    <h1>BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</h1>
+    <p class="ax-art-lead">O guia definitivo para CEOs em Brasília. Descubra como o BPO Financeiro pode te dar paz de espírito e mais tempo para focar no crescimento do seu negócio.</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2025-12-01">01 dez 2025</time></span><span>4 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito.jpg" alt="BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar">BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</a></li><li><a href="#o-que-e-bpo-financeiro-seu-financeiro-como-um-servico">O que é BPO Financeiro? (Seu Financeiro como um Serviço)</a></li><li><a href="#o-antes-e-o-depois-a-transformacao-na-pratica">O Antes e o Depois: A Transformação na Prática</a></li><li><a href="#os-5-beneficios-diretos-para-voce-ceo">Os 5 Benefícios Diretos para Você, CEO</a></li><li><a href="#para-quem-o-bpo-financeiro-e-a-solucao-ideal">Para Quem o BPO Financeiro é a Solução Ideal?</a></li><li><a href="#a-axxis-traz-ordem-clareza-e-inteligencia-para-suas-financas">A Axxis Traz Ordem, Clareza e Inteligência para suas Finanças</a></li><li><a href="#troque-a-sobrecarga-operacional-pela-liberdade-estrategica">Troque a Sobrecarga Operacional pela Liberdade Estratégica</a></li></ol></nav></details>
+<h2 id="bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar">BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</h2>
 <p>Você fundou sua empresa com uma visão: inovar, liderar e crescer. Mas a realidade do dia a dia muitas vezes te afasta dessa cadeira de estrategista e te coloca no assento de operador financeiro. Contas a pagar, fluxo de caixa, cobranças, conciliação bancária... tarefas vitais, mas que consomem seu tempo e energia mental, tirando o foco do que realmente impulsiona o negócio.</p>
 <p>E se você pudesse ter um departamento financeiro de elite, com tecnologia de ponta e especialistas dedicados, sem os custos e as dores de cabeça de montá-lo internamente? Isso é o BPO Financeiro. Neste guia, o Grupo Axxis vai te mostrar como essa solução pode devolver suas horas estratégicas e te dar a paz de espírito de saber que as finanças da sua empresa no DF estão em mãos expertas.</p>
-<img alt="Líder empresarial focado em uma reunião estratégica, enquanto as preocupações financeiras são gerenciadas por especialistas em BPO." class="imagem-no-conteudo" decoding="async" height="1067" src="/assets/img/blog/photo-1522071820081-009f0129c71c-1863f3-1600.webp" width="1600"/>
-<h2 id="topico-1">O que é BPO Financeiro? (Seu Financeiro como um Serviço)</h2>
+<figure><img alt="Líder empresarial focado em uma reunião estratégica, enquanto as preocupações financeiras são gerenciadas por especialistas em BPO." decoding="async" height="1067" loading="lazy" src="/assets/img/blog/photo-1522071820081-009f0129c71c-1863f3-1600.webp" width="1600"/></figure>
+<h2 id="o-que-e-bpo-financeiro-seu-financeiro-como-um-servico">O que é BPO Financeiro? (Seu Financeiro como um Serviço)</h2>
 <p>BPO é a sigla para <em>Business Process Outsourcing</em>, ou Terceirização de Processos de Negócio. Aplicado ao financeiro, significa delegar toda a sua rotina de gestão financeira para um parceiro especializado. Não é apenas "terceirizar o contas a pagar". É ter uma equipe completa atuando como seu departamento financeiro remoto.</p>
 <p>Na prática, a Axxis assume a responsabilidade por processos como:</p>
 <ul>
@@ -413,7 +296,7 @@
 <li><b>Emissão de Notas Fiscais e Cobrança:</b> Profissionalizamos sua relação com os clientes.</li>
 <li><b>Elaboração de Relatórios Gerenciais:</b> Transformamos dados brutos em inteligência para suas decisões.</li>
 </ul>
-<h2 id="topico-2">O Antes e o Depois: A Transformação na Prática</h2>
+<h2 id="o-antes-e-o-depois-a-transformacao-na-pratica">O Antes e o Depois: A Transformação na Prática</h2>
 <p>A diferença entre gerir as finanças internamente (e de forma sobrecarregada) e ter um BPO parceiro é gritante:</p>
 <p><b>Antes do BPO Financeiro:</b>
 <ul>
@@ -427,7 +310,7 @@
 <li><b>Seus Dados:</b> Centralizados, organizados e transformados em relatórios visuais que mostram a saúde do seu negócio em tempo real.</li>
 </ul>
 </p>
-<h2 id="topico-3">Os 5 Benefícios Diretos para Você, CEO</h2>
+<h2 id="os-5-beneficios-diretos-para-voce-ceo">Os 5 Benefícios Diretos para Você, CEO</h2>
 <p>Delegar o financeiro não é um luxo, é uma alavanca de crescimento. Veja o que você ganha:</p>
 <ol>
 <li><b>Recuperação de Tempo Estratégico:</b> O benefício mais valioso. As horas que você gastava em tarefas operacionais são liberadas para você focar em inovação, desenvolvimento de produtos, negociações e liderança de equipe.</li>
@@ -436,7 +319,7 @@
 <li><b>Previsibilidade e Saúde do Caixa:</b> Acabe com as "surpresas" no final do mês. Com um fluxo de caixa controlado, você planeja investimentos, negocia com fornecedores e toma decisões de crescimento com total segurança.</li>
 <li><b>Paz de Espírito:</b> Este é o benefício intangível, mas talvez o mais importante. Saber que uma área crítica e complexa do seu negócio está sendo cuidada por especialistas permite que você durma tranquilo e lidere com mais confiança e clareza.</li>
 </ol>
-<h2 id="topico-4">Para Quem o BPO Financeiro é a Solução Ideal?</h2>
+<h2 id="para-quem-o-bpo-financeiro-e-a-solucao-ideal">Para Quem o BPO Financeiro é a Solução Ideal?</h2>
 <p>O BPO Financeiro é especialmente transformador para empresas do DF que se encontram em um dos seguintes estágios:</p>
 <ul>
 <li><b><a href="/conteudo-contabilidade-para-startups-e-empresas-de-tecnologia-no-df-do-simples-ao-lucro-real/">Startups e Empresas de Tecnologia</a></b> que precisam de uma estrutura financeira profissional para escalar e apresentar a investidores.</li>
@@ -444,175 +327,31 @@
 <li><b>Negócios com Finanças Desorganizadas</b> que precisam de um "reset" completo para voltar a ter controle e visibilidade.</li>
 <li><b>Empresas em Crescimento</b> que ainda não justificam o custo de um CFO (Chief Financial Officer) em tempo integral, mas precisam de uma gestão de alto nível.</li>
 </ul>
-<h2 id="topico-5">A Axxis Traz Ordem, Clareza e Inteligência para suas Finanças</h2>
+<h2 id="a-axxis-traz-ordem-clareza-e-inteligencia-para-suas-financas">A Axxis Traz Ordem, Clareza e Inteligência para suas Finanças</h2>
 <p>Nosso serviço de BPO Financeiro em Brasília vai além da execução. Nós implementamos tecnologia, redesenhamos processos e atuamos como um verdadeiro braço direito da sua gestão. Nosso processo é desenhado para ser uma transição suave, onde assumimos a complexidade e te entregamos o resultado: clareza e controle.</p>
-<h2 id="topico-6">Troque a Sobrecarga Operacional pela Liberdade Estratégica</h2>
+<h2 id="troque-a-sobrecarga-operacional-pela-liberdade-estrategica">Troque a Sobrecarga Operacional pela Liberdade Estratégica</h2>
 <p>Seu tempo como CEO é o ativo mais valioso da sua empresa. Usá-lo para perseguir boletos e conciliar extratos é o caminho mais rápido para a estagnação. A decisão de profissionalizar seu financeiro é a decisão de destravar o próximo nível de crescimento do seu negócio.</p>
 <p><b>Agende uma sessão de diagnóstico financeiro.</b> Vamos entender seus desafios atuais e mostrar como o BPO Financeiro da Axxis pode organizar sua retaguarda para que você possa liderar o ataque com total foco e segurança.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar">BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</a></li><li><a href="#o-que-e-bpo-financeiro-seu-financeiro-como-um-servico">O que é BPO Financeiro? (Seu Financeiro como um Serviço)</a></li><li><a href="#o-antes-e-o-depois-a-transformacao-na-pratica">O Antes e o Depois: A Transformação na Prática</a></li><li><a href="#os-5-beneficios-diretos-para-voce-ceo">Os 5 Benefícios Diretos para Você, CEO</a></li><li><a href="#para-quem-o-bpo-financeiro-e-a-solucao-ideal">Para Quem o BPO Financeiro é a Solução Ideal?</a></li><li><a href="#a-axxis-traz-ordem-clareza-e-inteligencia-para-suas-financas">A Axxis Traz Ordem, Clareza e Inteligência para suas Finanças</a></li><li><a href="#troque-a-sobrecarga-operacional-pela-liberdade-estrategica">Troque a Sobrecarga Operacional pela Liberdade Estratégica</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/bpo-de-rh-como-a-terceirizacao-estrategicaaumenta-a-eficiencia-das-empresas/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>BPO de RH: como a terceirização estratégica aumenta a eficiência das empresas</strong></div></a><a class="ax-rel-card" href="/bpo-financeiro-de-inteligencia-2/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>BPO Financeiro de inteligência: Terceirize o financeiro e tenha dados para decidir</strong></div></a><a class="ax-rel-card" href="/analise-preditiva-antecipando-o-futuro-do-seu-negocio/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>Análise preditiva: Antecipando o futuro do seu negócio</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/design-sem-nome-1-2a12a4-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Julio César, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

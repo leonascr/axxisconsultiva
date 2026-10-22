@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,140 +270,22 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout .coluna-conteudo-artigo a{
-        color: #00529B; 
-        text-decoration: underline;
-        font-weight: 600;
-    }
-.artigo .artigo-axxis-layout ul{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Contabilidade Setorial</span></nav>
+    <span class="ax-art-tag">Contabilidade Setorial</span>
+    <h1>Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</h1>
+    <p class="ax-art-lead">Guia completo de contabilidade para clínicas e consultórios médicos no DF. Entenda a tributação, equiparação hospitalar e como otimizar seus impostos em…</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2025-12-01">01 dez 2025</time></span><span>5 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-guia-completo-2026.jpg" alt="Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-g">Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</a></li><li><a href="#por-que-a-contabilidade-para-saude-e-um-universo-a-parte">Por que a Contabilidade para Saúde é um Universo à Parte?</a></li><li><a href="#a-decisao-mais-importante-atuar-como-pessoa-fisica-pf-ou-jur">A Decisão Mais Importante: Atuar como Pessoa Física (PF) ou Jurídica (PJ)?</a></li><li><a href="#o-quebra-cabeca-tributario-do-pj-medico-simples-ou-presumido">O Quebra-Cabeça Tributário do PJ Médico: Simples ou Presumido?</a></li><li><a href="#gestao-alem-dos-impostos-os-pilares-de-uma-clinica-saudavel">Gestão Além dos Impostos: Os Pilares de uma Clínica Saudável</a></li><li><a href="#a-axxis-e-a-especialista-na-saude-do-seu-negocio">A Axxis é a Especialista na Saúde do seu Negócio</a></li><li><a href="#foque-nos-seus-pacientes-nos-focamos-na-saude-da-sua-clinica">Foque nos seus Pacientes. Nós Focamos na Saúde da sua Clínica.</a></li></ol></nav></details>
+<h2 id="contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-g">Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</h2>
 <p>Você é um especialista dedicado à saúde e ao bem-estar dos seus pacientes. Sua rotina exige precisão, conhecimento profundo e atenção aos detalhes. Mas, quando o assunto é a gestão da sua própria clínica ou consultório no Distrito Federal, a complexidade fiscal e financeira pode se tornar uma fonte de estresse e incerteza, tirando o foco do que você faz de melhor: a medicina.</p>
 <p>A contabilidade para a área da saúde não é genérica. Ela possui regras, obrigações e oportunidades únicas que uma contabilidade comum desconhece. Este guia completo da Axxis foi criado para você, médico, dentista ou gestor de clínica, para desmistificar a gestão do seu negócio e mostrar como uma assessoria especializada pode transformar sua <a href="/conteudo-recuperacao-de-creditos-tributarios-como-o-diagnostico-fiscal-pode-injetar-caixa-na-sua-empresa/">carga tributária</a> e sua paz de espírito.</p>
-<h2 id="topico-1">Por que a Contabilidade para Saúde é um Universo à Parte?</h2>
+<h2 id="por-que-a-contabilidade-para-saude-e-um-universo-a-parte">Por que a Contabilidade para Saúde é um Universo à Parte?</h2>
 <p>Um contador generalista pode cometer erros caros por não entender as particularidades do seu setor. A gestão de uma clínica envolve desafios únicos que exigem conhecimento especializado:</p>
 <ul>
 <li><b>DMED (Declaração de Serviços Médicos e de Saúde):</b> Uma obrigação anual complexa e crucial. Erros na DMED podem gerar multas pesadas e cair na malha fina da Receita Federal.</li>
@@ -410,15 +293,15 @@
 <li><b>Regras dos Conselhos (CFM/CRO):</b> A estrutura da sua empresa precisa seguir as normas do seu conselho de classe, como a proibição de nomes fantasia para certas especialidades.</li>
 <li><b>Oportunidades Fiscais:</b> Estratégias como o <a href="/conteudo-desvendando-o-fator-r-em-2026-o-guia-para-reduzir-seu-imposto-no-simples-nacional/">Fator R</a> e a Sociedade Uniprofissional podem gerar uma economia gigantesca, mas são desconhecidas por muitos contadores.</li>
 </ul>
-<h2 id="topico-2">A Decisão Mais Importante: Atuar como Pessoa Física (PF) ou Jurídica (PJ)?</h2>
+<h2 id="a-decisao-mais-importante-atuar-como-pessoa-fisica-pf-ou-jur">A Decisão Mais Importante: Atuar como Pessoa Física (PF) ou Jurídica (PJ)?</h2>
 <p>Se você ainda atende como autônomo, preenchendo o Carnê-Leão, preste muita atenção. Essa é a forma mais cara de trabalhar. A tributação na pessoa física pode chegar a <b>27,5% de Imposto de Renda</b>, além do INSS.</p>
 <p>Ao <a href="/conteudo-como-abrir-empresa-no-df-em-2026-o-passo-a-passo-para-negocios-de-alto-faturamento/">abrir um CNPJ (Pessoa Jurídica)</a>, você passa a ser tributado por um regime empresarial. No Simples Nacional, por exemplo, sua alíquota de imposto pode começar em <b>apenas 6%</b>. É uma diferença que, ao final do ano, pode significar o valor de um carro novo ou de um equipamento para sua clínica.</p>
-<h2 id="topico-3">O Quebra-Cabeça Tributário do PJ Médico: Simples ou Presumido?</h2>
+<h2 id="o-quebra-cabeca-tributario-do-pj-medico-simples-ou-presumido">O Quebra-Cabeça Tributário do PJ Médico: Simples ou Presumido?</h2>
 <p>Uma vez decidido pelo CNPJ, a próxima escolha estratégica é o <a href="/conteudo-lucro-real-lucro-presumido-ou-simples-nacional/">regime tributário</a>. Para clínicas no DF, duas opções se destacam:</p>
-<img alt="Pessoa analisando gráficos e usando calculadora, representando o planejamento tributário para escolher entre Simples Nacional e Lucro Presumido." class="imagem-no-conteudo" decoding="async" height="1067" src="/assets/img/blog/photo-1554224155-1696413565d3-c62c5f-1600.webp" width="1600"/>
+<figure><img alt="Pessoa analisando gráficos e usando calculadora, representando o planejamento tributário para escolher entre Simples Nacional e Lucro Presumido." decoding="async" height="1067" loading="lazy" src="/assets/img/blog/photo-1554224155-1696413565d3-c62c5f-1600.webp" width="1600"/></figure>
 <p><b>1. Simples Nacional com Fator R:</b> Esta é a "arma secreta" para muitos profissionais da saúde. Atividades médicas são enquadradas no Anexo V, com impostos altos (a partir de 15,5%). Porém, com a estratégia do Fator R (gastando 28% ou mais do faturamento com folha de pagamento, incluindo seu <a href="/conteudo-distribuicao-de-lucros-ou-pro-labore-como-remunerar-os-socios-e-pagar-menos-impostos-em-2026/">pró-labore</a>), você migra para o Anexo III, com alíquotas a partir de 6%. É uma economia brutal que exige planejamento e monitoramento mensal.</p>
 <p><b>2. Lucro Presumido e a Sociedade Uniprofissional (SUP):</b> Se a estrutura da sua clínica não favorece o Fator R, o <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/">Lucro Presumido</a> pode ser a melhor saída. Nele, o imposto incide sobre 32% do faturamento. A grande vantagem no DF é a possibilidade de enquadrar a clínica como uma SUP, que permite o recolhimento do ISS em um valor fixo anual por profissional, em vez de um percentual sobre o faturamento. A economia de ISS pode ser enorme.</p>
-<h2 id="topico-4">Gestão Além dos Impostos: Os Pilares de uma Clínica Saudável</h2>
+<h2 id="gestao-alem-dos-impostos-os-pilares-de-uma-clinica-saudavel">Gestão Além dos Impostos: Os Pilares de uma Clínica Saudável</h2>
 <p>Uma contabilidade especialista vai além da apuração de impostos. Ela te ajuda a gerir a clínica como um negócio de alta performance:</p>
 <ul>
 <li><b>DMED sem Erros:</b> Cuidamos desta obrigação complexa para garantir sua total conformidade e tranquilidade.</li>
@@ -426,176 +309,32 @@
 <li><b>Precificação de Procedimentos:</b> Com base nos seus custos reais, ajudamos você a entender a rentabilidade de cada procedimento para tomar decisões mais estratégicas.</li>
 <li><b>BPO Financeiro para Médicos:</b> Se você quer focar 100% nos pacientes, nosso serviço de <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">BPO Financeiro</a> assume toda a sua rotina financeira, do agendamento de pagamentos ao controle de recebíveis de convênios.</li>
 </ul>
-<h2 id="topico-5">A Axxis é a Especialista na Saúde do seu Negócio</h2>
+<h2 id="a-axxis-e-a-especialista-na-saude-do-seu-negocio">A Axxis é a Especialista na Saúde do seu Negócio</h2>
 <p>Nós falamos a sua língua. Entendemos a diferença entre TUSS e TISS, a importância da DMED e as nuances da tributação para sociedades médicas. Nossa equipe no DF está preparada para ser mais do que sua contabilidade; queremos ser o centro de inteligência de gestão da sua clínica.</p>
 <p>Nosso trabalho é cuidar da saúde financeira do seu negócio com a mesma precisão e dedicação que você dedica à saúde dos seus pacientes. Se você sente que sua contabilidade atual não oferece essa segurança, talvez seja hora de reavaliar. <a href="/conteudo/">Confira os sinais de que você precisa trocar de contador</a>.</p>
-<h2 id="topico-6">Foque nos seus Pacientes. Nós Focamos na Saúde da sua Clínica.</h2>
+<h2 id="foque-nos-seus-pacientes-nos-focamos-na-saude-da-sua-clinica">Foque nos seus Pacientes. Nós Focamos na Saúde da sua Clínica.</h2>
 <p>Você não se tornou médico para passar horas lidando com planilhas e guias de impostos. Ter um parceiro especialista cuidando da sua retaguarda fiscal e financeira é a decisão mais inteligente para garantir sua paz de espírito e a prosperidade da sua clínica.</p>
 <p><b>Agende um Diagnóstico de Saúde Financeira gratuito para sua clínica.</b> Vamos analisar sua estrutura atual e mostrar, com números, o potencial de economia e organização que uma contabilidade especializada pode trazer para sua prática médica no Distrito Federal.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-g">Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</a></li><li><a href="#por-que-a-contabilidade-para-saude-e-um-universo-a-parte">Por que a Contabilidade para Saúde é um Universo à Parte?</a></li><li><a href="#a-decisao-mais-importante-atuar-como-pessoa-fisica-pf-ou-jur">A Decisão Mais Importante: Atuar como Pessoa Física (PF) ou Jurídica (PJ)?</a></li><li><a href="#o-quebra-cabeca-tributario-do-pj-medico-simples-ou-presumido">O Quebra-Cabeça Tributário do PJ Médico: Simples ou Presumido?</a></li><li><a href="#gestao-alem-dos-impostos-os-pilares-de-uma-clinica-saudavel">Gestão Além dos Impostos: Os Pilares de uma Clínica Saudável</a></li><li><a href="#a-axxis-e-a-especialista-na-saude-do-seu-negocio">A Axxis é a Especialista na Saúde do seu Negócio</a></li><li><a href="#foque-nos-seus-pacientes-nos-focamos-na-saude-da-sua-clinica">Foque nos seus Pacientes. Nós Focamos na Saúde da sua Clínica.</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/custos-contratos-e-margens-o-novo-cenario-da-construcao-civil-engenharia/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Custos, contratos e margens: o novo cenário da construção civil e engenharia</strong></div></a><a class="ax-rel-card" href="/expansao-de-franquias-como-escalar-com-estrategia-e-garantir-crescimento-sustentavel/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Expansão de Franquias: como escalar com estratégia e garantir crescimento sustentável</strong></div></a><a class="ax-rel-card" href="/conteudo-contabilidade-para-agencias-de-publicidade-e-marketing-no-df-fator-r-e-gestao-de-projetos/"><img src="/assets/img/blog/14-bf8b53-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Contabilidade para Agências de Publicidade e Marketing no DF: Fator R e Gestão de Projetos</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/design-sem-nome-1-2a12a4-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Julio César, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

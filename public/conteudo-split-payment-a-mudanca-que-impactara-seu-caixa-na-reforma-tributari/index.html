@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,135 +270,22 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout ul{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Reforma Tributária</span></nav>
+    <span class="ax-art-tag">Reforma Tributária</span>
+    <h1>Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</h1>
+    <p class="ax-art-lead">Entenda o que é o Split Payment e como esse novo modelo de arrecadação da Reforma Tributária vai impactar diretamente a sua empresa.</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2026-01-06">06 jan 2026</time></span><span>2 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-tributari.jpg" alt="Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-t">Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</a></li><li><a href="#impactos-do-split-payment-nas-empresas">⚠️ Impactos do Split Payment nas empresas</a></li><li><a href="#setores-que-podem-sentir-mais-impacto">📊 Setores que podem sentir mais impacto</a></li><li><a href="#como-sua-empresa-pode-se-preparar">🧭 Como sua empresa pode se preparar</a></li><li><a href="#como-a-axxis-pode-ajudar">🚀 Como a Axxis pode ajudar</a></li></ol></nav></details>
+<h2 id="split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-t">Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</h2>
 <p>Em meio às grandes discussões da <a href="/conteudo-reforma-tributaria-2026-um-guia-pratico-do-que-muda-para-empresas-de-servicos-no-df-ibs-cbs-e-mais/">Reforma Tributária</a>, um mecanismo chamado "Split Payment" (ou pagamento dividido) promete ser uma das mudanças mais operacionais e de maior impacto no dia a dia das empresas. Trata-se de um sistema onde o imposto (IBS/CBS) é separado e recolhido automaticamente no momento da transação, direto na fonte.</p>
 <p>Isso significa que o valor que entra no caixa da sua empresa já virá líquido, com o tributo descontado. Se por um lado a medida visa combater a sonegação e simplificar a arrecadação, por outro, ela acende um alerta vermelho para a gestão financeira. Vamos detalhar os impactos e como você pode se preparar.</p>
-<h2 id="topico-1">⚠️ Impactos do Split Payment nas empresas</h2>
+<h2 id="impactos-do-split-payment-nas-empresas">⚠️ Impactos do Split Payment nas empresas</h2>
 <ul>
 <li>
 <b>Fluxo de caixa mais enxuto:</b> O valor líquido recebido reduz o fôlego financeiro de empresas que dependem do total da venda para compromissos imediatos. Negócios com margens menores ou giro rápido sentirão o impacto de forma mais significativa no <a href="/conteudo-fluxo-de-caixa-o-guia-pratico-para-evitar-surpresas-e-garantir-a-saude-financeira-do-seu-negocio/">fluxo de caixa</a>.
@@ -415,9 +303,9 @@
 <b>Possível impacto nos preços:</b> Como o imposto passa a ser recolhido instantaneamente, margens e contratos podem precisar ser ajustados, especialmente em setores com alta carga tributária.
             </li>
 </ul>
-<h2 id="topico-2">📊 Setores que podem sentir mais impacto</h2>
+<h2 id="setores-que-podem-sentir-mais-impacto">📊 Setores que podem sentir mais impacto</h2>
 <p>Setores como varejo, serviços de alto volume, <a href="/conteudo-contabilidade-para-construtoras-e-incorporadoras-no-df-o-guia-do-ret-e-gestao-de-custos/">construção</a>, indústria e empresas com alto giro de estoque podem ser os primeiros a sentir os efeitos do Split Payment. Negócios altamente dependentes do fluxo de caixa diário devem estar especialmente preparados.</p>
-<h2 id="topico-3">🧭 Como sua empresa pode se preparar</h2>
+<h2 id="como-sua-empresa-pode-se-preparar">🧭 Como sua empresa pode se preparar</h2>
 <ul>
 <li><b>Revise margens de lucro:</b> avalie o impacto do recebimento líquido.</li>
 <li><b>Recalcule o fluxo de caixa:</b> simule cenários com o novo modelo.</li>
@@ -425,7 +313,7 @@
 <li><b>Reavalie contratos e preços:</b> ajuste onde o tributo impactar o custo final.</li>
 <li><b>Conte com a orientação contábil especializada da Axxis:</b> mudanças estruturantes exigem suporte estratégico.</li>
 </ul>
-<h2 id="topico-4">🚀 Como a Axxis pode ajudar</h2>
+<h2 id="como-a-axxis-pode-ajudar">🚀 Como a Axxis pode ajudar</h2>
 <p>Na <b>Axxis Contabilidade</b>, entregamos <b><a href="/conteudo-accounting-tech-transforma-contabilidade-em-inteligencia/">tecnologia, performance e inteligência estratégica</a></b> para que sua empresa se antecipe a mudanças tributárias como o Split Payment.</p>
 <p>Com nossas soluções de contabilidade consultiva e <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">BPO Financeiro</a>, ajudamos você a:</p>
 <ul>
@@ -435,170 +323,26 @@
 <li>Reduzir riscos fiscais e ganhar previsibilidade</li>
 </ul>
 <p>Estar preparado para essa nova realidade tributária não é apenas uma questão operacional, é uma oportunidade de <b>transformar a gestão financeira da sua empresa</b> com tecnologia e estratégia.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-t">Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</a></li><li><a href="#impactos-do-split-payment-nas-empresas">⚠️ Impactos do Split Payment nas empresas</a></li><li><a href="#setores-que-podem-sentir-mais-impacto">📊 Setores que podem sentir mais impacto</a></li><li><a href="#como-sua-empresa-pode-se-preparar">🧭 Como sua empresa pode se preparar</a></li><li><a href="#como-a-axxis-pode-ajudar">🚀 Como a Axxis pode ajudar</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/campos-de-ibs-e-cbs-rejeicao-por-ausencia-e-suspensa-temporariamente-nos-documentos-fiscais/"><img src="/assets/img/blog/side-view-worker-typing-laptop-scaled-d795f7-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Reforma Tributária</span><strong>Campos de IBS e CBS: rejeição por ausência é suspensa temporariamente</strong></div></a><a class="ax-rel-card" href="/documentos-fiscais-da-reformaas-datas-que-a-sua-empresa-precisa-marcar/"><img src="/assets/img/blog/concentrated-colleagues-watching-statistic-charts--252be7-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Reforma Tributária</span><strong>Cronograma oficial dos documentos fiscais com IBS e CBS</strong></div></a><a class="ax-rel-card" href="/reforma-tributaria/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Reforma Tributária</span><strong>Reforma Tributária entra em nova fase em agosto: sua empresa está preparada?</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" src="/assets/img/blog/foto-modelo-blog-fdf308-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Nadielly Marques, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

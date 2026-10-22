@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,161 +270,40 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-background-color: #FFFFFF;
-padding: 50px 40px;
-border-radius: 8px;
-display: flex;
-flex-wrap: wrap;
-gap: 60px;
-max-width: 1200px;
-margin: auto;
-}
-.artigo .coluna-conteudo-artigo{
-flex: 1;
-min-width: 65%;
-}
-.artigo .coluna-lateral-artigo{
-flex: 1;
-min-width: 300px;
-position: relative;
-}
-.artigo .artigo-axxis-layout h1{
-font-family: "Outfit", sans-serif;
-font-weight: 600;
-color: #ff6d00;
-font-size: 42px;
-line-height: 1.2;
-margin-bottom: 24px;
-}
-.artigo .artigo-axxis-layout h2{
-font-family: "Outfit", sans-serif;
-font-weight: 600;
-color: #ff6d00;
-font-size: 28px;
-margin-top: 45px;
-margin-bottom: 16px;
-}
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-font-family: "Sora", sans-serif;
-font-weight: 300;
-font-size: 16px;
-line-height: 1.8;
-color: #333745;
-margin-bottom: 16px;
-}
-.artigo .artigo-axxis-layout ul, .artigo .artigo-axxis-layout ol{
-padding-left: 20px;
-margin-top: 16px;
-}
-.artigo .artigo-axxis-layout ul li, .artigo .artigo-axxis-layout ol li{
-margin-bottom: 10px;
-}
-.artigo .imagem-no-conteudo{
-width: 100%;
-height: auto;
-border-radius: 8px;
-margin: 25px 0;
-}
-.artigo .artigo-axxis-layout a{
-color: #0057A0;
-font-weight: 600;
-text-decoration: none;
-}
-.artigo .artigo-axxis-layout a:hover{
-text-decoration: underline;
-}
-.artigo .outros-conteudos-widget h3{
-font-family: "Outfit", sans-serif;
-font-weight: 600;
-color: #1E293B;
-font-size: 20px;
-margin-bottom: 16px;
-}
-.artigo .outros-conteudos-widget img{
-max-width: 100%;
-height: auto;
-border-radius: 8px;
-}
-.artigo .caixa-indice-fixa{
-position: sticky;
-top: 120px;
-background-color: #F8FAFC;
-padding: 24px;
-border-radius: 8px;
-border: 1px solid #E2E8F0;
-margin-top: 40px;
-}
-.artigo .indice-container{
-position: relative;
-padding-left: 20px;
-border-left: 2px solid #E2E8F0;
-}
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-text-decoration: none;
-color: #475569;
-font-family: "Outfit", sans-serif;
-font-weight: 600;
-font-size: 15px;
-display: block;
-position: relative;
-transition: color 0.2s ease;
-}
-.artigo .indice-container a::before{
-content: "";
-position: absolute;
-left: -28px;
-top: 50%;
-transform: translateY(-50%);
-width: 10px;
-height: 10px;
-background-color: #CBD5E1;
-border-radius: 50%;
-border: 2px solid #F8FAFC;
-transition: all 0.2s ease;
-}
-.artigo .indice-container a.ativo{
-color: #ff6d00;
-}
-.artigo .indice-container a.ativo::before{
-background-color: #ff6d00;
-transform: translateY(-50%) scale(1.3);
-}
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-display: none;
-}
-.artigo .coluna-conteudo-artigo{
-min-width: 100%;
-}}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Planejamento Tributário</span></nav>
+    <span class="ax-art-tag">Planejamento Tributário</span>
+    <h1>Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</h1>
+    <p class="ax-art-lead">Aprenda a proteger seu patrimônio e otimizar a sucessão familiar. Nosso guia completo sobre Holding Patrimonial no DF explica como estruturar a sua.</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2025-12-01">01 dez 2025</time></span><span>5 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimizar-a-sucessao-com-uma-estrutura-s-a.jpg" alt="Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimiz">Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</a></li><li><a href="#o-que-e-uma-holding-muito-alem-de-um-cnpj">O que é uma Holding? (Muito além de um CNPJ)</a></li><li><a href="#por-que-estruturar-sua-holding-como-uma-s-a-no-df">Por que Estruturar sua Holding como uma S/A no DF?</a></li><li><a href="#beneficios-praticos-o-que-voce-ganha-imediatamente">Benefícios Práticos: O que Você Ganha Imediatamente?</a></li><li><a href="#como-nasce-uma-holding-s-a-o-processo-estrategico">Como Nasce uma Holding S/A: O Processo Estratégico</a></li><li><a href="#axxis-mais-que-contadores-arquitetos-de-estruturas-de-sucess">Axxis: Mais que Contadores, Arquitetos de Estruturas de Sucesso</a></li><li><a href="#seu-legado-merece-uma-estrutura-a-altura-vamos-construi-la">Seu Legado Merece uma Estrutura à Altura. Vamos Construí-la?</a></li></ol></nav></details>
+<h2 id="holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimiz">Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</h2>
 <p>Você construiu um patrimônio significativo no Distrito Federal — imóveis, participações em empresas, investimentos. Agora, a pergunta se torna mais complexa: como proteger esse legado dos riscos empresariais, otimizar a carga tributária e garantir uma transição suave para as próximas gerações? A resposta para empresários e famílias com visão de futuro é a Holding Patrimonial.</p>
 <p>Mas não se trata de apenas criar uma nova empresa. Trata-se de arquitetar uma estrutura de governança robusta. Neste guia, o Grupo Axxis vai desmistificar o conceito de Holding e mostrar por que constituí-la como uma <a href="/conteudo-tipos-de-empresa-para-abrir-em-2026-ltda-slu-ou-s-a-o-guia-de-decisao-para-socios/">Sociedade Anônima (S/A)</a> pode ser a decisão mais estratégica para a perpetuidade e segurança dos seus bens em Brasília.</p>
-<h2 id="topico-1">O que é uma Holding? (Muito além de um CNPJ)</h2>
+<h2 id="o-que-e-uma-holding-muito-alem-de-um-cnpj">O que é uma Holding? (Muito além de um CNPJ)</h2>
 <p>Pense em uma Holding não como uma empresa operacional, mas como um "cofre" estratégico e inteligente. É uma empresa-mãe cujo principal objetivo não é vender produtos ou serviços, mas sim controlar e administrar outros bens e participações. Em vez de ter imóveis e ações de outras empresas em seu nome (Pessoa Física), você os transfere para a Holding (Pessoa Jurídica).</p>
-<img alt="Diagrama conceitual de uma holding protegendo ativos familiares como imóveis e investimentos de riscos externos." class="imagem-no-conteudo" decoding="async" height="900" src="/assets/img/blog/photo-1556761175-5973dc0f32e7-527333-1600.webp" width="1600"/>
+<figure><img alt="Diagrama conceitual de uma holding protegendo ativos familiares como imóveis e investimentos de riscos externos." decoding="async" height="900" loading="lazy" src="/assets/img/blog/photo-1556761175-5973dc0f32e7-527333-1600.webp" width="1600"/></figure>
 <p>Essa simples mudança cria uma camada de proteção e abre um leque de possibilidades para gestão fiscal e sucessória. A Holding centraliza a administração do patrimônio, profissionaliza a tomada de decisões e separa os bens da família dos riscos das atividades empresariais do dia a dia.</p>
-<h2 id="topico-2">Por que Estruturar sua Holding como uma S/A no DF?</h2>
+<h2 id="por-que-estruturar-sua-holding-como-uma-s-a-no-df">Por que Estruturar sua Holding como uma S/A no DF?</h2>
 <p>Enquanto uma Holding pode ser uma LTDA, a estrutura de <a href="/conteudo-tipos-de-empresa-para-abrir-em-2026-ltda-slu-ou-s-a-o-guia-de-decisao-para-socios/">Sociedade Anônima (S/A)</a> eleva o nível de governança e flexibilidade, sendo ideal para patrimônios mais complexos e famílias que pensam no longo prazo. Veja as vantagens-chave:</p>
 <p><b>1. Governança Corporativa Robusta:</b> A S/A permite a criação de um Conselho de Administração, Acordos de Acionistas e um Estatuto Social detalhado. Isso estabelece regras claras para a gestão, a entrada de herdeiros e a tomada de decisões, evitando conflitos familiares e garantindo a continuidade dos negócios com profissionalismo.</p>
 <p><b>2. Planejamento Sucessório Simplificado:</b> Transferir ações de uma S/A para herdeiros é um processo muito mais simples e menos oneroso do que um inventário tradicional, que envolve a partilha de múltiplos imóveis e cotas de diferentes empresas. A sucessão pode ser planejada em vida, de forma gradual e com total controle.</p>
 <p><b>3. Proteção Patrimonial Reforçada:</b> A estrutura de uma S/A, com seu capital dividido em ações, cria uma segregação jurídica ainda mais forte entre o patrimônio da empresa e os bens pessoais dos acionistas, protegendo o legado contra credores e riscos operacionais.</p>
 <p><b>4. Flexibilidade para Atração de Capital:</b> Embora seja uma Holding familiar, a estrutura de S/A já prepara o terreno para futuras oportunidades, como a entrada de investidores estratégicos ou a profissionalização da gestão, sem a necessidade de uma reestruturação complexa.</p>
-<h2 id="topico-3">Benefícios Práticos: O que Você Ganha Imediatamente?</h2>
+<h2 id="beneficios-praticos-o-que-voce-ganha-imediatamente">Benefícios Práticos: O que Você Ganha Imediatamente?</h2>
 <p>Além da estrutura sofisticada, uma Holding traz vantagens financeiras e administrativas tangíveis:</p>
 <ul>
 <li><b>Economia de Impostos:</b> A receita de aluguéis, por exemplo, pode ter uma carga tributária significativamente menor ao ser recebida pela Holding (PJ) em vez da Pessoa Física. Além disso, a transferência de imóveis para a empresa com a finalidade de integralização de capital pode ter isenção de ITBI. Uma escolha de regime tributário, como <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/">Lucro Real ou Presumido</a>, é fundamental nesse processo.</li>
 <li><b>Redução de Custos de Inventário:</b> O processo de inventário no Brasil é caro (pode consumir até 20% do patrimônio entre impostos, taxas e honorários) e demorado. Com a Holding, a sucessão é feita via doação de ações com cláusulas de proteção, evitando o inventário.</li>
 <li><b>Gestão Centralizada:</b> Todos os seus ativos (imóveis, investimentos, participações) são gerenciados sob um único CNPJ, simplificando a contabilidade, a apuração de resultados e a visão estratégica do seu patrimônio.</li>
 </ul>
-<img alt="Equipe de especialistas em contabilidade e direito societário planejando a estrutura de uma holding em reunião." class="imagem-no-conteudo" decoding="async" height="980" loading="lazy" src="/assets/img/blog/photo-1542744173-8e7e53415bb0-888040-1470.webp" width="1470"/>
-<h2 id="topico-4">Como Nasce uma Holding S/A: O Processo Estratégico</h2>
+<figure><img alt="Equipe de especialistas em contabilidade e direito societário planejando a estrutura de uma holding em reunião." decoding="async" height="980" loading="lazy" src="/assets/img/blog/photo-1542744173-8e7e53415bb0-888040-1470.webp" width="1470"/></figure>
+<h2 id="como-nasce-uma-holding-s-a-o-processo-estrategico">Como Nasce uma Holding S/A: O Processo Estratégico</h2>
 <p>Constituir uma Holding S/A não é um procedimento padrão. É um projeto de arquitetura societária que envolve múltiplas expertises. O processo, conduzido pela Axxis, segue etapas claras:</p>
 <ol>
 <li><b>Diagnóstico Patrimonial e Familiar:</b> Entendemos em detalhes todos os seus ativos, a estrutura da sua família e seus objetivos de longo prazo.</li>
@@ -432,176 +312,32 @@ min-width: 100%;
 <li><b>Integralização do Capital:</b> Coordenamos a transferência formal dos bens da pessoa física para a nova empresa.</li>
 <li><b>Registros e Formalização:</b> Cuidamos de todo o processo na Junta Comercial do DF e demais órgãos, garantindo total conformidade legal.</li>
 </ol>
-<h2 id="topico-5">Axxis: Mais que Contadores, Arquitetos de Estruturas de Sucesso</h2>
+<h2 id="axxis-mais-que-contadores-arquitetos-de-estruturas-de-sucess">Axxis: Mais que Contadores, Arquitetos de Estruturas de Sucesso</h2>
 <p>A criação de uma Holding S/A é uma das decisões mais importantes para a proteção do seu legado. Tentar fazer isso sem uma assessoria integrada (contábil, jurídica e estratégica) é arriscado e pode anular todos os benefícios da estrutura. Se você sente que sua contabilidade atual não oferece essa visão, talvez seja a hora de avaliar os <a href="/conteudo/">sinais de que precisa trocar de contador</a>.</p>
 <p>No Grupo Axxis, atuamos como o arquiteto central do seu projeto patrimonial. Coordenamos todas as frentes para construir uma fortaleza jurídica e financeira que sirva aos seus interesses hoje e proteja as gerações futuras. Nossa expertise vai além dos números; ela se concentra em criar segurança, paz de espírito e prosperidade contínua.</p>
-<h2 id="topico-6">Seu Legado Merece uma Estrutura à Altura. Vamos Construí-la?</h2>
+<h2 id="seu-legado-merece-uma-estrutura-a-altura-vamos-construi-la">Seu Legado Merece uma Estrutura à Altura. Vamos Construí-la?</h2>
 <p>Se você é um empresário ou chefe de família no Distrito Federal e se preocupa com o futuro do seu patrimônio, o momento de agir é agora. A construção de uma Holding S/A é um investimento na segurança e na perpetuidade do que você mais valoriza.</p>
 <p><b>Agende uma conversa com nossos especialistas</b> para um diagnóstico patrimonial e descubra como a estrutura de Holding S/A pode ser a solução ideal para proteger e multiplicar seu legado com inteligência e estratégia.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimiz">Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</a></li><li><a href="#o-que-e-uma-holding-muito-alem-de-um-cnpj">O que é uma Holding? (Muito além de um CNPJ)</a></li><li><a href="#por-que-estruturar-sua-holding-como-uma-s-a-no-df">Por que Estruturar sua Holding como uma S/A no DF?</a></li><li><a href="#beneficios-praticos-o-que-voce-ganha-imediatamente">Benefícios Práticos: O que Você Ganha Imediatamente?</a></li><li><a href="#como-nasce-uma-holding-s-a-o-processo-estrategico">Como Nasce uma Holding S/A: O Processo Estratégico</a></li><li><a href="#axxis-mais-que-contadores-arquitetos-de-estruturas-de-sucess">Axxis: Mais que Contadores, Arquitetos de Estruturas de Sucesso</a></li><li><a href="#seu-legado-merece-uma-estrutura-a-altura-vamos-construi-la">Seu Legado Merece uma Estrutura à Altura. Vamos Construí-la?</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/"><img src="/assets/img/blog/chatgpt-image-26-de-ago-de-2026-17-58-32-d1815f-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Antes que 2027 comece: o calendário do Simples Nacional que exige definições em 2026</strong></div></a><a class="ax-rel-card" href="/simples-nacional-regime-de-caixa-deixa-de-ser-opcao-na-apuracao-mensal-em-2027/"><img src="/assets/img/blog/logos-axxis-1-acd556-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Simples Nacional: regime de caixa deixa de ser opção em 2027</strong></div></a><a class="ax-rel-card" href="/creditos-bancarios-sem-origem-comprovada-o-que-a-atuacao-do-carf-reforca/"><img src="/assets/img/blog/unnamed-2-1-d70ba2-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Créditos bancários sem origem comprovada: o que a atuação do CARF reforça</strong></div></a></div></section>
+</article>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-const artigoContainer = document.querySelector('.artigo-axxis-layout');
-if (!artigoContainer) return;
-
-const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-if (todosOsH2.length > 0 && listaDeTopicos) {
-todosOsH2.forEach(h2 => {
-const link = document.createElement('a');
-link.href = `#${h2.id}`;
-link.textContent = h2.textContent.trim();
-
-const itemDaLista = document.createElement('li');
-itemDaLista.appendChild(link);
-listaDeTopicos.appendChild(itemDaLista);
-});
-
-const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-
-const onScroll = () => {
-let h2AtivoId = '';
-todosOsH2.forEach(h2 => {
-const h2Posicao = h2.getBoundingClientRect().top;
-if (h2Posicao < 250) {
-h2AtivoId = h2.id;
-}
-});
-
-linksDoIndice.forEach(link => {
-link.classList.remove('ativo');
-if (link.getAttribute('href') === `#${h2AtivoId}`) {
-link.classList.add('ativo');
-}
-});
-};
-
-window.addEventListener('scroll', onScroll);
-onScroll();
-
-} else {
-const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-if(caixa) caixa.style.display = 'none';
-}
-});
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/design-sem-nome-1-2a12a4-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Julio César, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

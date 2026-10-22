@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,151 +270,33 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout a{
-        color: #0055A0;
-        text-decoration: underline;
-        font-weight: 600;
-    }
-.artigo .artigo-axxis-layout ul{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Contabilidade Setorial</span></nav>
+    <span class="ax-art-tag">Contabilidade Setorial</span>
+    <h1>Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</h1>
+    <p class="ax-art-lead">O guia definitivo de contabilidade para construtoras e incorporadoras no DF. Saiba tudo sobre o RET, gestão de custos e otimização fiscal para suas obras.</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2025-12-01">01 dez 2025</time></span><span>5 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-contabilidade-para-construtoras-e-incorporadoras-no-df-o-guia-do-ret-e-gestao-de-custos.jpg" alt="Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#contabilidade-para-construtoras-e-incorporadoras-no-df-o-gui">Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</a></li><li><a href="#ret-o-beneficio-fiscal-mais-poderoso-da-construcao-civil">RET: O Benefício Fiscal Mais Poderoso da Construção Civil</a></li><li><a href="#a-escolha-do-regime-tributario-alem-do-ret">A Escolha do Regime Tributário: Além do RET</a></li><li><a href="#gestao-de-custos-por-obra-o-coracao-da-rentabilidade">Gestão de Custos por Obra: O Coração da Rentabilidade</a></li><li><a href="#as-complexidades-da-mao-de-obra-e-o-inss">As Complexidades da Mão de Obra e o INSS</a></li><li><a href="#a-axxis-constroi-com-voce-a-parceria-estrategica-no-df">A Axxis Constrói com Você: A Parceria Estratégica no DF</a></li><li><a href="#construa-seu-proximo-empreendimento-sobre-um-alicerce-financ">Construa seu Próximo Empreendimento Sobre um Alicerce Financeiro Sólido</a></li></ol></nav></details>
+<h2 id="contabilidade-para-construtoras-e-incorporadoras-no-df-o-gui">Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</h2>
 <p>Erguer um empreendimento no Distrito Federal é um projeto de alta complexidade. Envolve engenharia, arquitetura, gestão de pessoas e, crucialmente, uma <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">gestão financeira</a> e fiscal à prova de falhas. Para construtoras e incorporadoras, a contabilidade não é um departamento de apoio; é o alicerce que garante a rentabilidade e a segurança jurídica de cada obra.</p>
 <p>Um erro na apropriação de custos ou a não utilização de um <a href="/conteudo-ret-regime-especial-de-tributacao-como-funciona-e-quando-vale-a-pena-para-sua-obra/">benefício fiscal como o RET</a> pode significar a diferença entre o lucro e o prejuízo. Este guia da Axxis foi desenhado para você, empresário da construção civil, para desvendar as particularidades do setor e mostrar como uma <a href="/conteudo/">contabilidade especialista</a> é a sua melhor ferramenta para construir com solidez financeira.</p>
-<h2 id="topico-1">RET: O Benefício Fiscal Mais Poderoso da Construção Civil</h2>
+<h2 id="ret-o-beneficio-fiscal-mais-poderoso-da-construcao-civil">RET: O Benefício Fiscal Mais Poderoso da Construção Civil</h2>
 <p>O <b><a href="/conteudo-ret-regime-especial-de-tributacao-como-funciona-e-quando-vale-a-pena-para-sua-obra/">Regime Especial de Tributação (RET)</a></b> é, sem dúvida, a maior vantagem fiscal para incorporadoras. Ele permite que, para cada empreendimento específico (registrado com um CNPJ próprio ou sob o Patrimônio de Afetação), a empresa pague um imposto unificado com uma alíquota baixíssima sobre a receita.</p>
 <p><b>Como funciona?</b> Em vez de apurar IRPJ, CSLL, PIS e COFINS pelas regras complexas do <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/">Lucro Presumido ou Real</a>, a empresa optante pelo RET paga uma guia única com uma alíquota de <b>apenas 4%</b> sobre tudo que fatura naquele empreendimento. Para projetos do Casa Verde e Amarela (antigo Minha Casa, Minha Vida), essa alíquota pode cair para <b>1%</b>.</p>
 <p><b>Por que é crucial?</b> A economia é gigantesca. Uma incorporadora no Lucro Presumido pagaria, em média, 6,73% de impostos federais. No RET, paga 4%. Em um empreendimento que fatura R$ 10 milhões, isso representa uma economia de <b>R$ 273.000</b>. É uma estratégia que não pode ser ignorada.</p>
-<h2 id="topico-2">A Escolha do Regime Tributário: Além do RET</h2>
+<h2 id="a-escolha-do-regime-tributario-alem-do-ret">A Escolha do Regime Tributário: Além do RET</h2>
 <p>O RET se aplica à incorporação. Mas e a construtora? A escolha do regime geral da empresa também é vital.</p>
 <ul>
 <li><b>Lucro Presumido:</b> É frequentemente usado para a prestação de serviços de construção. A base de cálculo do IRPJ e da CSLL é de 32% sobre a receita. É mais simples, mas não permite abater os altos custos da obra.</li>
 <li><b>Lucro Real:</b> Para construtoras com grandes volumes de compra de material, mão de obra e equipamentos, o Lucro Real é quase sempre a opção mais inteligente. Todos esses custos são deduzidos da base de cálculo do imposto, o que pode gerar uma economia substancial em comparação ao Presumido.</li>
 </ul>
 <p>A decisão ideal muitas vezes envolve uma <a href="/conteudo-tipos-de-empresa-para-abrir-em-2026-ltda-slu-ou-s-a-o-guia-de-decisao-para-socios/">estrutura mista</a>: a incorporadora de um lado, com seus empreendimentos no RET, e a construtora de outro, otimizada no Lucro Real. Uma análise especializada é fundamental para desenhar essa arquitetura societária e fiscal.</p>
-<h2 id="topico-3">Gestão de Custos por Obra: O Coração da Rentabilidade</h2>
+<h2 id="gestao-de-custos-por-obra-o-coracao-da-rentabilidade">Gestão de Custos por Obra: O Coração da Rentabilidade</h2>
 <p>Na construção civil, o lucro está no controle dos custos. Uma contabilidade que apenas registra as notas fiscais no final do mês é inútil para a gestão. É essencial implementar uma <b>Contabilidade por Centro de Custo</b>.</p>
 <p><b>O que isso significa?</b> Cada obra se torna um "centro de custo" dentro da sua contabilidade. Todas as receitas, custos (materiais, mão de obra, equipamentos) e despesas são alocados especificamente àquele empreendimento. Isso te dá superpoderes de gestão:</p>
 <ul>
@@ -421,14 +304,14 @@
 <li><b>Orçado vs. Realizado:</b> Você compara o que foi planejado com o que está sendo efetivamente gasto, identificando desvios e gargalos de custo.</li>
 <li><b>Tomada de Decisão Baseada em Dados:</b> Ajuda a precificar futuros projetos com muito mais precisão, com base no histórico de custos reais.</li>
 </ul>
-<h2 id="topico-4">As Complexidades da Mão de Obra e o INSS</h2>
+<h2 id="as-complexidades-da-mao-de-obra-e-o-inss">As Complexidades da Mão de Obra e o INSS</h2>
 <p>A gestão de pessoal em um canteiro de obras é um dos maiores desafios e riscos. Uma contabilidade especialista em construção civil domina as regras de:</p>
 <ul>
 <li><b>Folha de Pagamento por Obra (CEI/CNO):</b> A correta alocação dos funcionários em cada Cadastro Específico do INSS (CEI) ou Cadastro Nacional de Obras (CNO) é vital para a regularização e para o cálculo do INSS da obra.</li>
 <li><b>Desoneração da Folha (CPRB):</b> Para algumas atividades, a empresa pode optar por pagar o INSS sobre a receita bruta (CPRB) em vez de sobre a folha de pagamento. Uma simulação é necessária para ver o que é mais vantajoso.</li>
 <li><b>Regularização da Obra (ARO):</b> Ao final da construção, é preciso emitir o Aviso para Regularização de Obra para obter a CND do INSS e averbar o imóvel, processo que exige uma contabilidade impecável.</li>
 </ul>
-<h2 id="topico-5">A Axxis Constrói com Você: A Parceria Estratégica no DF</h2>
+<h2 id="a-axxis-constroi-com-voce-a-parceria-estrategica-no-df">A Axxis Constrói com Você: A Parceria Estratégica no DF</h2>
 <p>Nós entendemos a linguagem do canteiro de obras. Nossa equipe no DF tem a expertise para ir muito além do básico, atuando como um verdadeiro parceiro na gestão dos seus empreendimentos.</p>
 <ul>
 <li><b>Planejamento Tributário de Obras:</b> Desenhamos a estrutura fiscal ideal para cada empreendimento, garantindo a máxima economia com o uso do RET e a escolha correta do regime tributário.</li>
@@ -436,226 +319,29 @@
 <li><b><a href="/conteudo-contratar-um-analista-financeiro-ou-terceirizar-com-um-bpo-analise-de-custo-beneficio-para-2026/">BPO Financeiro para Construtoras</a>:</b> Assumimos toda a rotina de contas a pagar e a receber por obra, te dando visibilidade total sem a sobrecarga operacional.</li>
 <li><b>Assessoria Completa:</b> Cuidamos de toda a burocracia, do CNO à CND final, para que você tenha <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">paz de espírito</a> e segurança jurídica.</li>
 </ul>
-<h2 id="topico-6">Construa seu Próximo Empreendimento Sobre um Alicerce Financeiro Sólido</h2>
+<h2 id="construa-seu-proximo-empreendimento-sobre-um-alicerce-financ">Construa seu Próximo Empreendimento Sobre um Alicerce Financeiro Sólido</h2>
 <p>O sucesso de uma construtora ou incorporadora no competitivo mercado de Brasília não depende apenas da qualidade da sua engenharia, mas também da precisão da sua gestão. Não deixe que a complexidade fiscal e a falta de controle de custos comprometam a sua lucratividade.</p>
 <p><b>Agende um <a href="/conteudo-recuperacao-de-creditos-tributarios-como-o-diagnostico-fiscal-pode-injetar-caixa-na-sua-empresa/">Diagnóstico para sua Construtora</a>.</b> Vamos analisar sua operação, seus empreendimentos e te mostrar as oportunidades de economia e organização que uma contabilidade especializada no seu setor pode gerar.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#contabilidade-para-construtoras-e-incorporadoras-no-df-o-gui">Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</a></li><li><a href="#ret-o-beneficio-fiscal-mais-poderoso-da-construcao-civil">RET: O Benefício Fiscal Mais Poderoso da Construção Civil</a></li><li><a href="#a-escolha-do-regime-tributario-alem-do-ret">A Escolha do Regime Tributário: Além do RET</a></li><li><a href="#gestao-de-custos-por-obra-o-coracao-da-rentabilidade">Gestão de Custos por Obra: O Coração da Rentabilidade</a></li><li><a href="#as-complexidades-da-mao-de-obra-e-o-inss">As Complexidades da Mão de Obra e o INSS</a></li><li><a href="#a-axxis-constroi-com-voce-a-parceria-estrategica-no-df">A Axxis Constrói com Você: A Parceria Estratégica no DF</a></li><li><a href="#construa-seu-proximo-empreendimento-sobre-um-alicerce-financ">Construa seu Próximo Empreendimento Sobre um Alicerce Financeiro Sólido</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/custos-contratos-e-margens-o-novo-cenario-da-construcao-civil-engenharia/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Custos, contratos e margens: o novo cenário da construção civil e engenharia</strong></div></a><a class="ax-rel-card" href="/expansao-de-franquias-como-escalar-com-estrategia-e-garantir-crescimento-sustentavel/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Expansão de Franquias: como escalar com estratégia e garantir crescimento sustentável</strong></div></a><a class="ax-rel-card" href="/conteudo-contabilidade-para-agencias-de-publicidade-e-marketing-no-df-fator-r-e-gestao-de-projetos/"><img src="/assets/img/blog/14-bf8b53-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Contabilidade Setorial</span><strong>Contabilidade para Agências de Publicidade e Marketing no DF: Fator R e Gestão de Projetos</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-m fundo branco --&gt;
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
-</script>
-```				
-
-
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/design-sem-nome-1-2a12a4-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Julio César, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,149 +270,31 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout .coluna-conteudo-artigo a{
-        color: #00529B; 
-        text-decoration: underline;
-        font-weight: 600;
-    }
-.artigo .artigo-axxis-layout ul{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Gestão Financeira e BPO</span></nav>
+    <span class="ax-art-tag">Gestão Financeira e BPO</span>
+    <h1>A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</h1>
+    <p class="ax-art-lead">Descubra como o Accounting Tech está transformando a contabilidade. Veja como a tecnologia pode trazer mais inteligência e eficiência para a gestão da sua…</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2026-01-06">06 jan 2026</time></span><span>4 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-accounting-tech-transforma-contabilidade-em-inteligencia.jpg" alt="A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#a-revolucao-da-contabilidade-como-accounting-tech-como-a-tec">A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</a></li><li><a href="#adeus-papelada-a-era-da-automacao-nuvem-e-dados-em-tempo-rea">Adeus, Papelada: A Era da Automação, Nuvem e Dados em Tempo Real</a></li><li><a href="#o-papel-do-contador-na-era-tech-seu-co-piloto-estrategico">O Papel do Contador na Era Tech: Seu Co-Piloto Estratégico</a></li><li><a href="#o-futuro-e-agora-inteligencia-artificial-e-contabilidade-pre">O Futuro é Agora: Inteligência Artificial e Contabilidade Preditiva</a></li><li><a href="#como-a-axxis-transforma-tecnologia-em-vantagem-para-sua-empr">Como a Axxis Transforma Tecnologia em Vantagem para sua Empresa no DF</a></li><li><a href="#sua-empresa-merece-uma-contabilidade-do-seculo-21">Sua Empresa Merece uma Contabilidade do Século 21</a></li></ol></nav></details>
+<h2 id="a-revolucao-da-contabilidade-como-accounting-tech-como-a-tec">A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</h2>
 <p>Pilhas de papel, informações que chegam com semanas de atraso, medo constante do Fisco e a sensação de que seu contador é apenas um mal necessário. Se essa descrição ainda faz parte da sua realidade como empresário no DF, sua empresa está presa a um modelo contábil do passado. A contabilidade moderna evoluiu. <a href="/conteudo/">Confira os sinais de que você precisa trocar de contador</a>.</p>
 <p>Hoje, a fusão de expertise contábil com tecnologia de ponta — o que chamamos de <b>Accounting Tech</b> — transformou a contabilidade de um centro de custo burocrático em um centro de inteligência estratégica. Este guia da Axxis vai te mostrar, na prática, como essa interação funciona e o que você deveria exigir do seu parceiro contábil.</p>
-<h2 id="topico-1">Adeus, Papelada: A Era da Automação, Nuvem e Dados em Tempo Real</h2>
+<h2 id="adeus-papelada-a-era-da-automacao-nuvem-e-dados-em-tempo-rea">Adeus, Papelada: A Era da Automação, Nuvem e Dados em Tempo Real</h2>
 <p>A base da revolução tecnológica na contabilidade é a eliminação do trabalho manual e repetitivo. Softwares contábeis, ERPs e sistemas fiscais fazem hoje o que antes exigia horas de digitação em planilhas.</p>
 <ul>
 <li><b>Automatização do Operacional:</b> Importação automática de notas fiscais (XML), conciliação bancária via integração com seu banco e apuração de impostos viraram rotinas automatizadas. Isso libera o contador para focar em análise, não em digitação.</li>
 <li><b>Contabilidade em Nuvem:</b> O modelo em nuvem permite que contador e empresa trabalhem sobre a mesma base de dados, simultaneamente. As informações estão sempre atualizadas, seguras e acessíveis de qualquer lugar, eliminando a necessidade de enviar e receber malotes de documentos.</li>
 <li><b>Dados em Tempo Real:</b> Com integrações diretas entre o ERP da sua empresa, o banco e o sistema contábil, sua saúde financeira é visível em tempo real. <a href="/conteudo-fluxo-de-caixa-o-guia-pratico-para-evitar-surpresas-e-garantir-a-saude-financeira-do-seu-negocio/">Fluxo de caixa</a>, impostos a pagar, faturamento e despesas estão sempre atualizados, permitindo decisões rápidas e assertivas.</li>
 </ul>
-<h2 id="topico-2">O Papel do Contador na Era Tech: Seu Co-Piloto Estratégico</h2>
+<h2 id="o-papel-do-contador-na-era-tech-seu-co-piloto-estrategico">O Papel do Contador na Era Tech: Seu Co-Piloto Estratégico</h2>
 <p>A tecnologia não substitui o contador — ela amplia seu impacto. Antes, o contador era visto como alguém que apenas registrava fatos passados. Hoje, liberado das tarefas operacionais pelos robôs (RPA) e automações, ele finalmente exerce seu papel mais importante: o de analista e consultor.</p>
-<img alt="Reunião estratégica com profissionais analisando gráficos em um laptop, representando o contador como um parceiro de negócios." class="imagem-no-conteudo" decoding="async" height="1067" src="/assets/img/blog/photo-1517048676732-d65bc937f952-9d2f77-1600.webp" width="1600"/>
+<figure><img alt="Reunião estratégica com profissionais analisando gráficos em um laptop, representando o contador como um parceiro de negócios." decoding="async" height="1067" loading="lazy" src="/assets/img/blog/photo-1517048676732-d65bc937f952-9d2f77-1600.webp" width="1600"/></figure>
 <p>O profissional de Accounting Tech passa a:</p>
 <ul>
 <li><b>Interpretar Dados, Não Apenas Registrá-los:</b> Usando ferramentas de Business Intelligence (BI) e dashboards, ele transforma números em insights sobre sua margem, custos e rentabilidade.</li>
@@ -419,7 +302,7 @@
 <li><b>Antecipar Problemas Fiscais:</b> Com a automação de rotinas fiscais (SPED, DCTF), o sistema garante o compliance, e o contador pode focar em planejamento para <a href="/conteudo-recuperacao-de-creditos-tributarios-como-o-diagnostico-fiscal-pode-injetar-caixa-na-sua-empresa/">reduzir legalmente os impostos</a> futuros.</li>
 <li><b>Atuar como Parceiro Estratégico:</b> Orienta decisões financeiras, estrutura cenários econômicos e se torna uma extensão da sua diretoria.</li>
 </ul>
-<h2 id="topico-3">O Futuro é Agora: Inteligência Artificial e Contabilidade Preditiva</h2>
+<h2 id="o-futuro-e-agora-inteligencia-artificial-e-contabilidade-pre">O Futuro é Agora: Inteligência Artificial e Contabilidade Preditiva</h2>
 <p>A vanguarda do Accounting Tech já utiliza ferramentas ainda mais sofisticadas para gerar valor. A Inteligência Artificial (IA) e a análise de dados permitem uma contabilidade preditiva, capaz de prever cenários e orientar o futuro do negócio:</p>
 <ul>
 <li><b>Projeção de Impostos:</b> Simular o impacto de diferentes cenários de faturamento na sua carga tributária.</li>
@@ -427,7 +310,7 @@
 <li><b>Impacto de Mudanças Fiscais:</b> Modelar como uma nova lei, como a <a href="/conteudo-reforma-tributaria-2026-um-guia-pratico-do-que-muda-para-empresas-de-servicos-no-df-ibs-cbs-e-mais/">Reforma Tributária</a>, afetará suas finanças antes mesmo de ela entrar em vigor.</li>
 </ul>
 <p>Essa nova fase une IA, análises inteligentes e processos automatizados, tornando a contabilidade mais estratégica e indispensável para o crescimento das empresas.</p>
-<h2 id="topico-4">Como a Axxis Transforma Tecnologia em Vantagem para sua Empresa no DF</h2>
+<h2 id="como-a-axxis-transforma-tecnologia-em-vantagem-para-sua-empr">Como a Axxis Transforma Tecnologia em Vantagem para sua Empresa no DF</h2>
 <p>Na Axxis, nós não apenas usamos a tecnologia; ela está no nosso DNA. Nosso modelo de Contabilidade Consultiva e <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">BPO Financeiro</a> é construído sobre os pilares do Accounting Tech para entregar mais do que conformidade fiscal — nós entregamos inteligência de gestão.</p>
 <ul>
 <li><b>Integração Total:</b> Nos conectamos ao seu ERP ou te ajudamos a implementar um, criando um fluxo de dados contínuo e sem retrabalho.</li>
@@ -435,174 +318,30 @@
 <li><b>BPO Financeiro Tech-Driven:</b> Usamos as melhores ferramentas para automatizar seu contas a pagar, a receber e a conciliação, te dando controle e paz de espírito.</li>
 <li><b>Consultoria Baseada em Dados:</b> Nossas reuniões de resultado não são sobre o passado. São sobre o futuro, usando seus dados para traçar planos e estratégias de crescimento.</li>
 </ul>
-<h2 id="topico-5">Sua Empresa Merece uma Contabilidade do Século 21</h2>
+<h2 id="sua-empresa-merece-uma-contabilidade-do-seculo-21">Sua Empresa Merece uma Contabilidade do Século 21</h2>
 <p>Continuar com uma contabilidade que opera com base em processos manuais e reativos é deixar sua empresa vulnerável e limitar seu potencial. A tecnologia já transformou a contabilidade, e as empresas que não se adaptarem a essa nova realidade ficarão para trás.</p>
 <p>A parceria entre contador e tecnologia eleva o nível de eficiência, precisão e, acima de tudo, estratégia. É a base para um crescimento sustentável e seguro no competitivo mercado de Brasília.</p>
 <p><b>Agende uma Demonstração de Inteligência Contábil.</b> Vamos te mostrar na prática como nosso ecossistema tecnológico funciona e como ele pode ser aplicado para gerar mais resultados e tranquilidade para a sua gestão.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#a-revolucao-da-contabilidade-como-accounting-tech-como-a-tec">A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</a></li><li><a href="#adeus-papelada-a-era-da-automacao-nuvem-e-dados-em-tempo-rea">Adeus, Papelada: A Era da Automação, Nuvem e Dados em Tempo Real</a></li><li><a href="#o-papel-do-contador-na-era-tech-seu-co-piloto-estrategico">O Papel do Contador na Era Tech: Seu Co-Piloto Estratégico</a></li><li><a href="#o-futuro-e-agora-inteligencia-artificial-e-contabilidade-pre">O Futuro é Agora: Inteligência Artificial e Contabilidade Preditiva</a></li><li><a href="#como-a-axxis-transforma-tecnologia-em-vantagem-para-sua-empr">Como a Axxis Transforma Tecnologia em Vantagem para sua Empresa no DF</a></li><li><a href="#sua-empresa-merece-uma-contabilidade-do-seculo-21">Sua Empresa Merece uma Contabilidade do Século 21</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/bpo-de-rh-como-a-terceirizacao-estrategicaaumenta-a-eficiencia-das-empresas/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>BPO de RH: como a terceirização estratégica aumenta a eficiência das empresas</strong></div></a><a class="ax-rel-card" href="/bpo-financeiro-de-inteligencia-2/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>BPO Financeiro de inteligência: Terceirize o financeiro e tenha dados para decidir</strong></div></a><a class="ax-rel-card" href="/analise-preditiva-antecipando-o-futuro-do-seu-negocio/"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Gestão Financeira e BPO</span><strong>Análise preditiva: Antecipando o futuro do seu negócio</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/foto-modelo-blog-1-4ba8ad-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Leonardo Nascimento, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">

@@ -31,9 +31,10 @@
 .ax-12850 .ax-element.ax-element-79c6262{--display:flex;--position:fixed;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;top:0px;}body:not(.rtl) .ax-12850 .ax-element.ax-element-79c6262{left:0px;}body.rtl .ax-12850 .ax-element.ax-element-79c6262{right:0px;}
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
-.artigo{padding-top:120px;min-height:60vh}.artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
+
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -269,136 +270,23 @@
 				</div>
 				</header>
 <main id="content">
-<div class="artigo">
-
-<style>.artigo .artigo-axxis-layout{
-        background-color: #FFFFFF;
-        padding: 50px 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 60px;
-        max-width: 1200px;
-        margin: auto;
-    }
-.artigo .coluna-conteudo-artigo{
-        flex: 1;
-        min-width: 65%;
-    }
-.artigo .coluna-lateral-artigo{
-        flex: 1;
-        min-width: 300px;
-        position: relative; 
-    }
-.artigo .artigo-axxis-layout h1{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 42px;
-        line-height: 1.2;
-        margin-bottom: 24px;
-    }
-.artigo .artigo-axxis-layout h2{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #ff6d00;
-        font-size: 28px;
-        margin-top: 45px;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout p, .artigo .artigo-axxis-layout li{
-        font-family: "Sora", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #333745;
-        margin-bottom: 16px;
-    }
-.artigo .artigo-axxis-layout ul{
-        padding-left: 20px;
-        margin-top: 16px;
-    }
-.artigo .artigo-axxis-layout ul li{
-        margin-bottom: 10px;
-    }
-.artigo .imagem-no-conteudo{
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin: 25px 0;
-    }
-.artigo .outros-conteudos-widget h3{
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        color: #1E2B3B;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-.artigo .outros-conteudos-widget img{
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-.artigo .caixa-indice-fixa{
-        position: sticky;
-        top: 120px;
-        background-color: #F8FAFC;
-        padding: 24px;
-        border-radius: 8px;
-        border: 1px solid #E2E8F0;
-        margin-top: 40px;
-    }
-.artigo .indice-container{
-        position: relative;
-        padding-left: 20px;
-        border-left: 2px solid #E2E8F0;
-    }
-.artigo .indice-container ul{ list-style: none; padding: 0; margin: 0; }
-.artigo .indice-container li{ margin-bottom: 16px; }
-.artigo .indice-container li:last-child{ margin-bottom: 0; }
-.artigo .indice-container a{
-        text-decoration: none;
-        color: #475569;
-        font-family: "Outfit", sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        display: block;
-        position: relative;
-        transition: color 0.2s ease;
-    }
-.artigo .indice-container a::before{
-        content: "";
-        position: absolute;
-        left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 10px;
-        height: 10px;
-        background-color: #CBD5E1;
-        border-radius: 50%;
-        border: 2px solid #F8FAFC;
-        transition: all 0.2s ease;
-    }
-.artigo .indice-container a.ativo{
-        color: #ff6d00;
-    }
-.artigo .indice-container a.ativo::before{
-        background-color: #ff6d00;
-        transform: translateY(-50%) scale(1.3);
-    }
-@media(max-width: 992px) {.artigo .coluna-lateral-artigo{
-            display: none;
-        }
-.artigo .coluna-conteudo-artigo{
-            min-width: 100%;
-        }}</style>
-<div class="artigo-axxis-layout">
-<div class="coluna-conteudo-artigo">
-<h1>Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</h1>
+<article class="ax-art">
+  <header class="ax-art-hero">
+    <nav class="ax-bc" aria-label="Você está em"><a href="/">Início</a><span>›</span><a href="/conteudo/">Conteúdo</a><span>›</span><span>Planejamento Tributário</span></nav>
+    <span class="ax-art-tag">Planejamento Tributário</span>
+    <h1>Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</h1>
+    <p class="ax-art-lead">Prestando serviços para o exterior? Aprenda o passo a passo de como emitir notas fiscais, pagar menos impostos e garantir a conformidade na exportação de…</p>
+    <div class="ax-art-meta"><span>Equipe Axxis</span><span><time datetime="2026-01-06">06 jan 2026</time></span><span>4 min de leitura</span></div>
+  </header>
+  <figure class="ax-art-capa"><img src="/assets/img/og/conteudo-como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-menos-impostos-exportacao-de-servicos.jpg" alt="Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)" width="1200" height="630" fetchpriority="high" decoding="async"></figure>
+  <div class="ax-art-grid">
+    <div class="ax-art-corpo">
+      <details class="ax-toc-mob"><summary>Neste artigo</summary><nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-">Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</a></li><li><a href="#a-regra-de-ouro-a-vantagem-tributaria-gigante-da-exportacao">A Regra de Ouro: A Vantagem Tributária Gigante da Exportação</a></li><li><a href="#o-guia-pratico-faturando-para-o-exterior-em-3-etapas">O Guia Prático: Faturando para o Exterior em 3 Etapas</a></li><li><a href="#erros-comuns-que-custam-caro-e-anulam-seus-beneficios">Erros Comuns que Custam Caro (E Anulam seus Benefícios)</a></li><li><a href="#a-axxis-como-seu-departamento-de-comercio-exterior">A Axxis como seu &quot;Departamento de Comércio Exterior&quot;</a></li><li><a href="#conquiste-o-mundo-deixe-a-burocracia-conosco">Conquiste o Mundo. Deixe a Burocracia Conosco.</a></li></ol></nav></details>
+<h2 id="como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-">Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</h2>
 <p>Sua <a href="/conteudo-contabilidade-para-startups-e-empresas-de-tecnologia-no-df-do-simples-ao-lucro-real/">empresa de tecnologia</a>, agência ou consultoria no Distrito Federal conquistou um cliente no exterior. Parabéns, este é um marco de crescimento e sofisticação. Mas, com a comemoração, vem a dúvida: como formalizar essa operação? Como emitir a nota fiscal, receber o pagamento em dólar ou euro e, o mais importante, como não pagar impostos desnecessários?</p>
 <p>A exportação de serviços é uma das operações com os maiores benefícios fiscais no Brasil, mas a falta de conhecimento pode levar a erros que custam caro. Este guia prático da Axxis vai te mostrar o passo a passo para faturar para o exterior com segurança e <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/">máxima eficiência tributária</a>.</p>
-<img alt="Empresário em Brasília analisando um globo digital, planejando a exportação de serviços para clientes no exterior." class="imagem-no-conteudo" decoding="async" height="750" src="/assets/img/blog/pexels-photo-3184465-52dc2a-1125.webp" width="1125"/>
-<h2 id="topico-1">A Regra de Ouro: A Vantagem Tributária Gigante da Exportação</h2>
+<figure><img alt="Empresário em Brasília analisando um globo digital, planejando a exportação de serviços para clientes no exterior." decoding="async" height="750" loading="lazy" src="/assets/img/blog/pexels-photo-3184465-52dc2a-1125.webp" width="1125"/></figure>
+<h2 id="a-regra-de-ouro-a-vantagem-tributaria-gigante-da-exportacao">A Regra de Ouro: A Vantagem Tributária Gigante da Exportação</h2>
 <p>Antes do "como", vamos ao "porquê". O governo brasileiro incentiva a exportação de serviços porque ela traz moeda estrangeira para o país. Por isso, a regra geral é clara e extremamente vantajosa:</p>
 <p><b>Serviços prestados para clientes no exterior, com pagamento vindo do exterior, têm imunidade ou isenção dos principais impostos sobre o faturamento.</b></p>
 <ul>
@@ -406,7 +294,7 @@
 <li><b>Isenção de PIS e COFINS:</b> As contribuições federais, que somam 3,65% no <a href="/conteudo-lucro-real-lucro-presumido-ou-simples-nacional/">Lucro Presumido</a>, também são zeradas.</li>
 </ul>
 <p>Na prática, isso pode representar uma economia de quase <b>10% sobre o seu faturamento</b>. É uma vantagem competitiva brutal que você não pode se dar ao luxo de ignorar.</p>
-<h2 id="topico-2">O Guia Prático: Faturando para o Exterior em 3 Etapas</h2>
+<h2 id="o-guia-pratico-faturando-para-o-exterior-em-3-etapas">O Guia Prático: Faturando para o Exterior em 3 Etapas</h2>
 <p>O processo envolve dois documentos principais e o recebimento. Vamos simplificar:</p>
 <p><b>Etapa 1: O Contrato e a "Commercial Invoice"</b>
 <br/>Tudo começa com um contrato de prestação de serviços claro, preferencialmente bilíngue, que define escopo, prazos e valores. Com base nele, para cobrar seu cliente, você emitirá uma <b><em>Commercial Invoice</em></b>. Este não é um documento fiscal brasileiro; é um documento comercial internacional, geralmente em inglês, que detalha o serviço prestado, o valor a ser pago e os dados bancários para o recebimento.</p>
@@ -421,7 +309,7 @@
         É a emissão correta desta nota que garante seus benefícios fiscais.</p>
 <p><b>Etapa 3: Recebendo o Pagamento e Fechando o Câmbio</b>
 <br/>Seu cliente pagará em moeda estrangeira. Para trazer esse dinheiro para sua conta no Brasil, você precisará de uma operação de câmbio. Antigamente, isso era feito apenas via bancos tradicionais, de forma lenta e cara. Hoje, plataformas como Wise, Payoneer ou bancos digitais com contas globais simplificaram e baratearam muito esse processo. O importante é que haja um "Contrato de Câmbio" ou documento equivalente que formalize a entrada do recurso como pagamento por uma exportação de serviço.</p>
-<h2 id="topico-3">Erros Comuns que Custam Caro (E Anulam seus Benefícios)</h2>
+<h2 id="erros-comuns-que-custam-caro-e-anulam-seus-beneficios">Erros Comuns que Custam Caro (E Anulam seus Benefícios)</h2>
 <p>O processo é simples quando se tem o conhecimento, mas erros podem gerar grandes dores de cabeça:</p>
 <ul>
 <li><b>Emitir a NFS-e como um serviço nacional:</b> Este é o erro mais comum e mais caro. Faz com que você pague todos os impostos desnecessariamente.</li>
@@ -429,7 +317,7 @@
 <li><b>Não formalizar o câmbio:</b> Receber o dinheiro sem a devida formalização pode ser interpretado como sonegação e descaracterizar a exportação.</li>
 <li><b>Tributar o valor com o IOF e taxas:</b> O valor a ser declarado na Nota Fiscal é o valor do serviço, antes das taxas de câmbio e IOF.</li>
 </ul>
-<h2 id="topico-4">A Axxis como seu "Departamento de Comércio Exterior"</h2>
+<h2 id="a-axxis-como-seu-departamento-de-comercio-exterior">A Axxis como seu "Departamento de Comércio Exterior"</h2>
 <p>Gerenciar operações internacionais exige um nível de expertise que vai além da <a href="/conteudo/">contabilidade do dia a dia</a>. É preciso entender de <a href="/conteudo-reforma-tributaria-2026-um-guia-pratico-do-que-muda-para-empresas-de-servicos-no-df-ibs-cbs-e-mais/">legislação tributária</a>, regras de câmbio e práticas comerciais internacionais. É exatamente isso que a Axxis oferece.</p>
 <p>Nós atuamos como seu parceiro estratégico para a expansão global, cuidando de toda a complexidade para você:</p>
 <ul>
@@ -438,174 +326,30 @@
 <li><b>Assessoria no Câmbio:</b> Orientamos sobre as melhores e mais econômicas formas de receber seus pagamentos do exterior.</li>
 <li><b>Contabilidade Integrada:</b> Cuidamos de toda a apuração para garantir que você aproveite todos os benefícios fiscais a que tem direito, com total segurança jurídica.</li>
 </ul>
-<h2 id="topico-5">Conquiste o Mundo. Deixe a Burocracia Conosco.</h2>
+<h2 id="conquiste-o-mundo-deixe-a-burocracia-conosco">Conquiste o Mundo. Deixe a Burocracia Conosco.</h2>
 <p>Prestar serviços para clientes no exterior é a prova de que sua empresa no DF atingiu um novo patamar de excelência. Não deixe que a burocracia e o medo de errar se tornem uma barreira para o seu crescimento global.</p>
 <p>Com a parceria certa, a exportação de serviços se torna uma operação simples, segura e, acima de tudo, altamente lucrativa.</p>
 <p><b>Agende um Diagnóstico de Operações Internacionais.</b> Vamos entender seus desafios e mostrar como a Axxis pode cuidar de toda a sua retaguarda fiscal e financeira, te dando a liberdade e a segurança para focar em expandir suas fronteiras.</p>
-</div>
-<div class="coluna-lateral-artigo">
-<div class="caixa-indice-fixa">
-<div class="indice-container">
-<ul id="indice-lateral-lista">
-</ul>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    <aside class="ax-art-lado">
+      <nav class="ax-toc" aria-label="Neste artigo"><span class="ax-toc-t">Neste artigo</span><ol><li><a href="#como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-">Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</a></li><li><a href="#a-regra-de-ouro-a-vantagem-tributaria-gigante-da-exportacao">A Regra de Ouro: A Vantagem Tributária Gigante da Exportação</a></li><li><a href="#o-guia-pratico-faturando-para-o-exterior-em-3-etapas">O Guia Prático: Faturando para o Exterior em 3 Etapas</a></li><li><a href="#erros-comuns-que-custam-caro-e-anulam-seus-beneficios">Erros Comuns que Custam Caro (E Anulam seus Benefícios)</a></li><li><a href="#a-axxis-como-seu-departamento-de-comercio-exterior">A Axxis como seu &quot;Departamento de Comércio Exterior&quot;</a></li><li><a href="#conquiste-o-mundo-deixe-a-burocracia-conosco">Conquiste o Mundo. Deixe a Burocracia Conosco.</a></li></ol></nav>
+      <div class="ax-lado-cta"><strong>Fale com um especialista</strong><p>Entenda como isso se aplica à sua empresa.</p><a class="ax-btn" href="/solicite-sua-proposta/">Solicite sua Proposta</a></div>
+    </aside>
+  </div>
+  <section class="ax-art-cta">
+    <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+    <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+  </section>
+  <section class="ax-art-rel"><h2>Leia <span>também</span></h2><div class="ax-rel-grid"><a class="ax-rel-card" href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/"><img src="/assets/img/blog/chatgpt-image-26-de-ago-de-2026-17-58-32-d1815f-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Antes que 2027 comece: o calendário do Simples Nacional que exige definições em 2026</strong></div></a><a class="ax-rel-card" href="/simples-nacional-regime-de-caixa-deixa-de-ser-opcao-na-apuracao-mensal-em-2027/"><img src="/assets/img/blog/logos-axxis-1-acd556-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Simples Nacional: regime de caixa deixa de ser opção em 2027</strong></div></a><a class="ax-rel-card" href="/creditos-bancarios-sem-origem-comprovada-o-que-a-atuacao-do-carf-reforca/"><img src="/assets/img/blog/unnamed-2-1-d70ba2-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"><div class="ax-rel-body"><span>Planejamento Tributário</span><strong>Créditos bancários sem origem comprovada: o que a atuação do CARF reforça</strong></div></a></div></section>
+</article>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const artigoContainer = document.querySelector('.artigo-axxis-layout');
-        if (!artigoContainer) return;
-        
-        const listaDeTopicos = artigoContainer.querySelector('#indice-lateral-lista');
-        const todosOsH2 = artigoContainer.querySelectorAll('.coluna-conteudo-artigo h2[id]');
-
-        if (todosOsH2.length > 0 && listaDeTopicos) {
-            todosOsH2.forEach(h2 => {
-                const link = document.createElement('a');
-                link.href = `#${h2.id}`;
-                link.textContent = h2.textContent.trim();
-                
-                const itemDaLista = document.createElement('li');
-                itemDaLista.appendChild(link);
-                listaDeTopicos.appendChild(itemDaLista);
-            });
-
-            const linksDoIndice = artigoContainer.querySelectorAll('#indice-lateral-lista a');
-            
-            const onScroll = () => {
-                let h2AtivoId = '';
-                todosOsH2.forEach(h2 => {
-                    const h2Posicao = h2.getBoundingClientRect().top;
-                    if (h2Posicao < 250) {
-                        h2AtivoId = h2.id;
-                    }
-                });
-
-                linksDoIndice.forEach(link => {
-                    link.classList.remove('ativo');
-                    if (link.getAttribute('href') === `#${h2AtivoId}`) {
-                        link.classList.add('ativo');
-                    }
-                });
-            };
-
-            window.addEventListener('scroll', onScroll);
-            onScroll();
-        
-        } else {
-            const caixa = artigoContainer.querySelector('.caixa-indice-fixa');
-            if(caixa) caixa.style.display = 'none';
-        }
-    });
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.ax-art-lado .ax-toc a'));if(!links.length||!('IntersectionObserver' in window))return;
+  var mapa={};links.forEach(function(a){mapa[a.getAttribute('href').slice(1)]=a;});
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){a.classList.remove('ativo');});var a=mapa[en.target.id];if(a)a.classList.add('ativo');}});},{rootMargin:'-20% 0px -70% 0px'});
+  document.querySelectorAll('.ax-art-corpo h2[id]').forEach(function(h){obs.observe(h);});
+})();
 </script>
-<style>@keyframes fadeInSlideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.artigo .axxis-blog-cta{
-    background-color: #FFFFFF;
-    border: 1px solid #ff6d00;
-    padding: 40px;
-    margin: 40px 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    font-family: "Sora", sans-serif;
-    border-radius: 8px;
-    animation: fadeInSlideUp 0.8s ease-out forwards;
-}
-.artigo .axxis-blog-cta__quote-mark{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 0.05);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 1;
-}
-.artigo .axxis-blog-cta__content{
-    position: relative;
-    z-index: 2;
-}
-.artigo .axxis-blog-cta__title{
-    font-family: "Outfit", sans-serif;
-    font-size: 28px;
-    color: #1E293B;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-.artigo .axxis-blog-cta__paragraph{
-    font-family: "Sora", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #475569;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-.artigo .axxis-blog-cta__signature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.artigo .axxis-blog-cta__signature-image{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.artigo .axxis-blog-cta__signature-text{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #333745;
-}
-.artigo .axxis-blog-cta__button{
-    display: inline-block;
-    background-color: #ff6d00;
-    color: #ffffff;
-    padding: 15px 35px;
-    font-family: "Outfit", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    
-    
-    border-radius: 5px; 
-    text-decoration: none !important; 
-    
-}
-.artigo .axxis-blog-cta__button:hover{
-    background-color: #e65a00; 
-    color: white;
-}</style>
-<div class="axxis-blog-cta">
-<span class="axxis-blog-cta__quote-mark">”</span>
-<div class="axxis-blog-cta__content">
-<h3 class="axxis-blog-cta__title">Gostou do que leu?</h3>
-<p class="axxis-blog-cta__paragraph">
-            O bom conteúdo é apenas o começo. Convidamos você a descobrir como as soluções do 
-            <span style="color: #ff6d00; font-weight: 600;">Grupo Axxis</span> 
-            podem transformar o conhecimento em resultados reais para o seu negócio.
-        </p>
-<div class="axxis-blog-cta__signature">
-<img alt="Julio César, Grupo Axxis" class="axxis-blog-cta__signature-image" decoding="async" height="90" loading="lazy" src="/assets/img/blog/design-sem-nome-1-2a12a4-105.webp" width="105"/>
-<div class="axxis-blog-cta__signature-text">
-                Julio César, Grupo Axxis
-            </div>
-</div>
-<a class="axxis-blog-cta__button" href="/solicite-sua-proposta/">
-            Vamos Conversar?
-        </a>
-</div>
-</div>
-
-</div>
 </main>
 		<footer id="colophon" role="contentinfo">
 			<div class='footer-width-fixer'><style>.ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}</style>		<div class="ax ax-12848">
