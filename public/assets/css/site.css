@@ -230,3 +230,7 @@ a.cta-button-final:hover,a.consultant-cta-final:hover,a.axxis-rh-cta-button:hove
 .axxis-footer .footer-nav a:hover,.axxis-footer .contact-item a:hover{color:#FF6D00}
 .axxis-footer .copyright,.axxis-footer .legal-links,.axxis-footer .legal-links a{font-family:"Outfit",sans-serif;font-size:13px;font-weight:300;letter-spacing:.5px;color:rgba(255,255,255,.55)}
 .axxis-footer .legal-links a:hover{color:#FF6D00}
+/* Botões do topo do Início um pouco mais finos (mesma altura entre si) */
+.ax-12318 .ax-element.ax-element-2b93590 .ax-button,.ax-12318 .ax-element.ax-element-42a4b2b .ax-button{padding:10px 24px!important;line-height:18px!important}
+.ax-12318 .ax-element.ax-element-2b93590 .ax-button{border:2px solid transparent!important}
+.ax-12318 .ax-element.ax-element-42a4b2b .ax-button{border-width:2px!important}
