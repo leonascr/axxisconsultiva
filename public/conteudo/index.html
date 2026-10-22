@@ -29,29 +29,72 @@
 .ax-12848 .ax-element.ax-element-53a17f3{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.ax-12848 .ax-element.ax-element-53a17f3:not(.ax-motion-effects-element-type-background), .ax-12848 .ax-element.ax-element-53a17f3 > .ax-motion-effects-container > .ax-motion-effects-layer{background-color:var( --ax-global-color-secondary );}
 .axr-dc-hidden{display:none!important}.axr-dc-fallback{margin:0;padding:0}
 .artigo img{max-width:100%;height:auto}.artigo .tabela-rolagem{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}@media (max-width:767px){.artigo{padding-top:96px}}
-.blog-hero{padding:170px 20px 40px;max-width:1140px;margin:0 auto}
-.blog-hero h1{font-family:"Outfit",sans-serif;font-size:56px;font-weight:600;line-height:1.1;color:#efefef;margin:0 0 18px}
-.blog-hero h1 span{color:#ff6d00}
-.blog-hero p{font-family:"Sora",sans-serif;font-size:18px;font-weight:300;line-height:1.7;color:rgba(239,239,239,.85);max-width:640px;margin:0}
-.blog-chips{max-width:1140px;margin:0 auto;padding:10px 20px 30px;display:flex;flex-wrap:wrap;gap:10px}
-.blog-chip{font-family:"Outfit",sans-serif;font-size:15px;font-weight:500;color:#efefef;background:transparent;border:1px solid rgba(239,239,239,.25);border-radius:999px;padding:8px 18px;cursor:pointer}
-.blog-chip:hover,.blog-chip.ativo{background:#ff6d00;border-color:#ff6d00;color:#fff}
-.blog-grid{max-width:1140px;margin:0 auto;padding:0 20px 100px;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
-.blog-card{background:#0b1035;border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;transition:transform .2s,border-color .2s}
-.blog-card:hover{transform:translateY(-4px);border-color:rgba(255,109,0,.6)}
-.blog-card[hidden]{display:none}
-.blog-card-link{display:flex;flex-direction:column;height:100%;color:inherit;text-decoration:none}
-.blog-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
-.blog-card-body{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
-.blog-card-tag{font-family:"Outfit",sans-serif;font-size:13px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#ff6d00}
-.blog-card-title{font-family:"Outfit",sans-serif;font-size:22px;font-weight:600;line-height:1.3;color:#efefef;margin:0}
-.blog-card-desc{font-family:"Sora",sans-serif;font-size:15px;font-weight:400;line-height:1.6;color:rgba(239,239,239,.8);margin:0;flex:1}
-.blog-card time{font-family:"Sora",sans-serif;font-size:13px;color:rgba(239,239,239,.6)}
-@media (max-width:1024px){.blog-grid{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:767px){.blog-hero{padding:130px 20px 30px}.blog-hero h1{font-size:40px}.blog-hero p{font-size:16px}.blog-grid{grid-template-columns:1fr}.blog-card-title{font-size:20px}}
+.cx{max-width:1140px;margin:0 auto;padding:0 20px 100px}
+.cx h2{font-family:"Outfit",sans-serif;font-size:32px;font-weight:500;line-height:1.2;color:#efefef;margin:0}
+.cx-hero{padding:170px 0 48px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px}
+.cx-kicker{display:inline-block;font-family:"Outfit",sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#FF6D00;margin:0 0 14px}
+.cx-hero h1{font-family:"Outfit",sans-serif;font-size:56px;font-weight:600;line-height:1.1;color:#efefef;margin:0 0 16px}
+.cx-hero h1 span,.cx h2 span{color:#FF6D00}
+.cx-hero p{font-family:"Sora",sans-serif;font-size:17px;font-weight:300;line-height:1.7;color:rgba(239,239,239,.8);max-width:600px;margin:0}
+.cx-busca{position:relative;flex:0 0 340px;display:block}
+.cx-busca svg{position:absolute;left:18px;top:50%;width:18px;height:18px;transform:translateY(-50%);fill:none;stroke:rgba(239,239,239,.55);stroke-width:2;stroke-linecap:round;pointer-events:none}
+.cx-busca input{width:100%;box-sizing:border-box;font-family:"Sora",sans-serif;font-size:15px;color:#efefef;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:14px 20px 14px 48px;outline:none;transition:border-color .2s,background-color .2s}
+.cx-busca input::placeholder{color:rgba(239,239,239,.5)}
+.cx-busca input:focus{border-color:#FF6D00;background:rgba(255,255,255,.06)}
+.cx-tag{display:flex;align-items:center;gap:10px;font-family:"Outfit",sans-serif;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#FF6D00}
+.cx-tag b{font-weight:600;color:#fff;background:#FF6D00;border-radius:4px;padding:3px 8px;letter-spacing:.5px}
+.cx-meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:"Sora",sans-serif;font-size:13px;color:rgba(239,239,239,.55)}
+.cx-meta span::before{content:"·";margin-right:14px}
+.cx-dest{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:center;padding:16px 0 0 15px}
+.cx-dest[hidden],.cx-ferrs[hidden],.cx-card[hidden],.cx-mais-wrap[hidden]{display:none}
+.cx-dest-img{position:relative;display:block}
+.cx-dest-img::after{content:"";position:absolute;top:-15px;left:-15px;width:100%;height:100%;border:2px solid #FF6D00;border-radius:10px;z-index:0;transition:transform .4s cubic-bezier(.25,.8,.25,1)}
+.cx-dest-img:hover::after{transform:translate(-8px,-8px)}
+.cx-dest-img img{position:relative;z-index:1;display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.cx-dest-txt{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.cx-dest-txt h2{font-family:"Outfit",sans-serif;font-size:36px;font-weight:600;line-height:1.2;margin:0}
+.cx-dest-txt h2 a{color:#efefef;text-decoration:none;transition:color .2s}
+.cx-dest-txt h2 a:hover{color:#FF6D00}
+.cx-dest-txt p{font-family:"Sora",sans-serif;font-size:16px;line-height:1.7;color:rgba(239,239,239,.78);margin:0}
+.cx-dest-txt .ax-btn{margin-top:8px}
+.cx-ferrs{margin:88px 0 0}
+.cx-ferr-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:24px}
+.cx-ferr{display:flex;align-items:center;gap:16px;padding:20px 22px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(16,29,59,.4);text-decoration:none;transition:border-color .25s}
+.cx-ferr:hover{border-color:rgba(255,109,0,.45)}
+.cx-ferr-ic{flex:0 0 46px;height:46px;border-radius:10px;background:rgba(255,109,0,.12);display:flex;align-items:center;justify-content:center}
+.cx-ferr-ic svg{width:22px;height:22px;fill:none;stroke:#FF6D00;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.cx-ferr strong{display:block;font-family:"Outfit",sans-serif;font-size:16px;font-weight:500;line-height:1.35;color:#efefef}
+.cx-ferr em{display:block;margin-top:4px;font-family:"Sora",sans-serif;font-size:13px;font-style:normal;color:#FF6D00}
+.cx-ferr em::after{content:" →"}
+.cx-lista{margin:88px 0 0;scroll-margin-top:120px}
+.cx-lista-topo{display:flex;flex-direction:column;gap:20px;padding-bottom:28px;margin-bottom:36px;border-bottom:1px solid rgba(255,255,255,.08)}
+.cx-chips{display:flex;flex-wrap:wrap;gap:8px}
+.cx-chips::-webkit-scrollbar{display:none}
+.cx-chip{flex:0 0 auto;font-family:"Outfit",sans-serif;font-size:15px;font-weight:300;letter-spacing:.3px;color:rgba(239,239,239,.85);background:transparent;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:8px 16px;cursor:pointer;transition:border-color .2s,color .2s,background-color .2s}
+.cx-chip small{font-size:12px;color:rgba(239,239,239,.45);margin-left:4px}
+.cx-chip:hover{border-color:rgba(255,109,0,.6);color:#fff}
+.cx-chip.ativo{background:#FF6D00;border-color:#FF6D00;color:#fff}
+.cx-chip.ativo small{color:rgba(255,255,255,.75)}
+.cx-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 32px}
+.cx-card a{display:flex;flex-direction:column;gap:12px;color:inherit;text-decoration:none}
+.cx-card-img{overflow:hidden;border-radius:10px;margin-bottom:6px;background:rgba(16,29,59,.6)}
+.cx-card-img img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;transition:transform .5s cubic-bezier(.25,.8,.25,1)}
+.cx-card a:hover .cx-card-img img{transform:scale(1.04)}
+.cx-card h3{font-family:"Outfit",sans-serif;font-size:20px;font-weight:600;line-height:1.35;color:#efefef;margin:0;transition:color .2s;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cx-card a:hover h3{color:#FF6D00}
+.cx-card p{font-family:"Sora",sans-serif;font-size:15px;line-height:1.6;color:rgba(239,239,239,.7);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cx-vazio{font-family:"Sora",sans-serif;font-size:16px;color:rgba(239,239,239,.75);text-align:center;padding:40px 0}
+.cx-limpa{font:inherit;color:#FF6D00;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+.cx-mais-wrap{text-align:center;margin-top:56px}
+.cx-mais{font-family:"Outfit",sans-serif;font-size:16px;font-weight:300;letter-spacing:.5px;line-height:20px;color:#FF6D00;background:transparent;border:1px solid #FF6D00;border-radius:5px;padding:14px 32px;cursor:pointer;transition:background-color .3s,color .3s}
+.cx-mais:hover{background:#FF6D00;color:#fff}
+.cx .ax-art-cta{margin-top:100px}
+@media (max-width:1024px){.cx-hero{flex-direction:column;align-items:stretch;gap:28px}.cx-busca{flex:none;max-width:480px}.cx-dest{grid-template-columns:1fr;gap:40px}.cx-ferr-grid{grid-template-columns:1fr}.cx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:767px){.cx{padding:0 16px 72px}.cx-hero{padding:130px 0 36px}.cx-hero h1{font-size:40px}.cx-hero p{font-size:16px}.cx-busca{max-width:none}.cx-dest{padding-left:12px}.cx-dest-txt h2{font-size:27px}.cx h2{font-size:26px}.cx-ferrs,.cx-lista{margin-top:64px}.cx-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:2px 16px}.cx-grid{grid-template-columns:minmax(0,1fr);gap:40px}.cx .ax-art-cta{margin-top:72px}}
 
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=23c7f80b" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
@@ -287,660 +330,598 @@
 				</div>
 				</header>
 <main id="content">
-<section class="blog-hero">
-  <h1>Conteúdo <span>Axxis</span></h1>
-  <p>Guias, simuladores e novidades sobre contabilidade, tributos e gestão financeira para ajudar sua empresa a decidir melhor.</p>
+<div class="cx">
+<section class="cx-hero">
+  <div>
+    <span class="cx-kicker">Blog e matérias</span>
+    <h1>Conteúdo <span>Axxis</span></h1>
+    <p>Guias, simuladores e novidades sobre contabilidade, tributos e gestão financeira para ajudar sua empresa a decidir melhor.</p>
+  </div>
+  <label class="cx-busca"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" placeholder="Buscar artigos" aria-label="Buscar artigos" autocomplete="off"></label>
 </section>
-<div class="blog-chips" role="toolbar" aria-label="Filtrar por tema"><button class="blog-chip ativo" data-cat="">Todos</button><button class="blog-chip" data-cat="abertura-e-legalizacao-de-empresas">Abertura e Legalização de Empresas</button><button class="blog-chip" data-cat="contabilidade-setorial">Contabilidade Setorial</button><button class="blog-chip" data-cat="ferramentas-e-simuladores">Ferramentas e Simuladores</button><button class="blog-chip" data-cat="gestao-empresarial">Gestão Empresarial</button><button class="blog-chip" data-cat="gestao-financeira-e-bpo">Gestão Financeira e BPO</button><button class="blog-chip" data-cat="planejamento-tributario">Planejamento Tributário</button><button class="blog-chip" data-cat="reforma-tributaria">Reforma Tributária</button></div>
-<div class="blog-grid">
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/chatgpt-image-26-de-ago-de-2026-17-58-32-d1815f-640.webp" alt="" loading="eager" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Antes que 2027 comece: o calendário do Simples Nacional que exige definições em 2026</h2>
-      <p class="blog-card-desc">Simples Nacional 2027: veja os prazos de setembro de 2026 a julho de 2027 para opção, IBS e CBS, NFS-e e cancelamentos.</p>
-      <time datetime="2026-08-26">26 ago 2026</time>
-    </div>
+
+<section class="cx-dest" aria-label="Artigo mais recente">
+  <a class="cx-dest-img" href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/"><img src="/assets/img/blog/chatgpt-image-26-de-ago-de-2026-17-58-32-d1815f-1122.webp" alt="" loading="eager" decoding="async" width="1122" height="631"></a>
+  <div class="cx-dest-txt">
+    <span class="cx-tag"><b>Mais recente</b>Planejamento Tributário</span>
+    <h2><a href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/">Antes que 2027 comece: o calendário do Simples Nacional que exige definições em 2026</a></h2>
+    <p>Simples Nacional 2027: veja os prazos de setembro de 2026 a julho de 2027 para opção, IBS e CBS, NFS-e e cancelamentos.</p>
+    <div class="cx-meta"><time datetime="2026-08-26">26 ago 2026</time><span>5 min de leitura</span></div>
+    <a class="ax-btn" href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/">Ler artigo</a>
+  </div>
+</section>
+
+<section class="cx-ferrs" aria-label="Ferramentas gratuitas">
+  <h2>Ferramentas <span>gratuitas</span></h2>
+  <div class="cx-ferr-grid"><a class="cx-ferr" href="/conteudo-calculadora-de-otimizacao-do-fator-r/"><span class="cx-ferr-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M8.5 6.5h7M8.5 11h.01M12 11h.01M15.5 11h.01M8.5 14.5h.01M12 14.5h.01M15.5 14.5h.01M8.5 18h.01M12 18h3.5"/></svg></span><span><strong>Calculadora de Otimização do Fator R</strong><em>Abrir ferramenta</em></span></a><a class="cx-ferr" href="/conteudo-analise-de-custo-beneficio-contratacao-interna-ou-bpo-financeiro/"><span class="cx-ferr-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M8.5 6.5h7M8.5 11h.01M12 11h.01M15.5 11h.01M8.5 14.5h.01M12 14.5h.01M15.5 14.5h.01M8.5 18h.01M12 18h3.5"/></svg></span><span><strong>Analisador de Custo: BPO Financeiro vs. Contratação Interna</strong><em>Abrir ferramenta</em></span></a><a class="cx-ferr" href="/conteudo-pre-diagnostico-sua-clinica-e-elegivel-para-a-equiparacao-hospitalar/"><span class="cx-ferr-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M8.5 6.5h7M8.5 11h.01M12 11h.01M15.5 11h.01M8.5 14.5h.01M12 14.5h.01M15.5 14.5h.01M8.5 18h.01M12 18h3.5"/></svg></span><span><strong>Pré-Diagnóstico: Sua Clínica é Elegível para a Equiparação Hospitalar?</strong><em>Abrir ferramenta</em></span></a></div>
+</section>
+
+<section class="cx-lista" id="artigos">
+  <div class="cx-lista-topo">
+    <h2>Todos os <span>artigos</span></h2>
+    <div class="cx-chips" role="toolbar" aria-label="Filtrar por tema"><button class="cx-chip ativo" data-cat="" aria-pressed="true">Todos <small>58</small></button><button class="cx-chip" data-cat="planejamento-tributario" aria-pressed="false">Planejamento Tributário <small>16</small></button><button class="cx-chip" data-cat="reforma-tributaria" aria-pressed="false">Reforma Tributária <small>12</small></button><button class="cx-chip" data-cat="gestao-financeira-e-bpo" aria-pressed="false">Financeiro e BPO <small>11</small></button><button class="cx-chip" data-cat="abertura-e-legalizacao-de-empresas" aria-pressed="false">Abertura de Empresas <small>4</small></button><button class="cx-chip" data-cat="contabilidade-setorial" aria-pressed="false">Setores <small>8</small></button><button class="cx-chip" data-cat="gestao-empresarial" aria-pressed="false">Gestão <small>5</small></button><button class="cx-chip" data-cat="ferramentas-e-simuladores" aria-pressed="false">Ferramentas <small>2</small></button></div>
+  </div>
+  <div class="cx-grid">
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="antes que 2027 comece: o calendário do simples nacional que exige definições em 2026 simples nacional 2027: veja os prazos de setembro de 2026 a julho de 2027 para opção, ibs e cbs, nfs-e e cancelamentos. planejamento tributário" data-dest>
+  <a href="/antes-que-2027-comece-o-calendario-do-simples-nacional-que-exige-definicoes-em-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/chatgpt-image-26-de-ago-de-2026-17-58-32-d1815f-640.webp" alt="" loading="eager" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Antes que 2027 comece: o calendário do Simples Nacional que exige definições em 2026</h3>
+    <p>Simples Nacional 2027: veja os prazos de setembro de 2026 a julho de 2027 para opção, IBS e CBS, NFS-e e cancelamentos.</p>
+    <div class="cx-meta"><time datetime="2026-08-26">26 ago 2026</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/simples-nacional-regime-de-caixa-deixa-de-ser-opcao-na-apuracao-mensal-em-2027/" class="blog-card-link">
-    <img src="/assets/img/blog/logos-axxis-1-acd556-640.webp" alt="" loading="eager" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Simples Nacional: regime de caixa deixa de ser opção em 2027</h2>
-      <p class="blog-card-desc">A partir de 1º de janeiro de 2027, o regime de caixa para apuração do Simples Nacional será extinto. Entenda os impactos da Reforma Tributária.</p>
-      <time datetime="2026-08-24">24 ago 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="simples nacional: regime de caixa deixa de ser opção em 2027 a partir de 1º de janeiro de 2027, o regime de caixa para apuração do simples nacional será extinto. entenda os impactos da reforma tributária. planejamento tributário">
+  <a href="/simples-nacional-regime-de-caixa-deixa-de-ser-opcao-na-apuracao-mensal-em-2027/">
+    <div class="cx-card-img"><img src="/assets/img/blog/logos-axxis-1-acd556-640.webp" alt="" loading="eager" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Simples Nacional: regime de caixa deixa de ser opção em 2027</h3>
+    <p>A partir de 1º de janeiro de 2027, o regime de caixa para apuração do Simples Nacional será extinto. Entenda os impactos da Reforma Tributária.</p>
+    <div class="cx-meta"><time datetime="2026-08-24">24 ago 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/creditos-bancarios-sem-origem-comprovada-o-que-a-atuacao-do-carf-reforca/" class="blog-card-link">
-    <img src="/assets/img/blog/unnamed-2-1-d70ba2-640.webp" alt="" loading="eager" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Créditos bancários sem origem comprovada: o que a atuação do CARF reforça</h2>
-      <p class="blog-card-desc">O art. 42 da Lei nº 9.430/1996 e o Acórdão CARF nº 2302-004.036 mostram por que a rastreabilidade e o alinhamento entre documentação e contabilidade são a…</p>
-      <time datetime="2026-08-18">18 ago 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="créditos bancários sem origem comprovada: o que a atuação do carf reforça o art. 42 da lei nº 9.430/1996 e o acórdão carf nº 2302-004.036 mostram por que a rastreabilidade e o alinhamento entre documentação e contabilidade são a… planejamento tributário">
+  <a href="/creditos-bancarios-sem-origem-comprovada-o-que-a-atuacao-do-carf-reforca/">
+    <div class="cx-card-img"><img src="/assets/img/blog/unnamed-2-1-d70ba2-640.webp" alt="" loading="eager" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Créditos bancários sem origem comprovada: o que a atuação do CARF reforça</h3>
+    <p>O art. 42 da Lei nº 9.430/1996 e o Acórdão CARF nº 2302-004.036 mostram por que a rastreabilidade e o alinhamento entre documentação e contabilidade são a…</p>
+    <div class="cx-meta"><time datetime="2026-08-18">18 ago 2026</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/campos-de-ibs-e-cbs-rejeicao-por-ausencia-e-suspensa-temporariamente-nos-documentos-fiscais/" class="blog-card-link">
-    <img src="/assets/img/blog/side-view-worker-typing-laptop-scaled-d795f7-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Campos de IBS e CBS: rejeição por ausência é suspensa temporariamente</h2>
-      <p class="blog-card-desc">Receita Federal e Comitê Gestor do IBS suspendem temporariamente a rejeição automática de documentos fiscais sem os campos de IBS e CBS. Entenda o alcance…</p>
-      <time datetime="2026-08-17">17 ago 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="campos de ibs e cbs: rejeição por ausência é suspensa temporariamente receita federal e comitê gestor do ibs suspendem temporariamente a rejeição automática de documentos fiscais sem os campos de ibs e cbs. entenda o alcance… reforma tributária">
+  <a href="/campos-de-ibs-e-cbs-rejeicao-por-ausencia-e-suspensa-temporariamente-nos-documentos-fiscais/">
+    <div class="cx-card-img"><img src="/assets/img/blog/side-view-worker-typing-laptop-scaled-d795f7-640.webp" alt="" loading="eager" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Campos de IBS e CBS: rejeição por ausência é suspensa temporariamente</h3>
+    <p>Receita Federal e Comitê Gestor do IBS suspendem temporariamente a rejeição automática de documentos fiscais sem os campos de IBS e CBS. Entenda o alcance…</p>
+    <div class="cx-meta"><time datetime="2026-08-17">17 ago 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/documentos-fiscais-da-reformaas-datas-que-a-sua-empresa-precisa-marcar/" class="blog-card-link">
-    <img src="/assets/img/blog/concentrated-colleagues-watching-statistic-charts--252be7-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Cronograma oficial dos documentos fiscais com IBS e CBS</h2>
-      <p class="blog-card-desc">O Ato Conjunto RFB/CGIBS nº 4/2026 definiu as datas de obrigatoriedade dos documentos fiscais com IBS e CBS. A primeira etapa entrou em vigor em 3 de…</p>
-      <time datetime="2026-08-14">14 ago 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="cronograma oficial dos documentos fiscais com ibs e cbs o ato conjunto rfb/cgibs nº 4/2026 definiu as datas de obrigatoriedade dos documentos fiscais com ibs e cbs. a primeira etapa entrou em vigor em 3 de… reforma tributária">
+  <a href="/documentos-fiscais-da-reformaas-datas-que-a-sua-empresa-precisa-marcar/">
+    <div class="cx-card-img"><img src="/assets/img/blog/concentrated-colleagues-watching-statistic-charts--252be7-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Cronograma oficial dos documentos fiscais com IBS e CBS</h3>
+    <p>O Ato Conjunto RFB/CGIBS nº 4/2026 definiu as datas de obrigatoriedade dos documentos fiscais com IBS e CBS. A primeira etapa entrou em vigor em 3 de…</p>
+    <div class="cx-meta"><time datetime="2026-08-14">14 ago 2026</time><span>7 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/simples-nacional-emissor-nacional-da-nfs-e-sera-obrigatorio-a-partir-de-novembro-de-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/simplesnacional-845cbf-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Emissor Nacional da NFS-e será obrigatório para o Simples Nacional: o novo prazo é 1º de novembro de 2026</h2>
-      <p class="blog-card-desc">A Resolução CGSN nº 191/2026 prorrogou para 1º de novembro de 2026 a obrigatoriedade do Emissor Nacional da NFS-e para ME e EPP do Simples Nacional. Veja…</p>
-      <time datetime="2026-08-12">12 ago 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="emissor nacional da nfs-e será obrigatório para o simples nacional: o novo prazo é 1º de novembro de 2026 a resolução cgsn nº 191/2026 prorrogou para 1º de novembro de 2026 a obrigatoriedade do emissor nacional da nfs-e para me e epp do simples nacional. veja… planejamento tributário">
+  <a href="/simples-nacional-emissor-nacional-da-nfs-e-sera-obrigatorio-a-partir-de-novembro-de-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/simplesnacional-845cbf-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Emissor Nacional da NFS-e será obrigatório para o Simples Nacional: o novo prazo é 1º de novembro de 2026</h3>
+    <p>A Resolução CGSN nº 191/2026 prorrogou para 1º de novembro de 2026 a obrigatoriedade do Emissor Nacional da NFS-e para ME e EPP do Simples Nacional. Veja…</p>
+    <div class="cx-meta"><time datetime="2026-08-12">12 ago 2026</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/receita-federal-suspende-sistemas-para-implantacao-do-cnpj-alfanumerico-confira-o-cronograma/" class="blog-card-link">
-    <img src="/assets/img/blog/5js2nykv65d55hoh6ddrhkhgqq-d94489-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Receita Federal suspende sistemas para implantação do CNPJ alfanumérico: veja o cronograma</h2>
-      <p class="blog-card-desc">Receita Federal suspende a base do CNPJ entre 23 e 27 de julho de 2026 para implantar o CNPJ alfanumérico. Confira o cronograma, os serviços afetados e…</p>
-      <time datetime="2026-07-23">23 jul 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="receita federal suspende sistemas para implantação do cnpj alfanumérico: veja o cronograma receita federal suspende a base do cnpj entre 23 e 27 de julho de 2026 para implantar o cnpj alfanumérico. confira o cronograma, os serviços afetados e… planejamento tributário">
+  <a href="/receita-federal-suspende-sistemas-para-implantacao-do-cnpj-alfanumerico-confira-o-cronograma/">
+    <div class="cx-card-img"><img src="/assets/img/blog/5js2nykv65d55hoh6ddrhkhgqq-d94489-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Receita Federal suspende sistemas para implantação do CNPJ alfanumérico: veja o cronograma</h3>
+    <p>Receita Federal suspende a base do CNPJ entre 23 e 27 de julho de 2026 para implantar o CNPJ alfanumérico. Confira o cronograma, os serviços afetados e…</p>
+    <div class="cx-meta"><time datetime="2026-07-23">23 jul 2026</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/reforma-tributaria/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária entra em nova fase em agosto: sua empresa está preparada?</h2>
-      <p class="blog-card-desc">Agosto de 2026 marca uma nova fase da Reforma Tributária. Veja o checklist de maturidade tributária, as áreas que merecem atenção imediata e como a Axxis…</p>
-      <time datetime="2026-06-12">12 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária entra em nova fase em agosto: sua empresa está preparada? agosto de 2026 marca uma nova fase da reforma tributária. veja o checklist de maturidade tributária, as áreas que merecem atenção imediata e como a axxis… reforma tributária">
+  <a href="/reforma-tributaria/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária entra em nova fase em agosto: sua empresa está preparada?</h3>
+    <p>Agosto de 2026 marca uma nova fase da Reforma Tributária. Veja o checklist de maturidade tributária, as áreas que merecem atenção imediata e como a Axxis…</p>
+    <div class="cx-meta"><time datetime="2026-06-12">12 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/custos-contratos-e-margens-o-novo-cenario-da-construcao-civil-engenharia/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Custos, contratos e margens: o novo cenário da construção civil e engenharia</h2>
-      <p class="blog-card-desc">Inflação de insumos, contratos mal estruturados e margens apertadas: entenda os principais desafios financeiros da construção civil e como proteger a…</p>
-      <time datetime="2026-06-09">09 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="custos, contratos e margens: o novo cenário da construção civil e engenharia inflação de insumos, contratos mal estruturados e margens apertadas: entenda os principais desafios financeiros da construção civil e como proteger a… contabilidade setorial">
+  <a href="/custos-contratos-e-margens-o-novo-cenario-da-construcao-civil-engenharia/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Custos, contratos e margens: o novo cenário da construção civil e engenharia</h3>
+    <p>Inflação de insumos, contratos mal estruturados e margens apertadas: entenda os principais desafios financeiros da construção civil e como proteger a…</p>
+    <div class="cx-meta"><time datetime="2026-06-09">09 jun 2026</time><span>6 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/expansao-de-franquias-como-escalar-com-estrategia-e-garantir-crescimento-sustentavel/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Expansão de Franquias: como escalar com estratégia e garantir crescimento sustentável</h2>
-      <p class="blog-card-desc">O mercado de franquias ultrapassou R$ 300 bilhões. Entenda os desafios da expansão, a importância da padronização e como garantir um crescimento…</p>
-      <time datetime="2026-06-08">08 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="expansão de franquias: como escalar com estratégia e garantir crescimento sustentável o mercado de franquias ultrapassou r$ 300 bilhões. entenda os desafios da expansão, a importância da padronização e como garantir um crescimento… contabilidade setorial">
+  <a href="/expansao-de-franquias-como-escalar-com-estrategia-e-garantir-crescimento-sustentavel/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Expansão de Franquias: como escalar com estratégia e garantir crescimento sustentável</h3>
+    <p>O mercado de franquias ultrapassou R$ 300 bilhões. Entenda os desafios da expansão, a importância da padronização e como garantir um crescimento…</p>
+    <div class="cx-meta"><time datetime="2026-06-08">08 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/reforma-tributaria-exige-atencaoredobrada-das-empresas-do-simples-nacional/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária exige atenção redobrada das empresas do Simples Nacional</h2>
-      <p class="blog-card-desc">A Resolução CGSN nº 183/2025 ampliou o conceito de receita bruta no Simples Nacional. Entenda o que mudou, por que isso importa e o que sua empresa deve…</p>
-      <time datetime="2026-06-03">03 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária exige atenção redobrada das empresas do simples nacional a resolução cgsn nº 183/2025 ampliou o conceito de receita bruta no simples nacional. entenda o que mudou, por que isso importa e o que sua empresa deve… reforma tributária">
+  <a href="/reforma-tributaria-exige-atencaoredobrada-das-empresas-do-simples-nacional/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária exige atenção redobrada das empresas do Simples Nacional</h3>
+    <p>A Resolução CGSN nº 183/2025 ampliou o conceito de receita bruta no Simples Nacional. Entenda o que mudou, por que isso importa e o que sua empresa deve…</p>
+    <div class="cx-meta"><time datetime="2026-06-03">03 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/bpo-de-rh-como-a-terceirizacao-estrategicaaumenta-a-eficiencia-das-empresas/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">BPO de RH: como a terceirização estratégica aumenta a eficiência das empresas</h2>
-      <p class="blog-card-desc">Entenda como o BPO de RH pode aumentar a eficiência operacional, reduzir riscos trabalhistas e liberar sua empresa para focar no que realmente importa…</p>
-      <time datetime="2026-06-03">03 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="bpo de rh: como a terceirização estratégica aumenta a eficiência das empresas entenda como o bpo de rh pode aumentar a eficiência operacional, reduzir riscos trabalhistas e liberar sua empresa para focar no que realmente importa… gestão financeira e bpo">
+  <a href="/bpo-de-rh-como-a-terceirizacao-estrategicaaumenta-a-eficiencia-das-empresas/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>BPO de RH: como a terceirização estratégica aumenta a eficiência das empresas</h3>
+    <p>Entenda como o BPO de RH pode aumentar a eficiência operacional, reduzir riscos trabalhistas e liberar sua empresa para focar no que realmente importa…</p>
+    <div class="cx-meta"><time datetime="2026-06-03">03 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/receita-federal-confirma-reducao-de-irpj-e-csll-para-empresas-da-area-da-saude-no-lucro-presumido/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Receita Federal confirma redução de IRPJ e CSLL para empresas da saúde no Lucro Presumido</h2>
-      <p class="blog-card-desc">Receita Federal confirma, por meio das Soluções de Consulta nº 3.024 e 3.025, que empresas de saúde no Lucro Presumido podem reduzir significativamente a…</p>
-      <time datetime="2026-06-03">03 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="receita federal confirma redução de irpj e csll para empresas da saúde no lucro presumido receita federal confirma, por meio das soluções de consulta nº 3.024 e 3.025, que empresas de saúde no lucro presumido podem reduzir significativamente a… planejamento tributário">
+  <a href="/receita-federal-confirma-reducao-de-irpj-e-csll-para-empresas-da-area-da-saude-no-lucro-presumido/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Receita Federal confirma redução de IRPJ e CSLL para empresas da saúde no Lucro Presumido</h3>
+    <p>Receita Federal confirma, por meio das Soluções de Consulta nº 3.024 e 3.025, que empresas de saúde no Lucro Presumido podem reduzir significativamente a…</p>
+    <div class="cx-meta"><time datetime="2026-06-03">03 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/reforma-tributaria-empresas-se-preocupam-com-a-convivencia-de-dois-sistemas-fiscais-durante-a-transicao/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária: empresas se preocupam com a convivência de dois sistemas fiscais na transição</h2>
-      <p class="blog-card-desc">Levantamento da Deloitte revela que 60% das empresas apontam a gestão paralela dos dois sistemas tributários como principal preocupação durante a…</p>
-      <time datetime="2026-06-03">03 jun 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária: empresas se preocupam com a convivência de dois sistemas fiscais na transição levantamento da deloitte revela que 60% das empresas apontam a gestão paralela dos dois sistemas tributários como principal preocupação durante a… reforma tributária">
+  <a href="/reforma-tributaria-empresas-se-preocupam-com-a-convivencia-de-dois-sistemas-fiscais-durante-a-transicao/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária: empresas se preocupam com a convivência de dois sistemas fiscais na transição</h3>
+    <p>Levantamento da Deloitte revela que 60% das empresas apontam a gestão paralela dos dois sistemas tributários como principal preocupação durante a…</p>
+    <div class="cx-meta"><time datetime="2026-06-03">03 jun 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/bpo-financeiro-de-inteligencia-2/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">BPO Financeiro de inteligência: Terceirize o financeiro e tenha dados para decidir</h2>
-      <p class="blog-card-desc">Entenda o que é BPO Financeiro de Inteligência, como funciona na prática, o que está incluído e como ele transforma a gestão financeira das PMEs.</p>
-      <time datetime="2026-04-08">08 abr 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="bpo financeiro de inteligência: terceirize o financeiro e tenha dados para decidir entenda o que é bpo financeiro de inteligência, como funciona na prática, o que está incluído e como ele transforma a gestão financeira das pmes. gestão financeira e bpo">
+  <a href="/bpo-financeiro-de-inteligencia-2/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>BPO Financeiro de inteligência: Terceirize o financeiro e tenha dados para decidir</h3>
+    <p>Entenda o que é BPO Financeiro de Inteligência, como funciona na prática, o que está incluído e como ele transforma a gestão financeira das PMEs.</p>
+    <div class="cx-meta"><time datetime="2026-04-08">08 abr 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/analise-preditiva-antecipando-o-futuro-do-seu-negocio/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Análise preditiva: Antecipando o futuro do seu negócio</h2>
-      <p class="blog-card-desc">Como usar dados históricos para antecipar cenários e tomar decisões antes que os problemas aconteçam.</p>
-      <time datetime="2026-04-08">08 abr 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="análise preditiva: antecipando o futuro do seu negócio como usar dados históricos para antecipar cenários e tomar decisões antes que os problemas aconteçam. gestão financeira e bpo">
+  <a href="/analise-preditiva-antecipando-o-futuro-do-seu-negocio/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Análise preditiva: Antecipando o futuro do seu negócio</h3>
+    <p>Como usar dados históricos para antecipar cenários e tomar decisões antes que os problemas aconteçam.</p>
+    <div class="cx-meta"><time datetime="2026-04-08">08 abr 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/analise-de-margem-por-produto-e-servico/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Análise de margem por produto e serviço: Descubra o que realmente dá lucro</h2>
-      <p class="blog-card-desc">Como calcular a margem de contribuição por produto ou serviço, identificar o que dá lucro e usar essa análise para precificação e decisões estratégicas.</p>
-      <time datetime="2026-04-08">08 abr 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="análise de margem por produto e serviço: descubra o que realmente dá lucro como calcular a margem de contribuição por produto ou serviço, identificar o que dá lucro e usar essa análise para precificação e decisões estratégicas. gestão financeira e bpo">
+  <a href="/analise-de-margem-por-produto-e-servico/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Análise de margem por produto e serviço: Descubra o que realmente dá lucro</h3>
+    <p>Como calcular a margem de contribuição por produto ou serviço, identificar o que dá lucro e usar essa análise para precificação e decisões estratégicas.</p>
+    <div class="cx-meta"><time datetime="2026-04-08">08 abr 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/simples-nacional-lucro-presumido-ou-lucro-real/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Simples Nacional, Lucro Presumido ou Lucro Real: Qual regime paga menos imposto?</h2>
-      <p class="blog-card-desc">Guia completo com ponto de equilíbrio tributário, Fator R e simulação para escolher o regime tributário certo para sua empresa.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="simples nacional, lucro presumido ou lucro real: qual regime paga menos imposto? guia completo com ponto de equilíbrio tributário, fator r e simulação para escolher o regime tributário certo para sua empresa. planejamento tributário">
+  <a href="/simples-nacional-lucro-presumido-ou-lucro-real/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Simples Nacional, Lucro Presumido ou Lucro Real: Qual regime paga menos imposto?</h3>
+    <p>Guia completo com ponto de equilíbrio tributário, Fator R e simulação para escolher o regime tributário certo para sua empresa.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/reforma-tributaria-2025-2026-impactos-no-setor-de-servicos-e-comercio/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma tributária 2025/2026: Impactos no setor de serviços e comércio</h2>
-      <p class="blog-card-desc">Entenda como a Reforma Tributária impacta seu negócio: CBS, IBS, split payment e o que fazer agora para se preparar.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária 2025/2026: impactos no setor de serviços e comércio entenda como a reforma tributária impacta seu negócio: cbs, ibs, split payment e o que fazer agora para se preparar. reforma tributária">
+  <a href="/reforma-tributaria-2025-2026-impactos-no-setor-de-servicos-e-comercio/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma tributária 2025/2026: Impactos no setor de serviços e comércio</h3>
+    <p>Entenda como a Reforma Tributária impacta seu negócio: CBS, IBS, split payment e o que fazer agora para se preparar.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-empresarial">
-  <a href="/ia-e-automacao-contabil-como-a-tecnologia-esta-transformando-a-gestao-financeira/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Empresarial</span>
-      <h2 class="blog-card-title">IA e automação contábil: Como a tecnologia está transformando a gestão financeira</h2>
-      <p class="blog-card-desc">Como a inteligência artificial e a automação estão revolucionando a contabilidade e a gestão financeira das PMEs — e o que isso significa para o seu…</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-empresarial" data-busca="ia e automação contábil: como a tecnologia está transformando a gestão financeira como a inteligência artificial e a automação estão revolucionando a contabilidade e a gestão financeira das pmes — e o que isso significa para o seu… gestão empresarial">
+  <a href="/ia-e-automacao-contabil-como-a-tecnologia-esta-transformando-a-gestao-financeira/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Empresarial</span>
+    <h3>IA e automação contábil: Como a tecnologia está transformando a gestão financeira</h3>
+    <p>Como a inteligência artificial e a automação estão revolucionando a contabilidade e a gestão financeira das PMEs — e o que isso significa para o seu…</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/fluxo-de-caixa-consultivo-como-antecipar-crises/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Fluxo de caixa consultivo: Como antecipar crises e nunca ser pego de surpresa</h2>
-      <p class="blog-card-desc">Guia completo de fluxo de caixa consultivo: entradas, saídas, projeção de caixa e como a contabilidade consultiva transforma sua previsibilidade…</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="fluxo de caixa consultivo: como antecipar crises e nunca ser pego de surpresa guia completo de fluxo de caixa consultivo: entradas, saídas, projeção de caixa e como a contabilidade consultiva transforma sua previsibilidade… gestão financeira e bpo">
+  <a href="/fluxo-de-caixa-consultivo-como-antecipar-crises/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Fluxo de caixa consultivo: Como antecipar crises e nunca ser pego de surpresa</h3>
+    <p>Guia completo de fluxo de caixa consultivo: entradas, saídas, projeção de caixa e como a contabilidade consultiva transforma sua previsibilidade…</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-empresarial">
-  <a href="/pejotizacao-pj-vantagens-riscos-e-como-estruturar-com-seguranca/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Empresarial</span>
-      <h2 class="blog-card-title">Pejotização (PJ): Vantagens, riscos e como estruturar com segurança</h2>
-      <p class="blog-card-desc">Tudo sobre pejotização: comparação tributária CLT vs PJ, vantagens, riscos de vínculo empregatício e como estruturar seu CNPJ legalmente.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-empresarial" data-busca="pejotização (pj): vantagens, riscos e como estruturar com segurança tudo sobre pejotização: comparação tributária clt vs pj, vantagens, riscos de vínculo empregatício e como estruturar seu cnpj legalmente. gestão empresarial">
+  <a href="/pejotizacao-pj-vantagens-riscos-e-como-estruturar-com-seguranca/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Empresarial</span>
+    <h3>Pejotização (PJ): Vantagens, riscos e como estruturar com segurança</h3>
+    <p>Tudo sobre pejotização: comparação tributária CLT vs PJ, vantagens, riscos de vínculo empregatício e como estruturar seu CNPJ legalmente.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-empresarial">
-  <a href="/contabilidade-consultiva-vs-tradicional/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Empresarial</span>
-      <h2 class="blog-card-title">Contabilidade consultiva vs. tradicional: Seu contador precisa ser um parceiro</h2>
-      <p class="blog-card-desc">Entenda a diferença entre contabilidade consultiva e tradicional, e por que empresas que crescem usam a contabilidade para tomar decisões.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-empresarial" data-busca="contabilidade consultiva vs. tradicional: seu contador precisa ser um parceiro entenda a diferença entre contabilidade consultiva e tradicional, e por que empresas que crescem usam a contabilidade para tomar decisões. gestão empresarial">
+  <a href="/contabilidade-consultiva-vs-tradicional/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Empresarial</span>
+    <h3>Contabilidade consultiva vs. tradicional: Seu contador precisa ser um parceiro</h3>
+    <p>Entenda a diferença entre contabilidade consultiva e tradicional, e por que empresas que crescem usam a contabilidade para tomar decisões.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/compliance-tributario-como-evitar-multas-da-receita-federal/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Compliance tributário: Como evitar multas da Receita Federal</h2>
-      <p class="blog-card-desc">Guia completo de compliance tributário: como a Receita fiscaliza, quais obrigações geram mais autuações e como proteger sua empresa de multas.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="compliance tributário: como evitar multas da receita federal guia completo de compliance tributário: como a receita fiscaliza, quais obrigações geram mais autuações e como proteger sua empresa de multas. planejamento tributário">
+  <a href="/compliance-tributario-como-evitar-multas-da-receita-federal/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Compliance tributário: Como evitar multas da Receita Federal</h3>
+    <p>Guia completo de compliance tributário: como a Receita fiscaliza, quais obrigações geram mais autuações e como proteger sua empresa de multas.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/o-fim-da-inadimplencia-como-blindar-seu-fluxo-de-recebimentos/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">O fim da inadimplência: Como blindar seu fluxo de recebimentos</h2>
-      <p class="blog-card-desc">Como a régua de cobrança estruturada e a conciliação bancária automatizada garantem previsibilidade de recebimentos.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="o fim da inadimplência: como blindar seu fluxo de recebimentos como a régua de cobrança estruturada e a conciliação bancária automatizada garantem previsibilidade de recebimentos. gestão financeira e bpo">
+  <a href="/o-fim-da-inadimplencia-como-blindar-seu-fluxo-de-recebimentos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>O fim da inadimplência: Como blindar seu fluxo de recebimentos</h3>
+    <p>Como a régua de cobrança estruturada e a conciliação bancária automatizada garantem previsibilidade de recebimentos.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-empresarial">
-  <a href="/beneficios-estrategicos-e-a-retencao-de-talentos/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Empresarial</span>
-      <h2 class="blog-card-title">Benefícios estratégicos e a retenção de talentos</h2>
-      <p class="blog-card-desc">Como estruturar pacotes de benefícios atraentes e dentro da lei, sem onerar a folha de pagamento.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-empresarial" data-busca="benefícios estratégicos e a retenção de talentos como estruturar pacotes de benefícios atraentes e dentro da lei, sem onerar a folha de pagamento. gestão empresarial">
+  <a href="/beneficios-estrategicos-e-a-retencao-de-talentos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Empresarial</span>
+    <h3>Benefícios estratégicos e a retenção de talentos</h3>
+    <p>Como estruturar pacotes de benefícios atraentes e dentro da lei, sem onerar a folha de pagamento.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="abertura-e-legalizacao-de-empresas">
-  <a href="/guia-completo-para-abertura-de-mei-e-microempresa/" class="blog-card-link">
-    <img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Abertura e Legalização de Empresas</span>
-      <h2 class="blog-card-title">Guia completo para abertura de MEI e Microempresa: Do zero ao CNPJ ativo</h2>
-      <p class="blog-card-desc">Passo a passo completo para abrir MEI ou Microempresa: diferenças, como escolher, processo de abertura, erros comuns e o que fazer após o CNPJ.</p>
-      <time datetime="2026-03-20">20 mar 2026</time>
-    </div>
+<article class="cx-card" data-cat="abertura-e-legalizacao-de-empresas" data-busca="guia completo para abertura de mei e microempresa: do zero ao cnpj ativo passo a passo completo para abrir mei ou microempresa: diferenças, como escolher, processo de abertura, erros comuns e o que fazer após o cnpj. abertura e legalização de empresas">
+  <a href="/guia-completo-para-abertura-de-mei-e-microempresa/">
+    <div class="cx-card-img"><img src="/assets/img/blog/promocao-de-cargo-1791ed-640.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Abertura e Legalização de Empresas</span>
+    <h3>Guia completo para abertura de MEI e Microempresa: Do zero ao CNPJ ativo</h3>
+    <p>Passo a passo completo para abrir MEI ou Microempresa: diferenças, como escolher, processo de abertura, erros comuns e o que fazer após o CNPJ.</p>
+    <div class="cx-meta"><time datetime="2026-03-20">20 mar 2026</time><span>1 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-empresarial">
-  <a href="/conteudo-o-dicionario-do-empresario-25-termos-contabeis-e-fiscais-que-voce-precisa-dominar-em-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/8-1c5f27-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Empresarial</span>
-      <h2 class="blog-card-title">O Dicionário do Empresário: 25 Termos Contábeis e Fiscais que Você Precisa Dominar em 2026</h2>
-      <p class="blog-card-desc">Descomplicamos a contabilidade para você. Conheça 25 termos contábeis e fiscais essenciais para dominar a gestão financeira da sua empresa.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-empresarial" data-busca="o dicionário do empresário: 25 termos contábeis e fiscais que você precisa dominar em 2026 descomplicamos a contabilidade para você. conheça 25 termos contábeis e fiscais essenciais para dominar a gestão financeira da sua empresa. gestão empresarial">
+  <a href="/conteudo-o-dicionario-do-empresario-25-termos-contabeis-e-fiscais-que-voce-precisa-dominar-em-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/8-1c5f27-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Empresarial</span>
+    <h3>O Dicionário do Empresário: 25 Termos Contábeis e Fiscais que Você Precisa Dominar em 2026</h3>
+    <p>Descomplicamos a contabilidade para você. Conheça 25 termos contábeis e fiscais essenciais para dominar a gestão financeira da sua empresa.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>6 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-reforma-tributaria-2026-um-guia-pratico-do-que-muda-para-empresas-de-servicos-no-df-ibs-cbs-e-mais/" class="blog-card-link">
-    <img src="/assets/img/blog/7-48c6dc-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária 2026: Um Guia Prático do que Muda para Empresas de Serviços no DF (IBS, CBS e Mais)</h2>
-      <p class="blog-card-desc">Entenda o que muda com a Reforma Tributária para sua empresa de serviços no DF. Explicamos o IBS, CBS e o impacto no seu negócio. Prepare-se para 2026.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária 2026: um guia prático do que muda para empresas de serviços no df (ibs, cbs e mais) entenda o que muda com a reforma tributária para sua empresa de serviços no df. explicamos o ibs, cbs e o impacto no seu negócio. prepare-se para 2026. reforma tributária">
+  <a href="/conteudo-reforma-tributaria-2026-um-guia-pratico-do-que-muda-para-empresas-de-servicos-no-df-ibs-cbs-e-mais/">
+    <div class="cx-card-img"><img src="/assets/img/blog/7-48c6dc-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária 2026: Um Guia Prático do que Muda para Empresas de Serviços no DF (IBS, CBS e Mais)</h3>
+    <p>Entenda o que muda com a Reforma Tributária para sua empresa de serviços no DF. Explicamos o IBS, CBS e o impacto no seu negócio. Prepare-se para 2026.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-reforma-tributaria-dividendos-o-que-o-pl-1-087-2025-muda-e-o-que-sua-empresa-precisa-saber/" class="blog-card-link">
-    <img src="/assets/img/blog/16-2626e7-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária &amp; Dividendos: o que o PL 1.087/2025 muda e o que sua empresa precisa saber</h2>
-      <p class="blog-card-desc">Entenda como a Reforma Tributária e o PL 1.087/2025 podem impactar a tributação de dividendos. Saiba o que sua empresa precisa fazer para se preparar.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária &amp; dividendos: o que o pl 1.087/2025 muda e o que sua empresa precisa saber entenda como a reforma tributária e o pl 1.087/2025 podem impactar a tributação de dividendos. saiba o que sua empresa precisa fazer para se preparar. reforma tributária">
+  <a href="/conteudo-reforma-tributaria-dividendos-o-que-o-pl-1-087-2025-muda-e-o-que-sua-empresa-precisa-saber/">
+    <div class="cx-card-img"><img src="/assets/img/blog/16-2626e7-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária &amp; Dividendos: o que o PL 1.087/2025 muda e o que sua empresa precisa saber</h3>
+    <p>Entenda como a Reforma Tributária e o PL 1.087/2025 podem impactar a tributação de dividendos. Saiba o que sua empresa precisa fazer para se preparar.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-menos-impostos-exportacao-de-servicos/" class="blog-card-link">
-    <img src="/assets/img/blog/15-12498b-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</h2>
-      <p class="blog-card-desc">Prestando serviços para o exterior? Aprenda o passo a passo de como emitir notas fiscais, pagar menos impostos e garantir a conformidade na exportação de…</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="como emitir notas fiscais para clientes no exterior e pagar menos impostos (exportação de serviços) prestando serviços para o exterior? aprenda o passo a passo de como emitir notas fiscais, pagar menos impostos e garantir a conformidade na exportação de… planejamento tributário">
+  <a href="/conteudo-como-emitir-notas-fiscais-para-clientes-no-exterior-e-pagar-menos-impostos-exportacao-de-servicos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/15-12498b-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Como Emitir Notas Fiscais para Clientes no Exterior e Pagar Menos Impostos (Exportação de Serviços)</h3>
+    <p>Prestando serviços para o exterior? Aprenda o passo a passo de como emitir notas fiscais, pagar menos impostos e garantir a conformidade na exportação de…</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/conteudo-accounting-tech-transforma-contabilidade-em-inteligencia/" class="blog-card-link">
-    <img src="/assets/img/blog/18-6fa513-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</h2>
-      <p class="blog-card-desc">Descubra como o Accounting Tech está transformando a contabilidade. Veja como a tecnologia pode trazer mais inteligência e eficiência para a gestão da sua…</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="a revolução da contabilidade como accounting tech: como a tecnologia transforma a contabilidade em inteligência para sua empresa descubra como o accounting tech está transformando a contabilidade. veja como a tecnologia pode trazer mais inteligência e eficiência para a gestão da sua… gestão financeira e bpo">
+  <a href="/conteudo-accounting-tech-transforma-contabilidade-em-inteligencia/">
+    <div class="cx-card-img"><img src="/assets/img/blog/18-6fa513-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>A Revolução da Contabilidade como Accounting Tech: Como a Tecnologia Transforma a Contabilidade em Inteligência para sua Empresa</h3>
+    <p>Descubra como o Accounting Tech está transformando a contabilidade. Veja como a tecnologia pode trazer mais inteligência e eficiência para a gestão da sua…</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-ibs-nova-reforma-tributaria-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/1-b21fbf-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">IBS – Imposto sobre Bens e Serviços: Entenda o Impacto na Gestão Empresarial</h2>
-      <p class="blog-card-desc">Um guia prático sobre o IBS na nova Reforma Tributária. Saiba como o Imposto sobre Bens e Serviços vai funcionar e o que sua empresa precisa fazer para se…</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="ibs – imposto sobre bens e serviços: entenda o impacto na gestão empresarial um guia prático sobre o ibs na nova reforma tributária. saiba como o imposto sobre bens e serviços vai funcionar e o que sua empresa precisa fazer para se… reforma tributária">
+  <a href="/conteudo-ibs-nova-reforma-tributaria-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/1-b21fbf-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>IBS – Imposto sobre Bens e Serviços: Entenda o Impacto na Gestão Empresarial</h3>
+    <p>Um guia prático sobre o IBS na nova Reforma Tributária. Saiba como o Imposto sobre Bens e Serviços vai funcionar e o que sua empresa precisa fazer para se…</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-ibs-imposto-sobre-bens-e-servicos-entenda-o-impacto-na-gestao-empresarial/" class="blog-card-link">
-    <img src="/assets/img/blog/2-a91dae-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">IBS – Imposto sobre Bens e Serviços: Entenda o Impacto na Gestão Empresarial</h2>
-      <p class="blog-card-desc">O que é o IBS e como ele vai impactar sua empresa? Nosso guia explica em detalhes o novo Imposto sobre Bens e Serviços da Reforma Tributária.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="ibs – imposto sobre bens e serviços: entenda o impacto na gestão empresarial o que é o ibs e como ele vai impactar sua empresa? nosso guia explica em detalhes o novo imposto sobre bens e serviços da reforma tributária. reforma tributária">
+  <a href="/conteudo-ibs-imposto-sobre-bens-e-servicos-entenda-o-impacto-na-gestao-empresarial/">
+    <div class="cx-card-img"><img src="/assets/img/blog/2-a91dae-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>IBS – Imposto sobre Bens e Serviços: Entenda o Impacto na Gestão Empresarial</h3>
+    <p>O que é o IBS e como ele vai impactar sua empresa? Nosso guia explica em detalhes o novo Imposto sobre Bens e Serviços da Reforma Tributária.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-cbs-contribuicao-sobre-bens-e-servicos-como-sua-empresa-precisa-se-preparar-para-a-nova-tributaca/" class="blog-card-link">
-    <img src="/assets/img/blog/4-bbd58b-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">CBS – Contribuição sobre Bens e Serviços: Como Sua Empresa Precisa se Preparar para a Nova Tributação</h2>
-      <p class="blog-card-desc">Prepare sua empresa para a CBS. Entenda como funciona a nova Contribuição sobre Bens e Serviços da Reforma Tributária e qual será o impacto no seu negócio.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="cbs – contribuição sobre bens e serviços: como sua empresa precisa se preparar para a nova tributação prepare sua empresa para a cbs. entenda como funciona a nova contribuição sobre bens e serviços da reforma tributária e qual será o impacto no seu negócio. planejamento tributário">
+  <a href="/conteudo-cbs-contribuicao-sobre-bens-e-servicos-como-sua-empresa-precisa-se-preparar-para-a-nova-tributaca/">
+    <div class="cx-card-img"><img src="/assets/img/blog/4-bbd58b-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>CBS – Contribuição sobre Bens e Serviços: Como Sua Empresa Precisa se Preparar para a Nova Tributação</h3>
+    <p>Prepare sua empresa para a CBS. Entenda como funciona a nova Contribuição sobre Bens e Serviços da Reforma Tributária e qual será o impacto no seu negócio.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-reforma-tributaria-2026-o-fator-r-e-o-que-muda-para-empresas-de-servicos/" class="blog-card-link">
-    <img src="/assets/img/blog/17-50da50-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Reforma Tributária 2026: o Fator R e o que muda para empresas de serviços</h2>
-      <p class="blog-card-desc">O Fator R vai mudar com a Reforma Tributária? Entenda o impacto para empresas de serviços e como se planejar para otimizar seus impostos no novo cenário.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="reforma tributária 2026: o fator r e o que muda para empresas de serviços o fator r vai mudar com a reforma tributária? entenda o impacto para empresas de serviços e como se planejar para otimizar seus impostos no novo cenário. reforma tributária">
+  <a href="/conteudo-reforma-tributaria-2026-o-fator-r-e-o-que-muda-para-empresas-de-servicos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/17-50da50-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Reforma Tributária 2026: o Fator R e o que muda para empresas de serviços</h3>
+    <p>O Fator R vai mudar com a Reforma Tributária? Entenda o impacto para empresas de serviços e como se planejar para otimizar seus impostos no novo cenário.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="reforma-tributaria">
-  <a href="/conteudo-split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-tributari/" class="blog-card-link">
-    <img src="/assets/img/blog/novos-posts-blogs-b7d4ae-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Reforma Tributária</span>
-      <h2 class="blog-card-title">Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</h2>
-      <p class="blog-card-desc">Entenda o que é o Split Payment e como esse novo modelo de arrecadação da Reforma Tributária vai impactar diretamente a sua empresa.</p>
-      <time datetime="2026-01-06">06 jan 2026</time>
-    </div>
+<article class="cx-card" data-cat="reforma-tributaria" data-busca="split payment: a mudança que impactará seu caixa na reforma tributária entenda o que é o split payment e como esse novo modelo de arrecadação da reforma tributária vai impactar diretamente a sua empresa. reforma tributária">
+  <a href="/conteudo-split-payment-a-mudanca-que-impactara-seu-caixa-na-reforma-tributari/">
+    <div class="cx-card-img"><img src="/assets/img/blog/novos-posts-blogs-b7d4ae-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Reforma Tributária</span>
+    <h3>Split Payment: A Mudança que Impactará seu Caixa na Reforma Tributária</h3>
+    <p>Entenda o que é o Split Payment e como esse novo modelo de arrecadação da Reforma Tributária vai impactar diretamente a sua empresa.</p>
+    <div class="cx-meta"><time datetime="2026-01-06">06 jan 2026</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="ferramentas-e-simuladores">
-  <a href="/conteudo-pre-diagnostico-sua-clinica-e-elegivel-para-a-equiparacao-hospitalar/" class="blog-card-link">
-    <img src="/assets/img/blog/5-2eff15-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Ferramentas e Simuladores</span>
-      <h2 class="blog-card-title">Pré-Diagnóstico: Sua Clínica é Elegível para a Equiparação Hospitalar?</h2>
-      <p class="blog-card-desc">Sua clínica médica pode pagar menos impostos. Faça nosso pré-diagnóstico e descubra se você tem direito ao benefício da equiparação hospitalar.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="ferramentas-e-simuladores" data-busca="pré-diagnóstico: sua clínica é elegível para a equiparação hospitalar? sua clínica médica pode pagar menos impostos. faça nosso pré-diagnóstico e descubra se você tem direito ao benefício da equiparação hospitalar. ferramentas e simuladores">
+  <a href="/conteudo-pre-diagnostico-sua-clinica-e-elegivel-para-a-equiparacao-hospitalar/">
+    <div class="cx-card-img"><img src="/assets/img/blog/5-2eff15-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Ferramentas e Simuladores</span>
+    <h3>Pré-Diagnóstico: Sua Clínica é Elegível para a Equiparação Hospitalar?</h3>
+    <p>Sua clínica médica pode pagar menos impostos. Faça nosso pré-diagnóstico e descubra se você tem direito ao benefício da equiparação hospitalar.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="ferramentas-e-simuladores">
-  <a href="/conteudo-calculadora-de-otimizacao-do-fator-r/" class="blog-card-link">
-    <img src="/assets/img/blog/3-8f282c-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Ferramentas e Simuladores</span>
-      <h2 class="blog-card-title">Calculadora de Otimização do Fator R</h2>
-      <p class="blog-card-desc">Use nossa calculadora e descubra se sua empresa pode economizar impostos no Simples Nacional através do Fator R. Simples, rápido e online.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="ferramentas-e-simuladores" data-busca="calculadora de otimização do fator r use nossa calculadora e descubra se sua empresa pode economizar impostos no simples nacional através do fator r. simples, rápido e online. ferramentas e simuladores">
+  <a href="/conteudo-calculadora-de-otimizacao-do-fator-r/">
+    <div class="cx-card-img"><img src="/assets/img/blog/3-8f282c-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Ferramentas e Simuladores</span>
+    <h3>Calculadora de Otimização do Fator R</h3>
+    <p>Use nossa calculadora e descubra se sua empresa pode economizar impostos no Simples Nacional através do Fator R. Simples, rápido e online.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>3 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/conteudo-analise-de-custo-beneficio-contratacao-interna-ou-bpo-financeiro/" class="blog-card-link">
-    <img src="/assets/img/blog/21-f675a6-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Analisador de Custo: BPO Financeiro vs. Contratação Interna</h2>
-      <p class="blog-card-desc">O que vale mais a pena: contratar um analista ou terceirizar com um BPO Financeiro? Nossa análise de custo-benefício ajuda você a tomar a melhor decisão</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="analisador de custo: bpo financeiro vs. contratação interna o que vale mais a pena: contratar um analista ou terceirizar com um bpo financeiro? nossa análise de custo-benefício ajuda você a tomar a melhor decisão gestão financeira e bpo">
+  <a href="/conteudo-analise-de-custo-beneficio-contratacao-interna-ou-bpo-financeiro/">
+    <div class="cx-card-img"><img src="/assets/img/blog/21-f675a6-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Analisador de Custo: BPO Financeiro vs. Contratação Interna</h3>
+    <p>O que vale mais a pena: contratar um analista ou terceirizar com um BPO Financeiro? Nossa análise de custo-benefício ajuda você a tomar a melhor decisão</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>2 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-contabilidade-para-agencias-de-publicidade-e-marketing-no-df-fator-r-e-gestao-de-projetos/" class="blog-card-link">
-    <img src="/assets/img/blog/14-bf8b53-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Contabilidade para Agências de Publicidade e Marketing no DF: Fator R e Gestão de Projetos</h2>
-      <p class="blog-card-desc">Guia de contabilidade para agências de publicidade e marketing no DF. Entenda o Fator R, gestão de projetos e como otimizar seus impostos.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="contabilidade para agências de publicidade e marketing no df: fator r e gestão de projetos guia de contabilidade para agências de publicidade e marketing no df. entenda o fator r, gestão de projetos e como otimizar seus impostos. contabilidade setorial">
+  <a href="/conteudo-contabilidade-para-agencias-de-publicidade-e-marketing-no-df-fator-r-e-gestao-de-projetos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/14-bf8b53-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Contabilidade para Agências de Publicidade e Marketing no DF: Fator R e Gestão de Projetos</h3>
+    <p>Guia de contabilidade para agências de publicidade e marketing no DF. Entenda o Fator R, gestão de projetos e como otimizar seus impostos.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-ret-regime-especial-de-tributacao-como-funciona-e-quando-vale-a-pena-para-sua-obra/" class="blog-card-link">
-    <img src="/assets/img/blog/13-a23a02-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">RET (Regime Especial de Tributação): Como Funciona e Quando Vale a Pena para sua Obra</h2>
-      <p class="blog-card-desc">Entenda como funciona o RET (Regime Especial de Tributação) e como ele pode beneficiar sua construtora ou incorporadora. Saiba quando vale a pena aderir.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="ret (regime especial de tributação): como funciona e quando vale a pena para sua obra entenda como funciona o ret (regime especial de tributação) e como ele pode beneficiar sua construtora ou incorporadora. saiba quando vale a pena aderir. contabilidade setorial">
+  <a href="/conteudo-ret-regime-especial-de-tributacao-como-funciona-e-quando-vale-a-pena-para-sua-obra/">
+    <div class="cx-card-img"><img src="/assets/img/blog/13-a23a02-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>RET (Regime Especial de Tributação): Como Funciona e Quando Vale a Pena para sua Obra</h3>
+    <p>Entenda como funciona o RET (Regime Especial de Tributação) e como ele pode beneficiar sua construtora ou incorporadora. Saiba quando vale a pena aderir.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-contabilidade-para-construtoras-e-incorporadoras-no-df-o-guia-do-ret-e-gestao-de-custos/" class="blog-card-link">
-    <img src="/assets/img/blog/12-80f863-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</h2>
-      <p class="blog-card-desc">O guia definitivo de contabilidade para construtoras e incorporadoras no DF. Saiba tudo sobre o RET, gestão de custos e otimização fiscal para suas obras.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="contabilidade para construtoras e incorporadoras no df: o guia do ret e gestão de custos o guia definitivo de contabilidade para construtoras e incorporadoras no df. saiba tudo sobre o ret, gestão de custos e otimização fiscal para suas obras. contabilidade setorial">
+  <a href="/conteudo-contabilidade-para-construtoras-e-incorporadoras-no-df-o-guia-do-ret-e-gestao-de-custos/">
+    <div class="cx-card-img"><img src="/assets/img/blog/12-80f863-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Contabilidade para Construtoras e Incorporadoras no DF: O Guia do RET e Gestão de Custos</h3>
+    <p>O guia definitivo de contabilidade para construtoras e incorporadoras no DF. Saiba tudo sobre o RET, gestão de custos e otimização fiscal para suas obras.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-tributacao-para-saas-como-enquadrar-sua-empresa-e-otimizar-impostos-em-brasilia/" class="blog-card-link">
-    <img src="/assets/img/blog/11-be6c23-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Tributação para SaaS: Como Enquadrar sua Empresa e Otimizar Impostos em Brasília</h2>
-      <p class="blog-card-desc">Sua empresa SaaS está pagando os impostos corretos? Entenda a tributação para Software as a Service e saiba como enquadrar sua empresa para otimizar a…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="tributação para saas: como enquadrar sua empresa e otimizar impostos em brasília sua empresa saas está pagando os impostos corretos? entenda a tributação para software as a service e saiba como enquadrar sua empresa para otimizar a… contabilidade setorial">
+  <a href="/conteudo-tributacao-para-saas-como-enquadrar-sua-empresa-e-otimizar-impostos-em-brasilia/">
+    <div class="cx-card-img"><img src="/assets/img/blog/11-be6c23-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Tributação para SaaS: Como Enquadrar sua Empresa e Otimizar Impostos em Brasília</h3>
+    <p>Sua empresa SaaS está pagando os impostos corretos? Entenda a tributação para Software as a Service e saiba como enquadrar sua empresa para otimizar a…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-contabilidade-para-startups-e-empresas-de-tecnologia-no-df-do-simples-ao-lucro-real/" class="blog-card-link">
-    <img src="/assets/img/blog/10-ac0a06-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Contabilidade para Startups e Empresas de Tecnologia no DF: Do Simples ao Lucro Real</h2>
-      <p class="blog-card-desc">Do Simples ao Lucro Real, um guia completo de contabilidade para startups e empresas de tecnologia no DF. Garanta a conformidade e prepare-se para crescer.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="contabilidade para startups e empresas de tecnologia no df: do simples ao lucro real do simples ao lucro real, um guia completo de contabilidade para startups e empresas de tecnologia no df. garanta a conformidade e prepare-se para crescer. contabilidade setorial">
+  <a href="/conteudo-contabilidade-para-startups-e-empresas-de-tecnologia-no-df-do-simples-ao-lucro-real/">
+    <div class="cx-card-img"><img src="/assets/img/blog/10-ac0a06-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Contabilidade para Startups e Empresas de Tecnologia no DF: Do Simples ao Lucro Real</h3>
+    <p>Do Simples ao Lucro Real, um guia completo de contabilidade para startups e empresas de tecnologia no DF. Garanta a conformidade e prepare-se para crescer.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="contabilidade-setorial">
-  <a href="/conteudo-contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-guia-completo-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/9-2617b0-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Contabilidade Setorial</span>
-      <h2 class="blog-card-title">Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</h2>
-      <p class="blog-card-desc">Guia completo de contabilidade para clínicas e consultórios médicos no DF. Entenda a tributação, equiparação hospitalar e como otimizar seus impostos em…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="contabilidade-setorial" data-busca="contabilidade para clínicas médicas e consultórios no df: o guia completo 2026 guia completo de contabilidade para clínicas e consultórios médicos no df. entenda a tributação, equiparação hospitalar e como otimizar seus impostos em… contabilidade setorial">
+  <a href="/conteudo-contabilidade-para-clinicas-medicas-e-consultorios-no-df-o-guia-completo-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/9-2617b0-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Contabilidade Setorial</span>
+    <h3>Contabilidade para Clínicas Médicas e Consultórios no DF: O Guia Completo 2026</h3>
+    <p>Guia completo de contabilidade para clínicas e consultórios médicos no DF. Entenda a tributação, equiparação hospitalar e como otimizar seus impostos em…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/conteudo-contratar-um-analista-financeiro-ou-terceirizar-com-um-bpo-analise-de-custo-beneficio-para-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/6-babeb4-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Contratar um Analista Financeiro ou Terceirizar com um BPO? Análise de Custo-Benefício para 2026</h2>
-      <p class="blog-card-desc">Análise de custo-benefício completa para 2026. Descubra se é melhor contratar um analista financeiro interno ou terceirizar com um serviço de BPO.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="contratar um analista financeiro ou terceirizar com um bpo? análise de custo-benefício para 2026 análise de custo-benefício completa para 2026. descubra se é melhor contratar um analista financeiro interno ou terceirizar com um serviço de bpo. gestão financeira e bpo">
+  <a href="/conteudo-contratar-um-analista-financeiro-ou-terceirizar-com-um-bpo-analise-de-custo-beneficio-para-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/6-babeb4-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Contratar um Analista Financeiro ou Terceirizar com um BPO? Análise de Custo-Benefício para 2026</h3>
+    <p>Análise de custo-benefício completa para 2026. Descubra se é melhor contratar um analista financeiro interno ou terceirizar com um serviço de BPO.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/conteudo-fluxo-de-caixa-o-guia-pratico-para-evitar-surpresas-e-garantir-a-saude-financeira-do-seu-negocio/" class="blog-card-link">
-    <img src="/assets/img/blog/5-35042c-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">Fluxo de Caixa: O Guia Prático para Evitar Surpresas e Garantir a Saúde Financeira do seu Negócio</h2>
-      <p class="blog-card-desc">Domine o fluxo de caixa do seu negócio. Nosso guia prático ensina como evitar surpresas, projetar cenários e garantir a saúde financeira da sua empresa.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="fluxo de caixa: o guia prático para evitar surpresas e garantir a saúde financeira do seu negócio domine o fluxo de caixa do seu negócio. nosso guia prático ensina como evitar surpresas, projetar cenários e garantir a saúde financeira da sua empresa. gestão financeira e bpo">
+  <a href="/conteudo-fluxo-de-caixa-o-guia-pratico-para-evitar-surpresas-e-garantir-a-saude-financeira-do-seu-negocio/">
+    <div class="cx-card-img"><img src="/assets/img/blog/5-35042c-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>Fluxo de Caixa: O Guia Prático para Evitar Surpresas e Garantir a Saúde Financeira do seu Negócio</h3>
+    <p>Domine o fluxo de caixa do seu negócio. Nosso guia prático ensina como evitar surpresas, projetar cenários e garantir a saúde financeira da sua empresa.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="gestao-financeira-e-bpo">
-  <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/" class="blog-card-link">
-    <img src="/assets/img/blog/4-1f6252-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Gestão Financeira e BPO</span>
-      <h2 class="blog-card-title">BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</h2>
-      <p class="blog-card-desc">O guia definitivo para CEOs em Brasília. Descubra como o BPO Financeiro pode te dar paz de espírito e mais tempo para focar no crescimento do seu negócio.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="gestao-financeira-e-bpo" data-busca="bpo financeiro em brasília: o guia para ceos que querem focar no crescimento e ter paz de espírito o guia definitivo para ceos em brasília. descubra como o bpo financeiro pode te dar paz de espírito e mais tempo para focar no crescimento do seu negócio. gestão financeira e bpo">
+  <a href="/conteudo-bpo-financeiro-em-brasilia-o-guia-para-ceos-que-querem-focar-no-crescimento-e-ter-paz-de-espirito/">
+    <div class="cx-card-img"><img src="/assets/img/blog/4-1f6252-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Gestão Financeira e BPO</span>
+    <h3>BPO Financeiro em Brasília: O Guia para CEOs que Querem Focar no Crescimento e Ter Paz de Espírito</h3>
+    <p>O guia definitivo para CEOs em Brasília. Descubra como o BPO Financeiro pode te dar paz de espírito e mais tempo para focar no crescimento do seu negócio.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-recuperacao-de-creditos-tributarios-como-o-diagnostico-fiscal-pode-injetar-caixa-na-sua-empresa/" class="blog-card-link">
-    <img src="/assets/img/blog/6-d49f9e-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Recuperação de Créditos Tributários: Como o Diagnóstico Fiscal Pode Injetar Caixa na sua Empresa</h2>
-      <p class="blog-card-desc">Sua empresa pode ter dinheiro a receber do fisco. Entenda o que é a recuperação de créditos tributários e como um diagnóstico fiscal pode injetar caixa no…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="recuperação de créditos tributários: como o diagnóstico fiscal pode injetar caixa na sua empresa sua empresa pode ter dinheiro a receber do fisco. entenda o que é a recuperação de créditos tributários e como um diagnóstico fiscal pode injetar caixa no… planejamento tributário">
+  <a href="/conteudo-recuperacao-de-creditos-tributarios-como-o-diagnostico-fiscal-pode-injetar-caixa-na-sua-empresa/">
+    <div class="cx-card-img"><img src="/assets/img/blog/6-d49f9e-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Recuperação de Créditos Tributários: Como o Diagnóstico Fiscal Pode Injetar Caixa na sua Empresa</h3>
+    <p>Sua empresa pode ter dinheiro a receber do fisco. Entenda o que é a recuperação de créditos tributários e como um diagnóstico fiscal pode injetar caixa no…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-distribuicao-de-lucros-ou-pro-labore-como-remunerar-os-socios-e-pagar-menos-impostos-em-2026/" class="blog-card-link">
-    <img src="/assets/img/blog/2-a8ec65-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Distribuição de Lucros ou Pró-labore? Como Remunerar os Sócios e Pagar Menos Impostos em 2026</h2>
-      <p class="blog-card-desc">Qual a melhor forma de remunerar os sócios? Entenda as diferenças entre distribuição de lucros e pró-labore e saiba como pagar menos impostos em 2026</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="distribuição de lucros ou pró-labore? como remunerar os sócios e pagar menos impostos em 2026 qual a melhor forma de remunerar os sócios? entenda as diferenças entre distribuição de lucros e pró-labore e saiba como pagar menos impostos em 2026 planejamento tributário">
+  <a href="/conteudo-distribuicao-de-lucros-ou-pro-labore-como-remunerar-os-socios-e-pagar-menos-impostos-em-2026/">
+    <div class="cx-card-img"><img src="/assets/img/blog/2-a8ec65-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Distribuição de Lucros ou Pró-labore? Como Remunerar os Sócios e Pagar Menos Impostos em 2026</h3>
+    <p>Qual a melhor forma de remunerar os sócios? Entenda as diferenças entre distribuição de lucros e pró-labore e saiba como pagar menos impostos em 2026</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-desvendando-o-fator-r-em-2026-o-guia-para-reduzir-seu-imposto-no-simples-nacional/" class="blog-card-link">
-    <img src="/assets/img/blog/1-bec435-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Desvendando o Fator R em 2026: O Guia para Reduzir seu Imposto no Simples Nacional</h2>
-      <p class="blog-card-desc">Desvende o Fator R. Nosso guia completo para 2026 ensina como calcular e otimizar o Fator R para reduzir significativamente seus impostos no Simples…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="desvendando o fator r em 2026: o guia para reduzir seu imposto no simples nacional desvende o fator r. nosso guia completo para 2026 ensina como calcular e otimizar o fator r para reduzir significativamente seus impostos no simples… planejamento tributário">
+  <a href="/conteudo-desvendando-o-fator-r-em-2026-o-guia-para-reduzir-seu-imposto-no-simples-nacional/">
+    <div class="cx-card-img"><img src="/assets/img/blog/1-bec435-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Desvendando o Fator R em 2026: O Guia para Reduzir seu Imposto no Simples Nacional</h3>
+    <p>Desvende o Fator R. Nosso guia completo para 2026 ensina como calcular e otimizar o Fator R para reduzir significativamente seus impostos no Simples…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="abertura-e-legalizacao-de-empresas">
-  <a href="/conteudo-tipos-de-empresa-para-abrir-em-2026-ltda-slu-ou-s-a-o-guia-de-decisao-para-socios/" class="blog-card-link">
-    <img src="/assets/img/blog/8-6fcd26-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Abertura e Legalização de Empresas</span>
-      <h2 class="blog-card-title">Tipos de Empresa para Abrir em 2026: LTDA, SLU ou S/A? O Guia de Decisão para Sócios.</h2>
-      <p class="blog-card-desc">Qual o melhor tipo de empresa para o seu negócio? Nosso guia de decisão compara LTDA, SLU e S/A para ajudar você e seus sócios a fazerem a escolha certa.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="abertura-e-legalizacao-de-empresas" data-busca="tipos de empresa para abrir em 2026: ltda, slu ou s/a? o guia de decisão para sócios. qual o melhor tipo de empresa para o seu negócio? nosso guia de decisão compara ltda, slu e s/a para ajudar você e seus sócios a fazerem a escolha certa. abertura e legalização de empresas">
+  <a href="/conteudo-tipos-de-empresa-para-abrir-em-2026-ltda-slu-ou-s-a-o-guia-de-decisao-para-socios/">
+    <div class="cx-card-img"><img src="/assets/img/blog/8-6fcd26-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Abertura e Legalização de Empresas</span>
+    <h3>Tipos de Empresa para Abrir em 2026: LTDA, SLU ou S/A? O Guia de Decisão para Sócios.</h3>
+    <p>Qual o melhor tipo de empresa para o seu negócio? Nosso guia de decisão compara LTDA, SLU e S/A para ajudar você e seus sócios a fazerem a escolha certa.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="abertura-e-legalizacao-de-empresas">
-  <a href="/conteudo-quanto-custa-abrir-uma-empresa-no-df-em-2026-a-planilha-completa-taxas-vs-investimento-estrategico/" class="blog-card-link">
-    <img src="/assets/img/blog/9-2-dae5d0-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Abertura e Legalização de Empresas</span>
-      <h2 class="blog-card-title">Quanto Custa Abrir uma Empresa no DF em 2026? (A Planilha Completa: Taxas vs. Investimento Estratégico)</h2>
-      <p class="blog-card-desc">Veja todos os custos e taxas para abrir uma empresa no DF em 2026. Entenda a diferença entre taxas e investimento estratégico.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="abertura-e-legalizacao-de-empresas" data-busca="quanto custa abrir uma empresa no df em 2026? (a planilha completa: taxas vs. investimento estratégico) veja todos os custos e taxas para abrir uma empresa no df em 2026. entenda a diferença entre taxas e investimento estratégico. abertura e legalização de empresas">
+  <a href="/conteudo-quanto-custa-abrir-uma-empresa-no-df-em-2026-a-planilha-completa-taxas-vs-investimento-estrategico/">
+    <div class="cx-card-img"><img src="/assets/img/blog/9-2-dae5d0-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Abertura e Legalização de Empresas</span>
+    <h3>Quanto Custa Abrir uma Empresa no DF em 2026? (A Planilha Completa: Taxas vs. Investimento Estratégico)</h3>
+    <p>Veja todos os custos e taxas para abrir uma empresa no DF em 2026. Entenda a diferença entre taxas e investimento estratégico.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/" class="blog-card-link">
-    <img src="/assets/img/blog/10-739927-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Lucro Real vs. Presumido: O Guia de Decisão por Segmento para Empresas do DF</h2>
-      <p class="blog-card-desc">O guia de decisão definitivo. Analisamos as vantagens do Lucro Real vs. Presumido por segmento de empresa para ajudar você a escolher o regime mais…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="lucro real vs. presumido: o guia de decisão por segmento para empresas do df o guia de decisão definitivo. analisamos as vantagens do lucro real vs. presumido por segmento de empresa para ajudar você a escolher o regime mais… planejamento tributário">
+  <a href="/conteudo-lucro-real-vs-presumido-o-guia-de-decisao-por-segmento-para-empresas-do-d/">
+    <div class="cx-card-img"><img src="/assets/img/blog/10-739927-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Lucro Real vs. Presumido: O Guia de Decisão por Segmento para Empresas do DF</h3>
+    <p>O guia de decisão definitivo. Analisamos as vantagens do Lucro Real vs. Presumido por segmento de empresa para ajudar você a escolher o regime mais…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimizar-a-sucessao-com-uma-estrutura-s-a/" class="blog-card-link">
-    <img src="/assets/img/blog/13-dbb864-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</h2>
-      <p class="blog-card-desc">Aprenda a proteger seu patrimônio e otimizar a sucessão familiar. Nosso guia completo sobre Holding Patrimonial no DF explica como estruturar a sua.</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="holding patrimonial no df: o guia para proteger bens e otimizar a sucessão com uma estrutura s/a aprenda a proteger seu patrimônio e otimizar a sucessão familiar. nosso guia completo sobre holding patrimonial no df explica como estruturar a sua. planejamento tributário">
+  <a href="/conteudo-holding-patrimonial-no-df-o-guia-para-proteger-bens-e-otimizar-a-sucessao-com-uma-estrutura-s-a/">
+    <div class="cx-card-img"><img src="/assets/img/blog/13-dbb864-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Holding Patrimonial no DF: O Guia para Proteger Bens e Otimizar a Sucessão com uma Estrutura S/A</h3>
+    <p>Aprenda a proteger seu patrimônio e otimizar a sucessão familiar. Nosso guia completo sobre Holding Patrimonial no DF explica como estruturar a sua.</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="abertura-e-legalizacao-de-empresas">
-  <a href="/conteudo-como-abrir-empresa-no-df-em-2026-o-passo-a-passo-para-negocios-de-alto-faturamento/" class="blog-card-link">
-    <img src="/assets/img/blog/12-ad3868-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Abertura e Legalização de Empresas</span>
-      <h2 class="blog-card-title">Guia Definitivo: Como Abrir Empresa no DF em 2026 (O Passo a Passo para Negócios de Alto Faturamento)</h2>
-      <p class="blog-card-desc">Quer abrir sua empresa no DF? Confira nosso passo a passo completo para negócios de alto faturamento, incluindo custos, tipos de empresa e dicas…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="abertura-e-legalizacao-de-empresas" data-busca="guia definitivo: como abrir empresa no df em 2026 (o passo a passo para negócios de alto faturamento) quer abrir sua empresa no df? confira nosso passo a passo completo para negócios de alto faturamento, incluindo custos, tipos de empresa e dicas… abertura e legalização de empresas">
+  <a href="/conteudo-como-abrir-empresa-no-df-em-2026-o-passo-a-passo-para-negocios-de-alto-faturamento/">
+    <div class="cx-card-img"><img src="/assets/img/blog/12-ad3868-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Abertura e Legalização de Empresas</span>
+    <h3>Guia Definitivo: Como Abrir Empresa no DF em 2026 (O Passo a Passo para Negócios de Alto Faturamento)</h3>
+    <p>Quer abrir sua empresa no DF? Confira nosso passo a passo completo para negócios de alto faturamento, incluindo custos, tipos de empresa e dicas…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>5 min de leitura</span></div>
   </a>
 </article>
-<article class="blog-card" data-cat="planejamento-tributario">
-  <a href="/conteudo-lucro-real-lucro-presumido-ou-simples-nacional/" class="blog-card-link">
-    <img src="/assets/img/blog/11-ccf3e1-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360">
-    <div class="blog-card-body">
-      <span class="blog-card-tag">Planejamento Tributário</span>
-      <h2 class="blog-card-title">Lucro real, Lucro presumido ou Simples nacional: Qual o melhor regime tributário para seu negócio?</h2>
-      <p class="blog-card-desc">Qual o melhor regime tributário para sua empresa? Nosso guia compara Lucro Real, Lucro Presumido e Simples Nacional para ajudar você a pagar menos…</p>
-      <time datetime="2025-12-01">01 dez 2025</time>
-    </div>
+<article class="cx-card" data-cat="planejamento-tributario" data-busca="lucro real, lucro presumido ou simples nacional: qual o melhor regime tributário para seu negócio? qual o melhor regime tributário para sua empresa? nosso guia compara lucro real, lucro presumido e simples nacional para ajudar você a pagar menos… planejamento tributário">
+  <a href="/conteudo-lucro-real-lucro-presumido-ou-simples-nacional/">
+    <div class="cx-card-img"><img src="/assets/img/blog/11-ccf3e1-500.webp" alt="" loading="lazy" decoding="async" width="640" height="360"></div>
+    <span class="cx-tag">Planejamento Tributário</span>
+    <h3>Lucro real, Lucro presumido ou Simples nacional: Qual o melhor regime tributário para seu negócio?</h3>
+    <p>Qual o melhor regime tributário para sua empresa? Nosso guia compara Lucro Real, Lucro Presumido e Simples Nacional para ajudar você a pagar menos…</p>
+    <div class="cx-meta"><time datetime="2025-12-01">01 dez 2025</time><span>4 min de leitura</span></div>
   </a>
 </article>
+  </div>
+  <p class="cx-vazio" hidden>Nenhum artigo encontrado. Tente outra palavra ou veja <button type="button" class="cx-limpa">todos os artigos</button>.</p>
+  <div class="cx-mais-wrap"><button type="button" class="cx-mais">Carregar mais artigos</button></div>
+</section>
+
+<section class="ax-art-cta">
+  <div><h2>Quer aplicar isso na sua empresa?</h2><p>Um especialista da Axxis analisa o seu caso e mostra o caminho mais vantajoso.</p></div>
+  <a class="ax-btn ax-btn-branco" href="/solicite-sua-proposta/">Solicite sua Proposta</a>
+</section>
 </div>
 <script>
 (function(){
-  var chips=document.querySelectorAll('.blog-chip'),cards=document.querySelectorAll('.blog-card');
-  function filtra(cat){
-    chips.forEach(function(c){c.classList.toggle('ativo',c.dataset.cat===cat);});
-    cards.forEach(function(c){c.hidden=!!cat&&c.dataset.cat!==cat;});
+  var POR=9,limite=POR,cat='',termo='';
+  var cards=[].slice.call(document.querySelectorAll('.cx-card')),chips=[].slice.call(document.querySelectorAll('.cx-chip'));
+  var busca=document.querySelector('.cx-busca input'),mais=document.querySelector('.cx-mais'),vazio=document.querySelector('.cx-vazio');
+  var dest=document.querySelector('.cx-dest'),ferrs=document.querySelector('.cx-ferrs'),titulo=document.querySelector('.cx-lista-topo h2');
+  function norm(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+  cards.forEach(function(c){c._b=norm(c.dataset.busca);});
+  function aplica(){
+    var padrao=!cat&&!termo,n=0,vis=0;
+    cards.forEach(function(c){
+      var ok=(!cat||c.dataset.cat===cat)&&(!termo||c._b.indexOf(termo)>-1)&&!(padrao&&c.hasAttribute('data-dest'));
+      if(ok)n++;c.hidden=!ok||n>limite;if(ok&&n<=limite)vis++;
+    });
+    dest.hidden=!padrao;ferrs.hidden=!padrao;vazio.hidden=n>0;
+    mais.parentNode.hidden=n<=limite;
+    titulo.innerHTML=padrao?'Todos os <span>artigos</span>':(n+' '+(n===1?'artigo':'artigos')+(termo?' <span>encontrados</span>':''));
   }
-  chips.forEach(function(c){c.addEventListener('click',function(){filtra(c.dataset.cat);history.replaceState(null,'',c.dataset.cat?'#'+c.dataset.cat:location.pathname);});});
-  var h=location.hash.slice(1);if(h&&document.querySelector('.blog-chip[data-cat="'+h+'"]'))filtra(h);
+  chips.forEach(function(c){c.addEventListener('click',function(){
+    cat=c.dataset.cat;limite=POR;
+    chips.forEach(function(x){var a=x===c;x.classList.toggle('ativo',a);x.setAttribute('aria-pressed',a);});
+    history.replaceState(null,'',cat?'#'+cat:location.pathname);aplica();
+  });});
+  busca.addEventListener('input',function(){termo=norm(busca.value.trim());limite=POR;aplica();});
+  mais.addEventListener('click',function(){limite+=POR;aplica();});
+  document.querySelector('.cx-limpa').addEventListener('click',function(){busca.value='';termo='';chips[0].click();});
+  var h=location.hash.slice(1),ch=h&&document.querySelector('.cx-chip[data-cat="'+h+'"]');
+  if(ch)ch.click();else aplica();
 })();
 </script>
 </main>
@@ -1150,7 +1131,7 @@
                     <span>Ed. Connect Towers - QS 1, Rua 212, Bloco "D", 8o Andar - Sala: 804 - Águas Claras, Brasília - DF, 71950-550</span>
                 </div>
                 <div class="contact-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 = 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                     <a href="tel:+5561981882247">(61) 98188 - 2247</a>
                 </div>
                 <div class="contact-item">
