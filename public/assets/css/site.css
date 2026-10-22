@@ -221,3 +221,12 @@ a.hero-button:hover,a.specialized-cta-btn:hover,button.fq-next:hover,.ax-12318 .
 a.cta-button-final,a.consultant-cta-final,a.axxis-rh-cta-button,a.human-touch-button,a.axxis-human-touch-button,a.specialist-cta-btn,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button{background:#fff!important;color:#FF6D00!important;fill:#FF6D00!important}
 a.cta-button-final:hover,a.consultant-cta-final:hover,a.axxis-rh-cta-button:hover,a.human-touch-button:hover,a.axxis-human-touch-button:hover,a.specialist-cta-btn:hover,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button:hover{background:#f2f2f2!important;color:#df660a!important}
 .ax-12318 .ax-element.ax-element-2b93590 .ax-button .ax-button-text,.ax-12318 .ax-element.ax-element-53f9a50 .ax-button .ax-button-text,.ax-12318 .ax-element.ax-element-42a4b2b .ax-button .ax-button-text{font:inherit!important;letter-spacing:inherit!important}
+
+/* Rodapé alinhado ao menu: Outfit fina com o mesmo espaçamento de letras; títulos como os rótulos do submenu */
+.axxis-footer{font-family:"Outfit",sans-serif}
+.axxis-footer .footer-col h4{font-family:"Outfit",sans-serif;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#FF6D00;border-bottom:0;padding-bottom:0;margin-bottom:22px}
+.axxis-footer .footer-branding p{font-family:"Outfit",sans-serif;font-size:15px;font-weight:300;letter-spacing:.3px;line-height:1.7;color:rgba(255,255,255,.75)}
+.axxis-footer .footer-nav a,.axxis-footer .contact-item,.axxis-footer .contact-item a{font-family:"Outfit",sans-serif;font-size:15px;font-weight:300;letter-spacing:.5px;color:rgba(255,255,255,.85)}
+.axxis-footer .footer-nav a:hover,.axxis-footer .contact-item a:hover{color:#FF6D00}
+.axxis-footer .copyright,.axxis-footer .legal-links,.axxis-footer .legal-links a{font-family:"Outfit",sans-serif;font-size:13px;font-weight:300;letter-spacing:.5px;color:rgba(255,255,255,.55)}
+.axxis-footer .legal-links a:hover{color:#FF6D00}
