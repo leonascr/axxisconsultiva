@@ -69,10 +69,23 @@ button.cx-p:hover{border-color:var(--lj);color:var(--lj-tx)}
 .cx .ax-art-cta{margin-top:96px}
 @media (max-width:1024px){.cx-hero{flex-direction:column;align-items:stretch;gap:24px}.cx-busca{flex:none;max-width:480px}.cx-dest a{grid-template-columns:1fr;gap:28px}.cx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:767px){.cx{padding:0 16px 72px}.cx-hero{padding:40px 0 32px}.cx-hero h1{font-size:38px}.cx-hero p{font-size:16px}.cx-busca{max-width:none}.cx-dest a{padding-bottom:40px}.cx-dest h2{font-size:26px}.cx-lista{padding-top:36px}.cx-filtros{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:24px;margin:0 -16px 32px;padding:0 16px}.cx-filtros::-webkit-scrollbar{display:none}.cx-f{flex:0 0 auto}.cx-grid{grid-template-columns:minmax(0,1fr);gap:40px}.cx-pag{margin-top:48px}.cx-p.cx-seta{padding:0;font-size:0}.cx-p.cx-seta::before{content:attr(data-s);font-size:22px;line-height:1}.cx .ax-art-cta{margin-top:72px}}
+/* Faixa do título com foto de prédio translúcida (proposta de ajustes) */
+.blog-claro{overflow-x:clip}
+.cx-hero{position:relative;isolation:isolate;overflow:hidden;margin:0 calc(50% - 50vw);padding:76px calc(50vw - 50% + 20px) 68px;background:#000425;border-top:1px solid rgba(255,255,255,.08);align-items:center}
+.cx-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url("/assets/img/predio-faixa.webp") center 55%/cover no-repeat;opacity:.32}
+.cx-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,4,37,.95) 25%,rgba(0,4,37,.55) 70%,rgba(0,4,37,.25))}
+.cx-hero h1{color:#fff}
+.cx-hero p{color:rgba(255,255,255,.74)}
+.cx-busca input{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);color:#fff}
+.cx-busca input::placeholder{color:rgba(255,255,255,.55)}
+.cx-busca svg{stroke:rgba(255,255,255,.6)}
+.cx-busca input:focus{background:rgba(255,255,255,.12);border-color:#FF6D00}
+.cx-dest{margin-top:56px}
+@media (max-width:767px){.cx-hero{flex-direction:column;align-items:stretch;padding:48px calc(50vw - 50% + 16px) 40px}.cx-hero h1{font-size:38px}.cx-busca{flex-basis:auto}.cx-dest{margin-top:40px}}
 
 </style>
 <link rel="stylesheet" href="/assets/css/site.css?v=b4cbef29" />
-<link rel="stylesheet" href="/assets/css/artigo.css?v=efdc130e" />
+<link rel="stylesheet" href="/assets/css/artigo.css?v=447945ff" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/img/cropped-logo-antiga-axxis-1080-x-1350-px-2-180x180.png" />
