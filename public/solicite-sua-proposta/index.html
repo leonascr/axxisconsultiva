@@ -20,7 +20,6 @@
 <meta name="twitter:title" content="Solicite sua Proposta | Axxis" />
 <meta name="twitter:description" content="Peça uma proposta de contabilidade, BPO ou abertura de empresa. Conte sobre sua empresa e um especialista da Axxis entra em contato com uma proposta sob medida." />
 <meta name="twitter:image" content="https://axxiscontabilidade.com.br/assets/img/og/home.jpg" />
-<link rel="preconnect" href="https://n8n.axxiscontabilidadedigital.com.br" crossorigin />
 <link rel="preload" href="/assets/fonts/outfit-40e3e4f1.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/sora-b2ca46a6.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="stylesheet" href="/assets/css/base.css?v=a913b2fb" />
@@ -211,7 +210,7 @@ textarea.fq-in{font-size:17px;min-height:96px;resize:none;line-height:1.6}
     ['nome','telefone','email','empresa','cargo','erp','faturamento','mensagem','website'].forEach(function(k){p.append(k,(f[k].value||'').trim());});
     p.append('consentimento','true');p.append('pagina',location.href);p.append('t',String(Date.now()-t0));
     Object.keys(utm).forEach(function(k){p.append(k,utm[k]);});
-    fetch('https://n8n.axxiscontabilidadedigital.com.br/webhook/site-solicite-proposta',{method:'POST',body:p}).then(function(r){return r.json().catch(function(){return{ok:r.ok};});}).then(function(j){
+    fetch('/api/proposta',{method:'POST',body:p}).then(function(r){return r.json().catch(function(){return{ok:r.ok};});}).then(function(j){
       if(j&&j.ok){f.hidden=true;count.hidden=true;bar.style.width='100%';ok.style.display='block';ok.focus();}
       else{erro.textContent=(j&&j.erro)||'Não foi possível enviar. Tente novamente.';enviando=false;next.disabled=false;next.textContent='Enviar solicitação';}
     }).catch(function(){
